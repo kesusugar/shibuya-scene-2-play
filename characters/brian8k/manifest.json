@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "format": "glb-concatenated-parts",
+  "original": {
+    "name": "human+figure+3d+model (1).glb",
+    "bytes": 26796656,
+    "sha256": "bd9d57c4744d7b75d229f2f582b3e0ebf2a42904f9bc2e20f627464e66dbd17a"
+  },
+  "partSize": 8388608,
+  "parts": [
+    {
+      "file": "parts/brian8k.glb.part001",
+      "bytes": 8388608,
+      "sha256": "634d44ae0e772244bfc77fa19b91f9a19a7a9d3dc5662295b7ba9f97cebd9a6d"
+    },
+    {
+      "file": "parts/brian8k.glb.part002",
+      "bytes": 8388608,
+      "sha256": "ab9f4d21ff3aada49040d927057f65ee277f529217e0dac13fa0d8b670d6ab3e"
+    },
+    {
+      "file": "parts/brian8k.glb.part003",
+      "bytes": 8388608,
+      "sha256": "ab621a831ba85ede425399d86904ea108a01eab3c84ebc93d3444d56970c15b5"
+    },
+    {
+      "file": "parts/brian8k.glb.part004",
+      "bytes": 1630832,
+      "sha256": "bbd91379c6a15aa304dfc40bdc37e572bc495a0ec2bc5a2df2abf1b6718c18bd"
+    }
+  ]
+}
