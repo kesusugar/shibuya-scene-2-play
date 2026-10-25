@@ -1,0 +1,13 @@
+{
+  "id": "d23-district-pack",
+  "enabled": false,
+  "status": "Local final QA and bounded palette visual review accepted; dependency publication pending. No complete-building or verified station-access claim.",
+  "collision": "visual-only; bounded existing C receivers retained",
+  "whole_leaf_completion_credit": 0,
+  "primitives": 12,
+  "triangles": 78406,
+  "bytes": 1834596,
+  "sha256": "da51322a1b32800510e5f09eca9aa05a3c1f9867ed36764fcd2d4710d878d9e4",
+  "sourceOriginalsRetained": true,
+  "hide_from_C_stage_shell": []
+}

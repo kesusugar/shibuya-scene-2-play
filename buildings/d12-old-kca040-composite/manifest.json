@@ -1,0 +1,119 @@
+{
+  "id": "d12-old-kca040-composite",
+  "host": "way/136730040",
+  "world_baked": true,
+  "model": "d12-old-kca040-composite.glb",
+  "placement": {
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "planBounds": [
+    38.59379399871826,
+    77.89072242736816,
+    54.169625411987305,
+    98.80642453162919
+  ],
+  "bounds": [
+    [
+      38.59379399871826,
+      1.0039003206193984,
+      -98.80642453162919
+    ],
+    [
+      54.169625411987305,
+      38.431999359130856,
+      -77.89072242736816
+    ]
+  ],
+  "groundElevationTP": 15,
+  "sun": {
+    "azimuth_deg": 207,
+    "elevation_deg": 57
+  },
+  "bytes": 148048,
+  "primitives": 3,
+  "triangles": 7540,
+  "sha256": "af4eab4e20c86a0585cce3f76f6c84e298c221c3a890390e69e7bad945c2077e",
+  "ground_anchor": 1.489549042075926,
+  "inference": "local facade alignment and vertical fit inferred from existing footprint and source carrier; not survey",
+  "component_transforms": [
+    {
+      "source": "d12-intake/dot-extracted/1cMPMhYSaXYzFNszJthnYpjh6KyyAIFMk/runtime/D12_RegusShibuyaKoendori_OldKCA040_ObservedFacade_v001.glb",
+      "matrix": [
+        -0.19682819701601015,
+        0,
+        0.9804379943981296,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -0.9804379943981296,
+        0,
+        -0.19682819701601015,
+        0,
+        40.87282376864994,
+        1.489549042075926,
+        -92.59026253501169,
+        1
+      ],
+      "footFit": {
+        "maximum_vertical_adjustment": 0.48564871782988905,
+        "changed_vertex_instances": 897,
+        "fullHeight": 0,
+        "stopHeight": 0.8,
+        "upper_geometry_unchanged": true
+      }
+    },
+    {
+      "source": "d12-intake/extracted/D12_kca040_roof_penthouse_Undated_v001/runtime/D12_kca040_roof_penthouse_Undated_v001_B.glb",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        47.311,
+        0.91,
+        -88.535,
+        1
+      ],
+      "footFit": {
+        "maximum_vertical_adjustment": 0,
+        "changed_vertex_instances": 0,
+        "fullHeight": 2.5,
+        "stopHeight": 5,
+        "upper_geometry_unchanged": true
+      }
+    }
+  ],
+  "remainder_clip_reports": [
+    {
+      "changed_primitives": 4,
+      "net_removed_triangles": -548
+    }
+  ],
+  "visual_review": "REVIEWED_IN_13_VIEW_DISTRICT_CAPTURE_NOT_PHOTOMETRIC_CERTIFICATION",
+  "review_evidence": "evidence/dot-d12/after-verified",
+  "provenance_index": "assets/districts/d12/source/provenance/INDEX.json"
+}

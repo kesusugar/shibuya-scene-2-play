@@ -1,0 +1,44 @@
+{
+  "id": "d11-iwamoto032",
+  "host_ids": [
+    "way/136730032"
+  ],
+  "target_runtime_relative": "assets/buildings/d11-iwamoto032/web/d11-iwamoto032.glb",
+  "target_viewer_relative": "assets/buildings/d11-iwamoto032/web/viewer.json",
+  "runtime_parent_matrix": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "source_frame_already_baked": true,
+  "ground_raise_already_baked": true,
+  "context_action": "Root only: exact source triangle matching from qa/source_footprint_correspondence.json; no bounding-box removal.",
+  "grounding": "CURRENT_GROUND_VERTEX_PROBES_PASS_RIGID_CANDIDATE",
+  "stats": {
+    "id": "d11-iwamoto032",
+    "preserved_source_triangles": 30820,
+    "matched_source_triangles": 30820,
+    "unmatched": 0,
+    "unused": 0,
+    "max_world_vertex_error_m": 0,
+    "preserved_winding": true,
+    "added_support_triangles": 930,
+    "final_primitives": 3,
+    "final_triangles": 31750,
+    "bytes": 1559068,
+    "sha256": "862202f5dc22cca1b745b2ad9eda07d11247c8b3a39c4a51ce3169760b0acd24"
+  }
+}

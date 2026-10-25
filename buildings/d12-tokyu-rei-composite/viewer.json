@@ -1,0 +1,173 @@
+{
+  "id": "d12-tokyu-rei-composite",
+  "host": "way/120105810",
+  "world_baked": true,
+  "model": "d12-tokyu-rei-composite.glb",
+  "placement": {
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "planBounds": [
+    118.44621800231934,
+    62.617192611694335,
+    151.4429524005189,
+    100.37854705810547
+  ],
+  "bounds": [
+    [
+      118.44621800231934,
+      1.1254899322986602,
+      -100.37854705810547
+    ],
+    [
+      151.4429524005189,
+      57.2999984741211,
+      -62.617192611694335
+    ]
+  ],
+  "groundElevationTP": 15,
+  "sun": {
+    "azimuth_deg": 207,
+    "elevation_deg": 57
+  },
+  "bytes": 725564,
+  "primitives": 5,
+  "triangles": 38699,
+  "sha256": "28e3165abc1eeb0ab3d32b7a2ddd87567af7544945584a6fcc6ac15f35e5e5d0",
+  "ground_anchor": 2.8344244655414075,
+  "inference": "local facade alignment and vertical fit inferred from existing footprint and source carrier; not survey",
+  "component_transforms": [
+    {
+      "source": "d12-intake/dot-extracted/1RQJQ4WzFXhsYTylkKdju4z8SnF8ABTCe/D12_ShibuyaTokyuREI_Entrance_20210526plusUndated_v001/runtime/rei_entrance_B.glb",
+      "matrix": [
+        -0.03693421934616092,
+        0,
+        -0.9993176989532857,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0.9993176989532857,
+        0,
+        -0.03693421934616092,
+        0,
+        149.76450000000003,
+        2.8344244655414075,
+        -81.83100000000002,
+        1
+      ],
+      "footFit": {
+        "maximum_vertical_adjustment": 0.08942490230041239,
+        "changed_vertex_instances": 1423,
+        "fullHeight": 0,
+        "stopHeight": 0.8,
+        "upper_geometry_unchanged": true
+      }
+    },
+    {
+      "source": "d12-intake/dot-extracted/1kjn0mjKnBeO08SG-5HUp9WRWdH3Enghl/D12_TokyuREI_UpperObservedFacade_CaptureUnknown_v001r1/runtime/D12_TokyuREI_UpperObservedFacade_CaptureUnknown_v001r1.glb",
+      "matrix": [
+        -0.049151048348476126,
+        0,
+        -0.9987913568139473,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0.9987913568139473,
+        0,
+        -0.049151048348476126,
+        0,
+        148.1739576974885,
+        23.560000000000002,
+        -81.7547202866922,
+        1
+      ],
+      "footFit": null
+    },
+    {
+      "source": "d12-intake/extracted/D12_tokyurei_remainder_towersides_roof_Undated_v001/runtime/D12_tokyurei_remainder_towersides_roof_Undated_v001_B.glb",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        135.263,
+        0.7,
+        -81.61,
+        1
+      ],
+      "footFit": {
+        "maximum_vertical_adjustment": 0,
+        "changed_vertex_instances": 0,
+        "fullHeight": 2.5,
+        "stopHeight": 5,
+        "upper_geometry_unchanged": true
+      }
+    },
+    {
+      "source": "d12-intake/extracted/D12_tokyurei_westface_podium_Undated_v001/runtime/D12_tokyurei_westface_podium_Undated_v001_B.glb",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        135.263,
+        0.7,
+        -81.61,
+        1
+      ],
+      "footFit": {
+        "maximum_vertical_adjustment": 2.2606796582717763,
+        "changed_vertex_instances": 1792,
+        "fullHeight": 2.5,
+        "stopHeight": 5,
+        "upper_geometry_unchanged": true
+      }
+    }
+  ],
+  "remainder_clip_reports": [
+    {
+      "changed_primitives": 6,
+      "net_removed_triangles": -1933
+    },
+    {
+      "changed_primitives": 9,
+      "net_removed_triangles": -582
+    }
+  ],
+  "visual_review": "REVIEWED_IN_13_VIEW_DISTRICT_CAPTURE_NOT_PHOTOMETRIC_CERTIFICATION",
+  "review_evidence": "evidence/dot-d12/after-verified",
+  "provenance_index": "assets/districts/d12/source/provenance/INDEX.json"
+}

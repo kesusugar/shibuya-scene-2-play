@@ -1,0 +1,118 @@
+{
+  "id": "d16-dogenzaka-corner-composite",
+  "host": "way/136587719",
+  "world_baked": true,
+  "model": "d16-dogenzaka-corner-composite.glb",
+  "placement": {
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "planBounds": [
+    -201.94047952862502,
+    -111.0706845945269,
+    -185.51447286473987,
+    -86.07337112035964
+  ],
+  "bounds": [
+    [
+      -201.94047952862502,
+      3.519476232019419,
+      86.07337112035964
+    ],
+    [
+      -185.51447286473987,
+      28.590000864950174,
+      111.0706845945269
+    ]
+  ],
+  "groundElevationTP": 15,
+  "sun": {
+    "azimuth_deg": 207,
+    "elevation_deg": 57
+  },
+  "bytes": 578008,
+  "primitives": 1,
+  "triangles": 22562,
+  "sha256": "ea34271b5eac02e31db874e569765a5da5d63f0975b8c0c076a3b45a38cd61e9",
+  "ground_anchor": 3.8415439099941198,
+  "inference": "Source facade, candidate host face and world carrier alignment inferred; original dimensions preserved, dated state and absolute fit not surveyed.",
+  "component_transforms": [
+    {
+      "source": "d16-intake/dot-extracted/1Iyk0JMq8ofOOeZK0yblzeelXtjv0izii/models/d16_dogenzaka_corner_exterior.glb",
+      "matrix": [
+        -0.42125406300550916,
+        0,
+        -0.9069426742641182,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0.9069426742641182,
+        0,
+        -0.42125406300550916,
+        0,
+        -192.87693630161493,
+        3.8415439099941198,
+        94.65026868982535,
+        1
+      ],
+      "footFit": {
+        "maximum_vertical_adjustment": 0.32206768646821604,
+        "changed_vertex_instances": 811,
+        "fullHeight": 0,
+        "stopHeight": 0.8,
+        "upper_geometry_unchanged": true
+      }
+    },
+    {
+      "source": "d16-intake/extracted/D16_ShibuyaDogenzakaBldg_SetbackUpper_Roof_Inferred_Undated_v001/runtime/D16_ShibuyaDogenzakaBldg_SetbackUpper_Roof_Inferred_Undated_v001_B.glb",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -196.01364802631593,
+        3.41,
+        99.21924999999986,
+        1
+      ],
+      "footFit": {
+        "maximum_vertical_adjustment": 0.9010219046876112,
+        "changed_vertex_instances": 154,
+        "fullHeight": 2.5,
+        "stopHeight": 5,
+        "upper_geometry_unchanged": true
+      }
+    }
+  ],
+  "remainder_clip_reports": [
+    {
+      "changed_primitives": 8,
+      "net_removed_triangles": -1077
+    }
+  ],
+  "visual_review": "REVIEWED_IN_DISTRICT_CAPTURE_WITH_INFERRED_GEOMETRY_AND_DATE_LIMITATIONS",
+  "evidence": "evidence/dot-d16/after-corrected"
+}

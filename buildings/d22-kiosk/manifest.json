@@ -1,0 +1,33 @@
+{
+  "id": "d22-kiosk",
+  "enabled": true,
+  "qualification": "Source and exact geometry/range gates, bounded normal-image visual review, pixel-exact class/day-return, full default delivery, collision, budget and test gates passed. Palette and sparse normal raster differences are explicitly disclosed; not lossless.",
+  "inputs": [
+    {
+      "id": "kiosk355252205",
+      "file": "assets/buildings/d22-kiosk/source/derived/kiosk355252205.glb",
+      "sha256": "3d61d8737a3937e1adccd7842675dc1f4c94226b376bb70edea9964d0587d52c",
+      "status": "adopted_after_composed_qa"
+    }
+  ],
+  "precisionRoot": [
+    350,
+    12,
+    -25
+  ],
+  "primitives": 4,
+  "triangles": 451,
+  "bytes": 62296,
+  "raw_sha256": "6dbcf578d8af5c697a9ebeeb2b3b679a45f7c4a769da91c353f0cd8d324a1073",
+  "sha256": "4186c88e5b70a0b3dfffaa8cf522d0d64dfda90784465c9c9b65a5b807547a53",
+  "sourceOriginalsRetained": true,
+  "runtimeSourceParentVisibilityPreserved": false,
+  "sourceRangeReconstruction": true,
+  "noGeometrySimplification": true,
+  "paletteQuantizedNotLossless": true,
+  "existingPhysicalObstaclesChanged": false,
+  "status": "Adopted in the D22 district batch; final publication freeze pending.",
+  "whole_leaf_completion_credit": 0,
+  "hide_from_C_stage_shell": [],
+  "collision": "normal closed-body obstacle"
+}

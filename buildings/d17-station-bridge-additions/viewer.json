@@ -1,0 +1,134 @@
+{
+  "id": "d17-station-bridge-additions",
+  "model": "d17-station-bridge-additions.glb",
+  "world_baked": true,
+  "placement": {
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "groundElevationTP": 15,
+  "sun": {
+    "azimuth_deg": 207,
+    "elevation_deg": 57
+  },
+  "bounds": [
+    [
+      -41.20191722412109,
+      0.8634661703109742,
+      89.50501248779297
+    ],
+    [
+      6.324535794067383,
+      14.205000427246095,
+      104.97624251785278
+    ]
+  ],
+  "planBounds": [
+    -41.20191722412109,
+    -104.97624251785278,
+    6.324535794067383,
+    -89.50501248779297
+  ],
+  "bytes": 10908,
+  "primitives": 1,
+  "triangles": 335,
+  "sha256": "4c6a66250fa2e816e19a70991436f6e2384ac6a29d5493767567e92c0440b284",
+  "source_mount": {
+    "id": "d17-station-bridge-additions",
+    "file": "d17-intake/extracted/D17_StationBridge_bridA4D3_UndersideDeckSupports_Inferred_Undated_v001/runtime/D17_StationBridge_bridA4D3_UndersideDeckSupports_Inferred_Undated_v001_B.glb",
+    "root": [
+      -23.0198875,
+      0.678,
+      97.9084625
+    ],
+    "theta": 0,
+    "fitFoot": true
+  },
+  "footFit": {
+    "maximum_vertical_adjustment": 0.19535769076189702,
+    "changed_vertex_instances": 72,
+    "fullHeight": 2.5,
+    "stopHeight": 5,
+    "upper_geometry_unchanged": true
+  },
+  "duplicateSupports": [
+    {
+      "node": "INFERRED_supports.001",
+      "material": "steel",
+      "firstBounds": [
+        [
+          -3.7928342819213867,
+          0,
+          -4.117048740386963
+        ],
+        [
+          -2.9928343296051025,
+          9.54699993133545,
+          -3.3170487880706787
+        ]
+      ],
+      "secondBounds": [
+        [
+          -3.7928452491760254,
+          0,
+          -4.117187023162842
+        ],
+        [
+          -2.992845296859741,
+          9.54699993133545,
+          -3.3171870708465576
+        ]
+      ],
+      "maximumDeltaM": 0.00013828277587890625,
+      "removedTriangles": 12,
+      "retainedFirstCopyExactly": true
+    },
+    {
+      "node": "INFERRED_supports.001",
+      "material": "concrete",
+      "firstBounds": [
+        [
+          -4.042834281921387,
+          0,
+          -4.367048740386963
+        ],
+        [
+          -2.7428343296051025,
+          0.25,
+          -3.0670487880706787
+        ]
+      ],
+      "secondBounds": [
+        [
+          -4.042845249176025,
+          0,
+          -4.367187023162842
+        ],
+        [
+          -2.742845296859741,
+          0.25,
+          -3.0671870708465576
+        ]
+      ],
+      "maximumDeltaM": 0.00013828277587890625,
+      "removedTriangles": 12,
+      "retainedFirstCopyExactly": true
+    }
+  ],
+  "visual_review": "REVIEWED_IN_SEVEN_VIEW_CAPTURE_INFERRED_PLACEMENT_NOT_FULL_DISTRICT_COMPLETION",
+  "inference": "Candidate placement from source host frame; no collision or date certification",
+  "evidence": "evidence/dot-d17/after-verified"
+}

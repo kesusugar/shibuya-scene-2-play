@@ -1,0 +1,16 @@
+{
+  "planBounds": [
+    39.7529997177124,
+    262.6379997329712,
+    55.936000282287594,
+    285.5779993133545
+  ],
+  "groundElevationTP": 15,
+  "layers": {
+    "inferred_rear_side_closure": "inferred-rear-side-closure.glb"
+  },
+  "sun": {
+    "azimuth_deg": 207,
+    "elevation_deg": 57
+  }
+}

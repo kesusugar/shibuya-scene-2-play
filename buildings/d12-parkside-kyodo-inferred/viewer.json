@@ -1,0 +1,66 @@
+{
+  "id": "d12-parkside-kyodo-inferred",
+  "source_asset": "D12_parkside_kyodo_inferred_Undated_v001",
+  "host_ids": [
+    "way/116806280"
+  ],
+  "model": "d12-parkside-kyodo-inferred.glb",
+  "world_baked": true,
+  "placement": {
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "planBounds": [
+    106.00699968719482,
+    8.904084259033205,
+    126.79015703582763,
+    42.51471620178223
+  ],
+  "bounds": [
+    [
+      106.00699968719482,
+      0.6315963363647461,
+      -42.51471620178223
+    ],
+    [
+      126.79015703582763,
+      32.05800033569336,
+      -8.904084259033205
+    ]
+  ],
+  "groundElevationTP": 15,
+  "sun": {
+    "azimuth_deg": 207,
+    "elevation_deg": 57
+  },
+  "bytes": 130532,
+  "primitives": 3,
+  "triangles": 4834,
+  "sha256": "3c98b4adfbaba7637dd14838cbad76a7a2328f6b00968680d143c64316a0665e",
+  "inference": "UNDATED_PHOTO_UNVERIFIED_SOURCE_AND_TERRAIN_FIT",
+  "original_datum": 0.51,
+  "placement_height": 0.51,
+  "raise": 0,
+  "foot_fit": {
+    "method": "Vertical terrain fit below 2.5m, taper to zero at 5m; upper and roof kept at source elevation",
+    "maximum_correction_m": 1.7955622332501757,
+    "original_source_preserved": true
+  },
+  "ground_sample_count": 851,
+  "visual_review": "REVIEWED_IN_13_VIEW_DISTRICT_CAPTURE_NOT_PHOTOMETRIC_CERTIFICATION",
+  "review_evidence": "evidence/dot-d12/after-verified",
+  "provenance_index": "assets/districts/d12/source/provenance/INDEX.json"
+}

@@ -1,0 +1,550 @@
+{
+  "id": "d19-gloria-frontage",
+  "bounds": [
+    [
+      -94.89127349853516,
+      2.876330614089966,
+      195.64866638183594
+    ],
+    [
+      -83.09689331054688,
+      25.261566162109375,
+      203.62376403808594
+    ]
+  ],
+  "planBounds": [
+    -94.89127349853516,
+    -203.62376403808594,
+    -83.09689331054688,
+    -195.64866638183594
+  ],
+  "sun": {
+    "azimuth_deg": 207,
+    "elevation_deg": 57
+  },
+  "host_id": "way/129061821",
+  "not_host": "way/129061819",
+  "enabled": true,
+  "world_baked": true,
+  "groundElevationTP": 15,
+  "model": "d19-gloria-frontage.glb",
+  "repair": {
+    "base": 3.027564291971558,
+    "source_junction_x": -0.446,
+    "matrices": {
+      "A": [
+        0.920176329507002,
+        0,
+        -0.39150417956264694,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0.39150417956264694,
+        0,
+        0.920176329507002,
+        0,
+        -88.31433237807526,
+        3.027564291971558,
+        198.56763221357807,
+        1
+      ],
+      "B": [
+        -0.9201763295070022,
+        0,
+        0.3915041795626469,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -0.3915041795626469,
+        0,
+        -0.9201763295070022,
+        0,
+        -94.08959658324946,
+        3.027564291971558,
+        200.84006631925055,
+        1
+      ],
+      "C": [
+        -0.879822756066668,
+        0,
+        -0.47530192289454487,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0.47530192289454487,
+        0,
+        -0.879822756066668,
+        0,
+        -84.93256577557621,
+        3.027564291971558,
+        198.57387829327104,
+        1
+      ],
+      "Tower": [
+        -0.9201763295070022,
+        0,
+        0.3915041795626469,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -0.3915041795626469,
+        0,
+        -0.9201763295070022,
+        0,
+        -87.33852822448607,
+        3.027564291971558,
+        199.27776886440984,
+        1
+      ]
+    },
+    "reports": [
+      {
+        "node": "A_inferred_tile_continuity_under_omitted_board",
+        "kind": "A",
+        "before": 2,
+        "after": 2
+      },
+      {
+        "node": "A_observed_mosaic_wall",
+        "kind": "A",
+        "before": 154,
+        "after": 154
+      },
+      {
+        "node": "A_observed_tiled_roof_ramp",
+        "kind": "A",
+        "before": 2,
+        "after": 2
+      },
+      {
+        "node": "A_recess_shadow",
+        "kind": "A",
+        "before": 176,
+        "after": 176
+      },
+      {
+        "node": "A_side_door_frame",
+        "kind": "A",
+        "before": 12,
+        "after": 12
+      },
+      {
+        "node": "A_side_door_glazing",
+        "kind": "A",
+        "before": 12,
+        "after": 12
+      },
+      {
+        "node": "A_side_door_trim",
+        "kind": "A",
+        "before": 12,
+        "after": 12
+      },
+      {
+        "node": "A_square_glazing",
+        "kind": "A",
+        "before": 48,
+        "after": 48
+      },
+      {
+        "node": "A_window_trim",
+        "kind": "A",
+        "before": 880,
+        "after": 880
+      },
+      {
+        "node": "B_inferred_continuous_wall_behind_omitted_board",
+        "kind": "B",
+        "before": 12,
+        "after": 12
+      },
+      {
+        "node": "BC_earth_columns",
+        "kind": "BC",
+        "before": 880,
+        "after": 1020
+      },
+      {
+        "node": "BC_mid_glazing",
+        "kind": "BC",
+        "before": 276,
+        "after": 276
+      },
+      {
+        "node": "BC_upper_glazing",
+        "kind": "BC",
+        "before": 108,
+        "after": 108
+      },
+      {
+        "node": "BC_white_horizontal_bands",
+        "kind": "BC",
+        "before": 440,
+        "after": 580
+      },
+      {
+        "node": "BC_window_black_frames",
+        "kind": "BC",
+        "before": 2794,
+        "after": 2794
+      },
+      {
+        "node": "Entry_handles_and_hinges",
+        "kind": "B",
+        "before": 396,
+        "after": 396
+      },
+      {
+        "node": "Ground_entry_and_storefront_frames",
+        "kind": "BC",
+        "before": 660,
+        "after": 660
+      },
+      {
+        "node": "Ground_opaque_glazing",
+        "kind": "BC",
+        "before": 108,
+        "after": 108
+      },
+      {
+        "node": "Observed_signage_渋谷グローリアビル",
+        "kind": "B",
+        "before": 5072,
+        "after": 5072
+      },
+      {
+        "node": "Roof_inferred_ramp_edge_closure",
+        "kind": "A",
+        "before": 1,
+        "after": 1
+      },
+      {
+        "node": "Roof_metal_railings",
+        "kind": "BC",
+        "before": 4224,
+        "after": 4224
+      },
+      {
+        "node": "Roof_observed_white_ramp_cheek",
+        "kind": "A",
+        "before": 1,
+        "after": 1
+      },
+      {
+        "node": "Roof_white_edge_caps",
+        "kind": "BC",
+        "before": 88,
+        "after": 116
+      },
+      {
+        "node": "Threshold_stone",
+        "kind": "BC",
+        "before": 88,
+        "after": 88
+      },
+      {
+        "node": "Tower_dark_louvre_back",
+        "kind": "Tower",
+        "before": 12,
+        "after": 12
+      },
+      {
+        "node": "Tower_horizontal_louvres",
+        "kind": "Tower",
+        "before": 804,
+        "after": 804
+      },
+      {
+        "node": "Tower_inferred_back_closure",
+        "kind": "Tower",
+        "before": 2,
+        "after": 2
+      },
+      {
+        "node": "Tower_inferred_rear_connection",
+        "kind": "Tower",
+        "before": 24,
+        "after": 24
+      },
+      {
+        "node": "Tower_inferred_right_closure",
+        "kind": "Tower",
+        "before": 2,
+        "after": 2
+      },
+      {
+        "node": "Tower_inferred_top_cap",
+        "kind": "Tower",
+        "before": 2,
+        "after": 2
+      },
+      {
+        "node": "Tower_observed_dark_underside",
+        "kind": "Tower",
+        "before": 2,
+        "after": 2
+      },
+      {
+        "node": "Tower_observed_white_front_frame",
+        "kind": "Tower",
+        "before": 176,
+        "after": 176
+      },
+      {
+        "node": "Tower_observed_white_side",
+        "kind": "Tower",
+        "before": 2,
+        "after": 2
+      },
+      {
+        "node": "Tower_vertical_dividers",
+        "kind": "Tower",
+        "before": 88,
+        "after": 88
+      }
+    ],
+    "method": "Individual facade proper rigid rotations and translations, common B/C meshes clipped at local junction; tower separately translated/rotated. No reflection, no texture/glyph mirroring. Source ABC ordering replaced with host perimeter ordering.",
+    "uncertainty": "Face A and B/C endpoint correspondence, roof cheek continuity, tower footprint dimensions remain inferred; geometry gaps/overlaps require image inspection."
+  },
+  "footFit": {
+    "maximum_vertical_adjustment": 0.15132262192666246,
+    "changed_vertex_instances": 21764,
+    "fullHeight": 2.5,
+    "stopHeight": 5,
+    "upper_geometry_unchanged": true
+  },
+  "placement_status": "Inferred individual-facade placement with scoped host cuts; integrated street-view validation pending",
+  "scope": "Three connected observed street facades, entry, roof edge and tower; no whole-building replacement",
+  "whole_building_complete": false,
+  "frozen_leaf_complete": false,
+  "count_credit": 0,
+  "host_masks": [
+    {
+      "host_id": "way/129061821",
+      "whole_host_excluded": false,
+      "wall_surfaces_removed": [
+        28,
+        38
+      ],
+      "partial_wall": {
+        "surface": 32,
+        "below_scene_y": 18.53756429197156
+      },
+      "tower": {
+        "source_surfaces": [
+          1,
+          2,
+          4,
+          12,
+          15,
+          22,
+          25,
+          26,
+          29,
+          30,
+          31,
+          33,
+          37
+        ],
+        "above_scene_y": 20.527,
+        "plan_polygon": [
+          [
+            -84.813,
+            -196.529
+          ],
+          [
+            -83.425,
+            -199.777
+          ],
+          [
+            -85.263,
+            -200.559
+          ],
+          [
+            -86.652,
+            -197.311
+          ]
+        ]
+      },
+      "reason": "Gloria observed facade shell and individually repositioned tower overlap the original C shell; preserve all unrelated host surfaces"
+    }
+  ],
+  "measured_ground": [
+    {
+      "plan": [
+        -94.86,
+        -197.875
+      ],
+      "sceneY": 3.101247191454135,
+      "tp": 18.101247191454135
+    },
+    {
+      "plan": [
+        -89.983,
+        -195.8
+      ],
+      "sceneY": 2.9539637684674744,
+      "tp": 17.953963768467474
+    },
+    {
+      "plan": [
+        -83.1,
+        -196.12
+      ],
+      "sceneY": 2.8715619684087414,
+      "tp": 17.87156196840874
+    },
+    {
+      "plan": [
+        -92.443,
+        -203.615
+      ],
+      "sceneY": 3.0278563285668696,
+      "tp": 18.02785632856687
+    }
+  ],
+  "source_local_bounds": [
+    [
+      -5.7910204,
+      0,
+      -3.20000005
+    ],
+    [
+      5.79102087,
+      22.23400116,
+      3.20000005
+    ]
+  ],
+  "source_inferred_nodes": [
+    "A_inferred_tile_continuity_under_omitted_board",
+    "B_inferred_continuous_wall_behind_omitted_board",
+    "Roof_inferred_ramp_edge_closure",
+    "Tower_inferred_back_closure",
+    "Tower_inferred_rear_connection",
+    "Tower_inferred_right_closure",
+    "Tower_inferred_top_cap"
+  ],
+  "source_original_retained": true,
+  "runtime_candidate_inferred_nodes_joined": true,
+  "primitives": 1,
+  "triangles": 18518,
+  "bytes": 963312,
+  "sha256": "97a552e1c8a58659e79c3a95d071762cda2da5b0c643cb8fd34a9f240dc0ee78",
+  "uvSplit": {
+    "primitives": [
+      {
+        "material": "Original_procedural_mosaic_baked",
+        "beforeTriangles": 2,
+        "afterTriangles": 24,
+        "areaBefore": 4.184986279711393,
+        "areaAfter": 4.184986279711393
+      },
+      {
+        "material": "Original_procedural_mosaic_baked",
+        "beforeTriangles": 154,
+        "afterTriangles": 736,
+        "areaBefore": 83.02414888106286,
+        "areaAfter": 83.02414888106296
+      },
+      {
+        "material": "Original_procedural_mosaic_baked",
+        "beforeTriangles": 2,
+        "afterTriangles": 48,
+        "areaBefore": 17.156952391543136,
+        "areaAfter": 17.156952391543033
+      }
+    ],
+    "addedTriangles": 650,
+    "geometryMethod": "UV-space clipping only; original 3D planes and surface area preserved, no simplification"
+  },
+  "frame_evidence": {
+    "host_surface_indices": [
+      28,
+      32,
+      38
+    ],
+    "host_B_edge": [
+      [
+        -94.86,
+        -197.875
+      ],
+      [
+        -89.983,
+        -195.8
+      ]
+    ],
+    "host_C_edge": [
+      [
+        -89.983,
+        -195.8
+      ],
+      [
+        -83.1,
+        -196.12
+      ]
+    ],
+    "source_B_edge": [
+      [
+        -5.752,
+        3.03
+      ],
+      [
+        -0.452,
+        3.03
+      ]
+    ],
+    "source_C_edge": [
+      [
+        -0.452,
+        3.03
+      ],
+      [
+        5.756,
+        0.04
+      ]
+    ],
+    "problem": "Host B→C turns clockwise 25.7 degrees in easting/northing; source B→C turns counterclockwise 25.7 degrees after glTF Z→north conversion. Proper rotations preserve this sign. Mirroring would reverse signage and orientation; no such modification is applied."
+  },
+  "review_cameras": [
+    {
+      "name": "Gloria north-west host overview",
+      "position": [
+        -111,
+        12,
+        176
+      ],
+      "target": [
+        -88,
+        12,
+        199
+      ]
+    },
+    {
+      "name": "Gloria north-east tower overview",
+      "position": [
+        -66,
+        18,
+        176
+      ],
+      "target": [
+        -87,
+        15,
+        199
+      ]
+    }
+  ],
+  "next_step": "Independently inspect repaired facade joins, tower position and measured ground using the listed cameras; no whole-host deletion.",
+  "visual_review": {
+    "status": "rendered_day_night_and_inspected",
+    "evidence": "evidence/dot-d19/acceptance-day, acceptance-night, close-validation",
+    "limitations": "Inferred geometry and mixed photo dates remain; no survey accuracy or real-device FPS claim"
+  }
+}

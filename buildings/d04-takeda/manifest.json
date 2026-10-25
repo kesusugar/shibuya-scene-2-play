@@ -1,0 +1,133 @@
+{
+  "id": "d04-takeda",
+  "level": "B",
+  "source_id": "way/136691361",
+  "status": "Local review pilot with inferred reversible building-only grade contact; sampled penetration <=2 mm, not surveyed architecture or accessibility certification.",
+  "delivery_zip_sha256": "d9f065241796deadaf29cb8554a32132566c3b42bcc9c44c8ee6b631b75b7c9d",
+  "stats": {
+    "triangles": 22560,
+    "primitives": 36
+  },
+  "files": {
+    "README.md": {
+      "bytes": 2343,
+      "sha256": "d1b0ee9110f6540f47a3b863ee08c06041b2d304a55d09f331e9093e52bc3139"
+    },
+    "source/context_core_before.glb": {
+      "bytes": 1959080,
+      "sha256": "3be77a6eed01e80aacad227396e6f20d5f94636ac07d7d81f3a731c8c17b8556"
+    },
+    "source/context_removal.json": {
+      "bytes": 843,
+      "sha256": "5d78610b161ba88cd414f825e19d9f6dc0c2454c1dc80852c60d26da574c86ef"
+    },
+    "source/delivery/D04_Takeda_Whole_Building_Inferred_Local_v001.glb": {
+      "bytes": 2421616,
+      "sha256": "4bc06b149c47a52a7f4f904dd64c8445297373f4827f67c91f6f082894a2835a"
+    },
+    "source/delivery/MANIFEST.json": {
+      "bytes": 3293,
+      "sha256": "59592d6988f5786e633a5c6b8e481dbc272f4b089f61c08e585ff5ab0e2343e2"
+    },
+    "source/delivery/README_JA.md": {
+      "bytes": 2943,
+      "sha256": "1cd57f492471e8cf08f88f05ee1e43d2a1b231c112ef47cf1e3ff3b4a3cda9f2"
+    },
+    "source/delivery/contracts/blade_original_placement.json": {
+      "bytes": 4145,
+      "sha256": "0a7dd136d14dfabe167e118e300226cd4d4046271a25b5d9638cba07d1fbe96b"
+    },
+    "source/delivery/contracts/legacy_original_notices/LICENSE.txt": {
+      "bytes": 498,
+      "sha256": "0e734d235640e81b8b81c86f33a7bba85113081f478ed557d4305e3ecf644624"
+    },
+    "source/delivery/contracts/legacy_original_notices/PROVENANCE.md": {
+      "bytes": 2653,
+      "sha256": "45d9cc87a62622df6bf08dc86eb4225fc20a7d495cf18930a34056a706d696f4"
+    },
+    "source/delivery/contracts/legacy_original_notices/components/lower/LICENSE.txt": {
+      "bytes": 437,
+      "sha256": "b5650b9eb01fa387965157ada4d5c84150b42529372f0c86467507652de02c29"
+    },
+    "source/delivery/contracts/legacy_original_notices/components/lower/PROVENANCE.md": {
+      "bytes": 2152,
+      "sha256": "57a0c7758ad7cc5eebeb918976c2bff5db2ee120d950a410cb27dedea63d5672"
+    },
+    "source/delivery/contracts/legacy_original_notices/components/upper/LICENSE.txt": {
+      "bytes": 312,
+      "sha256": "db1b9bba720f4dc0d4319213f4875ceb203c8d136c0511c6376670a8f94e4e85"
+    },
+    "source/delivery/contracts/legacy_original_notices/components/upper/PROVENANCE.md": {
+      "bytes": 1509,
+      "sha256": "2a64dfb8fc9b7dbaccc4baad5e1c9058954defca716a813b146cf242b248143f"
+    },
+    "source/delivery/contracts/legacy_original_notices/optional_upper_tenant/manboo/LICENSE.txt": {
+      "bytes": 398,
+      "sha256": "6e3466614888efd916406146215f1f0ea850f5691e80ab831721c2d46e42fe96"
+    },
+    "source/delivery/contracts/legacy_original_notices/optional_upper_tenant/manboo/PROVENANCE.md": {
+      "bytes": 3105,
+      "sha256": "e8163ba22db199df75377cf5e0919d6369b92d079002b6a45084d6146ca3c6cb"
+    },
+    "source/delivery/contracts/local_assembly.json": {
+      "bytes": 1392,
+      "sha256": "b0bda5ac5af952b4b95276fcb37744a1c0262e3279854594ad32d69c7deb1ce2"
+    },
+    "source/delivery/contracts/source135_original_registration.json": {
+      "bytes": 665,
+      "sha256": "d96d2e067562164b51317281127c62462984112c712c30318ae5bcb681d54ae8"
+    },
+    "source/delivery/contracts/takeda_original_placement.json": {
+      "bytes": 6938,
+      "sha256": "52282e3163c04d22be101ed95fe50ace57e0c0209d248d23a1481e3ba4907a1d"
+    },
+    "source/delivery/private_provenance/original_optimization_provenance.md": {
+      "bytes": 2165,
+      "sha256": "add14ab25ab7bf951a52cefa19d9c51f7d2cb0f943a582f302b59b3bf56aa2cf"
+    },
+    "source/delivery/private_provenance/source_frame.json": {
+      "bytes": 518,
+      "sha256": "17279020615c2363868642819d0320bcff90341a66f52c8667a591dafa6587a7"
+    },
+    "source/ground-contact.json": {
+      "bytes": 3722,
+      "sha256": "8a74a7523c12145a4fc6eb947f9107f20c2cfb56b830f46459cd6d1b53aebc05"
+    },
+    "source/ground-contact.mjs": {
+      "bytes": 8890,
+      "sha256": "11a5b26cff417d622939453334af76b2c6c28ae41063780bab88145faa35e6b1"
+    },
+    "source/host_input.json": {
+      "bytes": 10568,
+      "sha256": "f7d51c92fd1ef9b44e466c7136488a16a2f868c10f90bd80c4660a5d4aca5074"
+    },
+    "source/placement.json": {
+      "bytes": 968,
+      "sha256": "b2ffb1f91885550e0ffc6974fedc176ca33b3022ef0e1db5d0da30b81d7ca7e8"
+    },
+    "source/regenerate.py": {
+      "bytes": 4942,
+      "sha256": "4e98335f85aad7c097e55bb532b2c1f13459ec68c0fdd0bccc05674d2ec1cf27"
+    },
+    "source/source_frame_placed_before_grounding.glb": {
+      "bytes": 2421816,
+      "sha256": "1eb6678d65fb571b3d92d7ba7ddda0b649bd6387f95033c6967f2aaa8f9fde1a"
+    },
+    "web/d04-takeda.glb": {
+      "bytes": 2667568,
+      "sha256": "2b407b28dc165097675fffd4701b9afc4f76664575ac29cb02de935aff05f609"
+    },
+    "web/emissive_day.json": {
+      "bytes": 3,
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    "web/emissive_night.json": {
+      "bytes": 3,
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    "web/viewer.json": {
+      "bytes": 179,
+      "sha256": "a6cd124e5b06016c1da3caa20622f0d19697d6923f6ab0d287629ff0ebe9d51b"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "d26-w138589843-inferred",
+  "enabled": true,
+  "status": "One inferred closed envelope and grade-contact plinth; not observed complete building or district. Other20source sets held.",
+  "epoch": "undated inferred",
+  "sourceHost": "way/138589843",
+  "primitives": 5,
+  "triangles": 5602,
+  "bytes": 597920,
+  "sha256": "1a1050daa94a8b0bb57c0ee6d9f120cd0716b51852f754a073c1bd3b986f6f27",
+  "sourceOriginalsRetained": true,
+  "hide_from_C_stage_shell": [],
+  "groundBaseY": 2.4532695556957527,
+  "accessibleEntrance": false,
+  "walkableInterior": false,
+  "wholeBuildingCompletionCredit": 0,
+  "revealOwnership": "Explicit light-wall ownership only on finite same-facing source frame/wall coplanar overlaps; not lossless appearance. Original unmodified source retained."
+}

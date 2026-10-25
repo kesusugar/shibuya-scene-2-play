@@ -1,0 +1,13 @@
+{
+  "planBounds": [
+    47.764,
+    -112.269,
+    103.905,
+    85.199
+  ],
+  "groundElevationTP": 15,
+  "layers": {
+    "signs_jr-entry-early-2025": "signs-jr-entry-early-2025.glb",
+    "wall_jr-centre-pier-2025-04-09": "wall-jr-centre-pier-2025-04-09.glb"
+  }
+}

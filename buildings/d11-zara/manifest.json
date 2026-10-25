@@ -1,0 +1,58 @@
+{
+  "asset": "d11-zara",
+  "host_reference": "136730012",
+  "models": [
+    {
+      "source": "d11_source_residual_addon.glb",
+      "source_sha256": "df241ccd9b20d485998f7c3b44787bcec4c6c5edd04033b567fa53ddec90ce86",
+      "runtime": "d11-zara.glb",
+      "matrix": [
+        0.009085261980150658,
+        0,
+        0.9999587281556934,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -0.9999587281556934,
+        0,
+        0.009085261980150658,
+        0,
+        41.3825,
+        1.9426793977,
+        -127.0395,
+        1
+      ],
+      "binary_preserved": true
+    },
+    {
+      "source": "d11_zara_historical_front.glb",
+      "source_sha256": "3abdfa5362026aacea20ae2cd20d1f685588a0389b56644b657270ba84ec4d8e",
+      "runtime": "d11_zara_historical_front.glb",
+      "matrix": [
+        0.009085261980150658,
+        0,
+        0.9999587281556934,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -0.9999587281556934,
+        0,
+        0.009085261980150658,
+        0,
+        41.3825,
+        1.9426793977,
+        -127.0395,
+        1
+      ],
+      "binary_preserved": true
+    }
+  ],
+  "status": "staged_not_visually_verified",
+  "basis": "Original facade-local frame, scale1, front plus residual each once. Exact world registration missing in runtime contract.",
+  "height_correction": "historical_inferred_correction_pending_current_ground_check",
+  "private_source_origin": "Originals remain privately archived; source copies are geometry-only runtime inputs."
+}

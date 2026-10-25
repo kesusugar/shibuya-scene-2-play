@@ -1,0 +1,14 @@
+{
+  "id": "d24-district-pack",
+  "enabled": true,
+  "status": "Partial inferred exterior: three source hosts; 29 source modules held. Not a complete district or verified entrance access.",
+  "collision": "closed-building default obstacles; no new walking surface",
+  "epoch": "undated inferred; no common current-state claim",
+  "whole_leaf_completion_credit": 0,
+  "primitives": 16,
+  "triangles": 4432,
+  "bytes": 128632,
+  "sha256": "305d5e7b56ab71898244b5660c6d510527ba0eff61342bbb944bc2f9532a26da",
+  "sourceOriginalsRetained": true,
+  "hide_from_C_stage_shell": []
+}

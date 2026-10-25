@@ -1,0 +1,17 @@
+{
+  "id": "d28-w136730028-inferred",
+  "enabled": true,
+  "status": "Inferred unnamed way/136730028 partial shell and non-accessible grade-contact plinth, not observed building or district completion.",
+  "epoch": "undated inferred",
+  "sourceHost": "way/136730028",
+  "primitives": 14,
+  "triangles": 719,
+  "bytes": 99336,
+  "sha256": "48fc7002ea227472fb8da6c37f3e4a1c0624a133fee981ea60266c8f70f19d81",
+  "sourceOriginalsRetained": true,
+  "hide_from_C_stage_shell": [],
+  "groundBaseY": 2.4447840167219663,
+  "accessibleEntrance": false,
+  "walkableInterior": false,
+  "wholeBuildingCompletionCredit": 0
+}

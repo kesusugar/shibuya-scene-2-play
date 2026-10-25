@@ -1,0 +1,86 @@
+{
+  "id": "d11-miyashita-parkcenter",
+  "model": "d11-miyashita-parkcenter.glb",
+  "world_baked": true,
+  "placement": {
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "bounds": [
+    [
+      99.59100014289321,
+      18.0149725679625,
+      -258.3499996131692
+    ],
+    [
+      109.93340532451302,
+      21.204972625182954,
+      -235.50800011365027
+    ]
+  ],
+  "center": [
+    108.49914882127776,
+    20.64853910246717,
+    -245.86236008137223
+  ],
+  "bytes": 66972,
+  "primitives": 1,
+  "triangles": 3502,
+  "sha256": "f1c49d7cadec69117da8c564669944df0e6f9d16aaa73ecb8dd1fcb2cb283790",
+  "inference": "INFERRED_ROOF_MOUNT_C0_FOOTPRINT_REVALIDATED",
+  "source_parent_already_applied": {
+    "matrix_column_major": [
+      0.14583383539308484,
+      0.0,
+      -0.9893090985402605,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.9893090985402605,
+      0.0,
+      0.14583383539308484,
+      0.0,
+      107.7945,
+      18.014972567962495,
+      -245.81600000000003,
+      1.0
+    ],
+    "status": "INFERRED_ROOF_MOUNT_C0_FOOTPRINT_REVALIDATED"
+  },
+  "do_not_apply_source_parent_again": true,
+  "parser": "NodeIO+MeshoptDecoder roundtrip PASS; browser/Three visual integration still root-owned",
+  "geometry_validation": {
+    "id": "d11-miyashita-parkcenter",
+    "triangles": 3502,
+    "bidirectional_max_vertex_distance_m": 3.1776437161565096e-14,
+    "bidirectional_max_triangle_centroid_distance_m": 6.355287432313019e-14,
+    "triangle_count_equal": true,
+    "pass": true
+  },
+  "planBounds": [
+    99.59100014289321,
+    235.50800011365027,
+    109.93340532451302,
+    258.3499996131692
+  ],
+  "sun": {
+    "azimuth_deg": 207,
+    "elevation_deg": 57
+  },
+  "groundElevationTP": 15
+}

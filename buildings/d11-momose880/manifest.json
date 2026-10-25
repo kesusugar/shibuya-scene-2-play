@@ -1,0 +1,58 @@
+{
+  "asset": "d11-momose880",
+  "host_reference": "138670880",
+  "models": [
+    {
+      "source": "D11_Momose_SemanticFront_v001.glb",
+      "source_sha256": "264e7d1a7250f50713b8956194147217c845e63ca4dafadaf4fe87992004c053",
+      "runtime": "d11-momose880.glb",
+      "matrix": [
+        -0.047645496640475876,
+        0,
+        -0.998864308427267,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0.998864308427267,
+        0,
+        -0.047645496640475876,
+        0,
+        145.89499999999998,
+        2.6342732961618616,
+        -167.77249999999998,
+        1
+      ],
+      "binary_preserved": true
+    },
+    {
+      "source": "D11_Momose_Source15_Residual_v001.glb",
+      "source_sha256": "ef83429dd4181b22d2a51263f41d39ce6c55bfca85641d8ca663735dc677036f",
+      "runtime": "D11_Momose_Source15_Residual_v001.glb",
+      "matrix": [
+        -0.047645496640475876,
+        0,
+        -0.998864308427267,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0.998864308427267,
+        0,
+        -0.047645496640475876,
+        0,
+        145.89499999999998,
+        2.6342732961618616,
+        -167.77249999999998,
+        1
+      ],
+      "binary_preserved": true
+    }
+  ],
+  "status": "staged_not_visually_verified",
+  "basis": "Front-local source origin [145.895,167.7725,.55], right/inward/up basis in source_frame. Semantic front and residual identity each once.",
+  "height_correction": "historical_inferred_correction_pending_current_ground_check",
+  "private_source_origin": "Originals remain privately archived; source copies are geometry-only runtime inputs."
+}

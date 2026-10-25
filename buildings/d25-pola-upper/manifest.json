@@ -1,0 +1,14 @@
+{
+  "id": "d25-pola-upper",
+  "enabled": true,
+  "status": "Partial inferred upper facade only; ground shopfront and24other source modules held. Not a completed building or district.",
+  "epoch": "undated inferred",
+  "whole_leaf_completion_credit": 0,
+  "primitives": 4,
+  "triangles": 9352,
+  "bytes": 150268,
+  "sha256": "96a8261a837453ec9b826a369b4cbc28dd94fac7f0a10575ff06f70256e358eb",
+  "sourceOriginalsRetained": true,
+  "hide_from_C_stage_shell": [],
+  "receiverPatch": "Only finite own-host roof patch; all C walls retained; facade remains ordinary obstacle"
+}

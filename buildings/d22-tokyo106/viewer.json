@@ -1,0 +1,19 @@
+{
+  "world_baked": false,
+  "groundElevationTP": 15,
+  "precision_root_translation": [
+    329.009,
+    10.903285774,
+    -24.546
+  ],
+  "planBounds": [
+    323.9521710243225,
+    5.871689315795898,
+    332.40330022239687,
+    25.332186456680297
+  ],
+  "sun": {
+    "azimuth_deg": 207,
+    "elevation_deg": 57
+  }
+}

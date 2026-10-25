@@ -1,0 +1,58 @@
+{
+  "id": "d12-eiraku-ground-frontage-roof",
+  "model": "d12-eiraku-ground-frontage-roof.glb",
+  "world_baked": true,
+  "placement": {
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "planBounds": [
+    45.5585823059082,
+    9.01141357421875,
+    50.040916442871094,
+    27.1430721282959
+  ],
+  "bounds": [
+    [
+      45.5585823059082,
+      -0.093,
+      -27.1430721282959
+    ],
+    [
+      50.040916442871094,
+      38.226999694824215,
+      -9.01141357421875
+    ]
+  ],
+  "groundElevationTP": 15,
+  "sun": {
+    "azimuth_deg": 207,
+    "elevation_deg": 57
+  },
+  "bytes": 10072,
+  "primitives": 3,
+  "triangles": 186,
+  "sha256": "515c4c3effb6d3d942db280eb4d85f67c63e401a45edc4829277e38c8001ae2e",
+  "inference": "SOURCE_HOST_FRAME_SHARED_WITH_MAGNET_EIRAKU",
+  "source_root_translation": [
+    0,
+    -0.093,
+    0
+  ],
+  "visual_review": "REVIEWED_IN_13_VIEW_DISTRICT_CAPTURE_NOT_PHOTOMETRIC_CERTIFICATION",
+  "review_evidence": "evidence/dot-d12/after-verified",
+  "provenance_index": "assets/districts/d12/source/provenance/INDEX.json"
+}

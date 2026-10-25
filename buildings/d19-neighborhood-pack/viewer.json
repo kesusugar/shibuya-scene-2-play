@@ -1,0 +1,244 @@
+{
+  "id": "d19-neighborhood-pack",
+  "model": "d19-neighborhood-pack.glb",
+  "world_baked": true,
+  "groundElevationTP": 15,
+  "sun": {
+    "azimuth_deg": 207,
+    "elevation_deg": 57
+  },
+  "bounds": [
+    [
+      -126.54632147216796,
+      2.8513012337684636,
+      198.5900742340088
+    ],
+    [
+      -46.72635515594482,
+      27.83499954223633,
+      240.87464206695557
+    ]
+  ],
+  "planBounds": [
+    -126.54632147216796,
+    -240.87464206695557,
+    -46.72635515594482,
+    -198.5900742340088
+  ],
+  "bytes": 180476,
+  "primitives": 7,
+  "triangles": 6249,
+  "sha256": "0f0305ee544677702d26e8b1c51a39bf3c17bf829187fd3851fb40d1f6d8e09a",
+  "components": [
+    {
+      "asset": "D19_way858994286_lowrise_Undated_v001",
+      "source": "d19-intake/extracted/D19_way858994286_lowrise_Undated_v001/runtime/D19_way858994286_lowrise_Undated_v001_B.glb",
+      "host_ids": [
+        "way/858994286"
+      ],
+      "hide_hosts": [
+        "way/858994286"
+      ],
+      "root": [
+        -55.784,
+        3.7300000000000004,
+        226.305
+      ],
+      "baseSource": "PLATEAU ground_tp",
+      "footFit": {
+        "maximum_vertical_adjustment": 0.9825830429330803,
+        "changed_vertex_instances": 372,
+        "fullHeight": 2.5,
+        "stopHeight": 5,
+        "upper_geometry_unchanged": true
+      },
+      "triangles": 266,
+      "source_sha256": "78cf08f608a302ffe3d0ad3961b2f9223f3a8efdb8cab1055e85b4cbd9501d4e"
+    },
+    {
+      "asset": "D19_shintaiso_dogenzaka1_bldg_Undated_v001",
+      "source": "d19-intake/extracted/D19_shintaiso_dogenzaka1_bldg_Undated_v001/runtime/D19_shintaiso_dogenzaka1_bldg_Undated_v001_B.glb",
+      "host_ids": [
+        "way/129061816"
+      ],
+      "hide_hosts": [
+        "way/129061816"
+      ],
+      "root": [
+        -104.141,
+        3.3249999999999993,
+        211.821
+      ],
+      "baseSource": "PLATEAU ground_tp",
+      "footFit": {
+        "maximum_vertical_adjustment": 0.8877349862933183,
+        "changed_vertex_instances": 735,
+        "fullHeight": 2.5,
+        "stopHeight": 5,
+        "upper_geometry_unchanged": true
+      },
+      "triangles": 1243,
+      "source_sha256": "e01b892c3297e5b6a0b8dfca418a078c9de883eeca4e1a62128a7b87a77768d8"
+    },
+    {
+      "asset": "D19_arai_bldg_Undated_v001",
+      "source": "d19-intake/extracted/D19_arai_bldg_Undated_v001/runtime/D19_arai_bldg_Undated_v001_B.glb",
+      "host_ids": [
+        "way/136397973"
+      ],
+      "hide_hosts": [],
+      "root": [
+        -121.5,
+        5.202360583011341,
+        220.79
+      ],
+      "baseSource": "measured existing terrain at footprint origin",
+      "footFit": {
+        "maximum_vertical_adjustment": 0.3412368732496941,
+        "changed_vertex_instances": 964,
+        "fullHeight": 2.5,
+        "stopHeight": 5,
+        "upper_geometry_unchanged": true
+      },
+      "triangles": 1090,
+      "source_sha256": "d5e6ec3acc3e8ca55e86b846987afd97bea0066c4046ba0d2b4e03de78e20f5d"
+    },
+    {
+      "asset": "D19_yplace_bldg_Undated_v001",
+      "source": "d19-intake/extracted/D19_yplace_bldg_Undated_v001/runtime/D19_yplace_bldg_Undated_v001_B.glb",
+      "host_ids": [
+        "way/136398002"
+      ],
+      "hide_hosts": [
+        "way/136398002"
+      ],
+      "root": [
+        -118.14,
+        4.282806673844661,
+        214.37
+      ],
+      "baseSource": "measured existing terrain at footprint origin",
+      "footFit": {
+        "maximum_vertical_adjustment": 0.897940548461425,
+        "changed_vertex_instances": 1082,
+        "fullHeight": 2.5,
+        "stopHeight": 5,
+        "upper_geometry_unchanged": true
+      },
+      "triangles": 1488,
+      "source_sha256": "4def183612cf199cddeea3d11bf2583120972b6d46f5222c060256cdbced5d7c"
+    },
+    {
+      "asset": "D19_bldg14b070c9_fillpiece_Undated_v001",
+      "source": "d19-intake/extracted/D19_bldg14b070c9_fillpiece_Undated_v001/runtime/D19_bldg14b070c9_fillpiece_Undated_v001_B.glb",
+      "host_ids": [
+        "plateau/bldg_14b070c9-8caa-40bd-83ac-ee8eedf5cd6d"
+      ],
+      "hide_hosts": [
+        "plateau/bldg_14b070c9-8caa-40bd-83ac-ee8eedf5cd6d"
+      ],
+      "root": [
+        -48.565,
+        5.385000000000002,
+        238.102
+      ],
+      "baseSource": "PLATEAU ground_tp",
+      "footFit": {
+        "maximum_vertical_adjustment": 0.3214114923078232,
+        "changed_vertex_instances": 180,
+        "fullHeight": 2.5,
+        "stopHeight": 5,
+        "upper_geometry_unchanged": true
+      },
+      "triangles": 90,
+      "source_sha256": "ec43c941343688ea3d742e6b18dd1ca16f4654d8901d5a8e568c81048a97a0cc"
+    },
+    {
+      "asset": "D19_way136398003_lowrise_Undated_v001",
+      "source": "d19-intake/extracted/D19_way136398003_lowrise_Undated_v001/runtime/D19_way136398003_lowrise_Undated_v001_B.glb",
+      "host_ids": [
+        "way/136398003"
+      ],
+      "hide_hosts": [
+        "way/136398003"
+      ],
+      "root": [
+        -113.285,
+        4.061,
+        223.153
+      ],
+      "baseSource": "PLATEAU ground_tp",
+      "footFit": {
+        "maximum_vertical_adjustment": 1.4107635160996042,
+        "changed_vertex_instances": 685,
+        "fullHeight": 2.5,
+        "stopHeight": 5,
+        "upper_geometry_unchanged": true
+      },
+      "triangles": 786,
+      "source_sha256": "877da58559c0974d48b5b0ab80247748b8486afdb9a1093b3dcf852e6a4cc1cc"
+    },
+    {
+      "asset": "D19_daiichishibukan_bldg_Undated_v001",
+      "source": "d19-intake/extracted/D19_daiichishibukan_bldg_Undated_v001/runtime/D19_daiichishibukan_bldg_Undated_v001_B.glb",
+      "host_ids": [
+        "way/129061819"
+      ],
+      "hide_hosts": [
+        "way/129061819"
+      ],
+      "root": [
+        -83.44,
+        2.9137909309069414,
+        205.34
+      ],
+      "baseSource": "measured existing terrain at footprint origin",
+      "footFit": {
+        "maximum_vertical_adjustment": 0.1669901181053649,
+        "changed_vertex_instances": 426,
+        "fullHeight": 2.5,
+        "stopHeight": 5,
+        "upper_geometry_unchanged": true
+      },
+      "triangles": 686,
+      "source_sha256": "86b8e9b694fd87a7e8d8e12573754d97494e207c6787a679d73ca57da8d9bfca"
+    },
+    {
+      "asset": "D19_way129061818_bldg_Undated_v001",
+      "source": "d19-intake/extracted/D19_way129061818_bldg_Undated_v001/runtime/D19_way129061818_bldg_Undated_v001_B.glb",
+      "host_ids": [
+        "way/129061818"
+      ],
+      "hide_hosts": [],
+      "root": [
+        -95.66,
+        3.0696575446923475,
+        206.69
+      ],
+      "baseSource": "measured existing terrain at footprint origin",
+      "footFit": {
+        "maximum_vertical_adjustment": 0.2741984083686805,
+        "changed_vertex_instances": 414,
+        "fullHeight": 2.5,
+        "stopHeight": 5,
+        "upper_geometry_unchanged": true
+      },
+      "triangles": 600,
+      "source_sha256": "f7fe7b8d48f5c4b996a2314b2a2a4613f5d01305f358e80298aca7b5dafd1945"
+    }
+  ],
+  "host_ids": [
+    "way/858994286",
+    "way/129061816",
+    "way/136398002",
+    "plateau/bldg_14b070c9-8caa-40bd-83ac-ee8eedf5cd6d",
+    "way/136398003",
+    "way/129061819"
+  ],
+  "inference": "8 inferred candidates, no photographic identity or dated accuracy claims; ground contact adjusted to existing terrain",
+  "visual_review": {
+    "status": "rendered_day_night_and_inspected",
+    "evidence": "evidence/dot-d19/acceptance-day, acceptance-night, close-validation",
+    "limitations": "Inferred geometry and mixed photo dates remain; no survey accuracy or real-device FPS claim"
+  }
+}

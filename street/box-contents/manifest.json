@@ -1,0 +1,96 @@
+{
+  "asset": "box-contents",
+  "level": "B",
+  "layout": "web/layout.json",
+  "source_rights": "README.md",
+  "architecture_sha256": "c1b262ee107e8b46baad917f30aff885420a8ac611f071b67469b542a18f7a5e",
+  "outputs": {
+    "web/corner-dome.glb": {
+      "bytes": 28200,
+      "sha256": "1cc7346e9557f52ee884457b10b9e76cbc6d779a55b0cc698781801b02ac02bd",
+      "triangles": 896,
+      "primitives": 2
+    },
+    "web/counter.glb": {
+      "bytes": 912404,
+      "sha256": "b2d78aba0df1270c94241a2be22b038bfea64b3b870ec16443008eaaad4408b2",
+      "triangles": 5076,
+      "primitives": 2
+    },
+    "web/display-spotlights.glb": {
+      "bytes": 55556,
+      "sha256": "27a714e45499ede2fed733c9c3a6ae41250c270b7ea8029e91bd92d04fc7bc10",
+      "triangles": 1304,
+      "primitives": 3
+    },
+    "web/info-placard.glb": {
+      "bytes": 30428,
+      "sha256": "9627bde04468414fd353342f665159b3be5ce879853a936574fb2dfe23198b61",
+      "triangles": 14,
+      "primitives": 2
+    },
+    "web/information-header.glb": {
+      "bytes": 39284,
+      "sha256": "f09734da431ef61b2f89c8bd4605fb66c2bfb7a87edeaef477894305b8580f05",
+      "triangles": 832,
+      "primitives": 3
+    },
+    "web/laptop.glb": {
+      "bytes": 258516,
+      "sha256": "e755c008ce1a8012129afd42fb5d0343f3810d52153f87ee7a3a1df8794f72aa",
+      "triangles": 8904,
+      "primitives": 3
+    },
+    "web/layout.json": {
+      "bytes": 2609,
+      "sha256": "5ca4c0552098ba392b0f251205a17bcc3235eb80449e198a95c80af464a67219"
+    },
+    "web/portrait-monitor.glb": {
+      "bytes": 17568,
+      "sha256": "dff99081b84335c9cba69fb205b231d48a5ab8dfb7e8c027f63440a578b2eb0d",
+      "triangles": 216,
+      "primitives": 2
+    },
+    "web/red-sign.glb": {
+      "bytes": 59364,
+      "sha256": "0e997268bd3ef1aa97fd741fafd37a1a1b583c50b96aeac01f395c7032c647b3",
+      "triangles": 1332,
+      "primitives": 4
+    },
+    "web/soffit-dome.glb": {
+      "bytes": 29280,
+      "sha256": "8f727f0a76e8df09c38d0561bbc2cd050b8f5b9f60c1e42bea5ac6c49341bb33",
+      "triangles": 948,
+      "primitives": 2
+    },
+    "web/souvenir.glb": {
+      "bytes": 1042128,
+      "sha256": "1417d51abd5bb13a2c6882aa1a47798f985a7a5de885f294a93efaea0ffde50a",
+      "triangles": 13984,
+      "primitives": 7
+    },
+    "web/tkts-support.glb": {
+      "bytes": 3040,
+      "sha256": "930c543e6e55d4519f2ea6cddc2db615f2d446cc48df1748e0a5f1dcf95d883c",
+      "triangles": 36,
+      "primitives": 1
+    },
+    "web/tkts.glb": {
+      "bytes": 128332,
+      "sha256": "41d5ec6ef0772daf4204870a8ccf741c463372a56c3f731761ada31a28f565d8",
+      "triangles": 3832,
+      "primitives": 5
+    },
+    "web/wall-monitor.glb": {
+      "bytes": 26604,
+      "sha256": "795b516ab533f20dfed380e73dadc9096251da38d0bccd3add7e0034a62d2ea9",
+      "triangles": 520,
+      "primitives": 2
+    }
+  },
+  "total": {
+    "bytes": 2630704,
+    "triangles": 37894,
+    "primitives": 38
+  }
+}

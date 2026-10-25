@@ -1,0 +1,21 @@
+{
+  "planBounds": [
+    22.291183471679688,
+    -53.31573486328125,
+    27.937681198120117,
+    -40.072914123535156
+  ],
+  "sun": {
+    "azimuth_deg": 145,
+    "elevation_deg": 42
+  },
+  "groundElevationTP": 15,
+  "layers": {
+    "signs_roof-circle-observed-2024": "exterior-roof-circle.glb",
+    "signs_roof-name-observed-2024": "exterior-roof-name.glb",
+    "signs_roof-dog-observed-2024": "exterior-roof-dog.glb",
+    "signs_fun-project-observed-2024": "exterior-fun-project.glb",
+    "signs_roof-sponsor-observed-2024": "exterior-roof-sponsor.glb",
+    "signs_display-clock-static-2026-08-08": "exterior-display-clock.glb"
+  }
+}

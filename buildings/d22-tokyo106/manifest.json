@@ -1,0 +1,37 @@
+{
+  "id": "d22-tokyo106",
+  "enabled": true,
+  "status": "Accepted bounded visual-only addition: numerical and actual-app visual QA passed; no whole-leaf completion credit",
+  "source_frontage_sha256": "6cc32206a2a895a28256fc6490c65084c7cc07265fe3ea856c68cc5875facd8c",
+  "source_complement_sha256": "95b3fa770f066d2f32a29538e0452e13b3d3228abdd0aa5dd8d579a56479d26f",
+  "sha256": "cb8df30a46c253357ee501f3783e8276c9bcad7b91b8b01f25eae8d8799af98d",
+  "bytes": 606788,
+  "primitives": 8,
+  "triangles": 10219,
+  "bounds": {
+    "min": [
+      323.9521710243225,
+      9.531625422246766,
+      -25.332186456680297
+    ],
+    "max": [
+      332.40330022239687,
+      45.00328424812109,
+      -5.871689315795898
+    ]
+  },
+  "precision_root_translation": [
+    329.009,
+    10.903285774,
+    -24.546
+  ],
+  "source_base_tp": null,
+  "datum_inferred": true,
+  "provisional_frontage_height": 31.5,
+  "whole_leaf_completion_credit": 0,
+  "hide_from_C_stage_shell": [],
+  "source_host_ids": [
+    "way/138589790"
+  ],
+  "palette_quantized_not_lossless": true
+}

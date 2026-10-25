@@ -1,0 +1,89 @@
+{
+  "id": "d11-miyashita-yokocho",
+  "model": "d11-miyashita-yokocho.glb",
+  "world_baked": true,
+  "placement": {
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "bounds": [
+    [
+      112.65176839914919,
+      1.0512904361069195,
+      -121.65670940388878
+    ],
+    [
+      116.7632741246736,
+      6.6750789717018595,
+      -114.05560052868535
+    ]
+  ],
+  "center": [
+    114.87222395974305,
+    4.176853723521435,
+    -117.92927099256215
+  ],
+  "bytes": 764548,
+  "primitives": 3,
+  "triangles": 64120,
+  "sha256": "fb2cad1b887a043e9a0474e2a57936aa84326df2906867ff3d8b10a6cc6ac1ec",
+  "inference": "INFERRED_FRONTAGE_REVALIDATED_GROUND",
+  "source_parent_already_applied": {
+    "matrix_column_major": [
+      0.1917933843808564,
+      0.0,
+      -0.9814353252801415,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.9814353252801415,
+      0.0,
+      0.1917933843808564,
+      0.0,
+      114.80478789247603,
+      1.8750787809669964,
+      -117.88492396937148,
+      1.0
+    ],
+    "status": "INFERRED_FRONTAGE_REVALIDATED_GROUND",
+    "north_position_inferred_m": 118,
+    "north_uncertainty_m": 6,
+    "outward_projection_m": 0.6
+  },
+  "do_not_apply_source_parent_again": true,
+  "parser": "NodeIO+MeshoptDecoder roundtrip PASS; browser/Three visual integration still root-owned",
+  "geometry_validation": {
+    "id": "d11-miyashita-yokocho",
+    "triangles": 64120,
+    "bidirectional_max_vertex_distance_m": 1.368897691832044e-07,
+    "bidirectional_max_triangle_centroid_distance_m": 1.358878156017646e-07,
+    "triangle_count_equal": true,
+    "pass": true
+  },
+  "planBounds": [
+    112.65176839914919,
+    114.05560052868535,
+    116.7632741246736,
+    121.65670940388878
+  ],
+  "sun": {
+    "azimuth_deg": 207,
+    "elevation_deg": 57
+  },
+  "groundElevationTP": 15
+}

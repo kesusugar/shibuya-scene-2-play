@@ -1,0 +1,58 @@
+{
+  "id": "d12-magnet-glassbox-roof-plant",
+  "model": "d12-magnet-glassbox-roof-plant.glb",
+  "world_baked": true,
+  "placement": {
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "planBounds": [
+    28.157865524291992,
+    25.94976234436035,
+    40.043190002441406,
+    35.86958694458008
+  ],
+  "bounds": [
+    [
+      28.157865524291992,
+      32.50699847412109,
+      -35.86958694458008
+    ],
+    [
+      40.043190002441406,
+      40.10700076293945,
+      -25.94976234436035
+    ]
+  ],
+  "groundElevationTP": 15,
+  "sun": {
+    "azimuth_deg": 207,
+    "elevation_deg": 57
+  },
+  "bytes": 9124,
+  "primitives": 1,
+  "triangles": 350,
+  "sha256": "242c02b40729dbdb86109732339ec1e8c6213b37e544c0bdfd28ea01f4297304",
+  "inference": "SOURCE_HOST_FRAME_SHARED_WITH_MAGNET_EIRAKU",
+  "source_root_translation": [
+    0,
+    -0.093,
+    0
+  ],
+  "visual_review": "REVIEWED_IN_13_VIEW_DISTRICT_CAPTURE_NOT_PHOTOMETRIC_CERTIFICATION",
+  "review_evidence": "evidence/dot-d12/after-verified",
+  "provenance_index": "assets/districts/d12/source/provenance/INDEX.json"
+}

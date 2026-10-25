@@ -1,0 +1,21 @@
+{
+  "groundElevationTP": 15,
+  "planBounds": [
+    -98.851,
+    104.052,
+    -81.827,
+    120.746
+  ],
+  "sun": {
+    "azimuth_deg": 207,
+    "elevation_deg": 57
+  },
+  "runtimePacking": {
+    "primitives": 24,
+    "triangles": 7250,
+    "bytes": 942424,
+    "sha256": "20682d19e45c31a7715bc6dbd29ecb6c2e693c0065392d0cefd1e23534894563",
+    "proof": "assets/districts/d19/source/yokota-compact-proof.json",
+    "original": "assets/districts/d19/source/yokota-before/d04-yokota.glb"
+  }
+}

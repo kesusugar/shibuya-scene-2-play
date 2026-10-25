@@ -1,0 +1,58 @@
+{
+  "id": "d12-magnet-lower",
+  "model": "d12-magnet-lower.glb",
+  "world_baked": true,
+  "placement": {
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "planBounds": [
+    25.52690887451172,
+    9.970823860168457,
+    45.638301849365234,
+    19.65023002624512
+  ],
+  "bounds": [
+    [
+      25.52690887451172,
+      -0.093,
+      -19.65023002624512
+    ],
+    [
+      45.638301849365234,
+      10.3469995803833,
+      -9.970823860168457
+    ]
+  ],
+  "groundElevationTP": 15,
+  "sun": {
+    "azimuth_deg": 207,
+    "elevation_deg": 57
+  },
+  "bytes": 26968,
+  "primitives": 1,
+  "triangles": 952,
+  "sha256": "64ecb2b5050ff340f9f428e34fc25e63ada3f338dafada7ace3bd2af29860823",
+  "inference": "SOURCE_HOST_FRAME_SHARED_WITH_MAGNET_EIRAKU",
+  "source_root_translation": [
+    35,
+    -0.093,
+    -11.1
+  ],
+  "visual_review": "REVIEWED_IN_13_VIEW_DISTRICT_CAPTURE_NOT_PHOTOMETRIC_CERTIFICATION",
+  "review_evidence": "evidence/dot-d12/after-verified",
+  "provenance_index": "assets/districts/d12/source/provenance/INDEX.json"
+}

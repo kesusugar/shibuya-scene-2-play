@@ -1,0 +1,19 @@
+{
+  "groundElevationTP": 15,
+  "planBounds": [
+    -92.35099792480469,
+    77.18199920654297,
+    -52.45600128173828,
+    117.52899932861328
+  ],
+  "sun": {
+    "azimuth_deg": 207,
+    "elevation_deg": 57
+  },
+  "layers": {
+    "inferred-inokashira-entry": "d04-entry.glb",
+    "roof-equipment-2025-01": "d04-roof.glb",
+    "folded-rail-2025-01": "d04-rail.glb",
+    "floodlights-2025-01": "d04-floodlights.glb"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "version": 1,
+  "building": "d03-center-gai-frontage",
+  "parts": [
+    {
+      "id": "nishimura_entry_2025-09",
+      "file": "@root",
+      "label": "西村入口の追加部品（円柱・脇ガラス・右ガラス・中立の奥行き面）",
+      "frame": {
+        "kind": "host"
+      },
+      "date": "2025-09-28",
+      "confidence": "inferred",
+      "sources": [
+        "source/provenance/column_sources.json",
+        "source/provenance/screen_sources.json",
+        "assets/buildings/west-block/source/d03-entry-v002/layout.json"
+      ],
+      "mount": "west-block 中央4.8 mベイ（ホストの座標のまま。ホストは110三角形を除去済み）",
+      "keep_clear": [
+        "west_tile_trim 柱",
+        "青い庇",
+        "他の2ベイ"
+      ],
+      "notes": "中央ベイへの割当と奥行き2.10 mは推定。ガラスは透過ではなくアルファ合成（予算のため）。"
+    },
+    {
+      "id": "taiseido_notice_2025-01",
+      "file": "D03_taiseido_corner_notice_20250131_photo_face.glb",
+      "label": "大盛堂の角の案内板（2025年1月31日の写真面 24×45 px）",
+      "frame": {
+        "kind": "edge",
+        "a": [
+          -35.503487,
+          26.724871
+        ],
+        "b": [
+          -33.448566,
+          33.720448
+        ]
+      },
+      "u": 0.473924,
+      "v": 0,
+      "z": 1.075,
+      "date": "2025-01-31",
+      "confidence": "photo",
+      "sources": [
+        "source/provenance/taiseido_notice/D03_JAN31_PHOTO_MATERIAL_PROVENANCE.json",
+        "source/provenance/taiseido_notice/integration_contract.json"
+      ],
+      "mount": "west_tile_trim の角柱（u=0..0.13 の中、板の下面z=0.55・上面z=1.60）",
+      "keep_clear": [
+        "west_tile_trim",
+        "青い庇",
+        "1月看板層"
+      ],
+      "notes": "寸法0.84×1.05 mは推定。dotの root_matrix_gltf と一致することをテストで確認。中立色版は配信しない。"
+    },
+    {
+      "id": "pharmacy_rack_2025-02",
+      "file": "pharmacy_display_rack.glb",
+      "label": "薬局の空の展示ラック（商品・文字なし）",
+      "frame": {
+        "kind": "edge",
+        "a": [
+          -67.253,
+          21.279
+        ],
+        "b": [
+          -36.04,
+          24.78
+        ]
+      },
+      "u": 3.57528,
+      "v": 0.55,
+      "z": 0,
+      "date": "2025-02-07",
+      "confidence": "inferred",
+      "sources": [
+        "source/provenance/SOURCES.json",
+        "source/provenance/placement.json"
+      ],
+      "mount": "黄庇（4.5 m幅）の東寄りの歩道。PLATEAU壁線から0.55 m。接地はCore地面（差+0.003〜0.004 m）",
+      "keep_clear": [
+        "入口ガラス",
+        "黄庇と支持",
+        "歩道の通行幅（壁から約8 m平坦）"
+      ],
+      "notes": "位置・段数・寸法は推定。青白掲示群は未制作。"
+    }
+  ]
+}

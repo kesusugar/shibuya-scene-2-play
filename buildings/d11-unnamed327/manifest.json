@@ -1,0 +1,34 @@
+{
+  "asset": "d11-unnamed327",
+  "host_reference": "unnamed327",
+  "models": [
+    {
+      "source": "D11_Unnamed327_Inferred_v001.glb",
+      "source_sha256": "e8288a7cb079cecb83c23431b06d982d102bf811c6fad079b3ed193d07b6216a",
+      "runtime": "d11-unnamed327.glb",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        52.703574857467906,
+        1.951,
+        -205.0045820079841,
+        1
+      ],
+      "binary_preserved": true
+    }
+  ],
+  "status": "staged_not_visually_verified",
+  "basis": "Source plan datum edit origin [52.703574857467906,205.0045820079841,1.951]; not a world placement.",
+  "height_correction": "historical_inferred_correction_pending_current_ground_check",
+  "private_source_origin": "Originals remain privately archived; source copies are geometry-only runtime inputs."
+}

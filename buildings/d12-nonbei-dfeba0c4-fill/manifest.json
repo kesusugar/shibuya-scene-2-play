@@ -1,0 +1,66 @@
+{
+  "id": "d12-nonbei-dfeba0c4-fill",
+  "source_asset": "D12_nonbei_dfeba0c4_fill_Undated_v001",
+  "host_ids": [
+    "plateau/bldg_dfeba0c4-0fbd-423b-b91f-3388b53e7595"
+  ],
+  "model": "d12-nonbei-dfeba0c4-fill.glb",
+  "world_baked": true,
+  "placement": {
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "planBounds": [
+    95.29399998283387,
+    62.11166472053528,
+    100.05870492553711,
+    64.80399996852876
+  ],
+  "bounds": [
+    [
+      95.29399998283387,
+      0.5827662820369005,
+      -64.80399996852876
+    ],
+    [
+      100.05870492553711,
+      6.200000152587891,
+      -62.11166472053528
+    ]
+  ],
+  "groundElevationTP": 15,
+  "sun": {
+    "azimuth_deg": 207,
+    "elevation_deg": 57
+  },
+  "bytes": 9584,
+  "primitives": 3,
+  "triangles": 120,
+  "sha256": "5bc938b84cb18aedcf7bbcc70f034b337ee640049235df93d153494571550bd8",
+  "inference": "UNDATED_PHOTO_UNVERIFIED_SOURCE_AND_TERRAIN_FIT",
+  "original_datum": 0.61,
+  "placement_height": 0.61,
+  "raise": 0,
+  "foot_fit": {
+    "method": "Vertical terrain fit below 2.5m, taper to zero at 5m; upper and roof kept at source elevation",
+    "maximum_correction_m": 0.08497678569431288,
+    "original_source_preserved": true
+  },
+  "ground_sample_count": 94,
+  "visual_review": "REVIEWED_IN_13_VIEW_DISTRICT_CAPTURE_NOT_PHOTOMETRIC_CERTIFICATION",
+  "review_evidence": "evidence/dot-d12/after-verified",
+  "provenance_index": "assets/districts/d12/source/provenance/INDEX.json"
+}

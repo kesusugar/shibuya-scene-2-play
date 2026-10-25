@@ -1,0 +1,148 @@
+{
+  "id": "d03-center-gai-frontage",
+  "level": "B",
+  "host": "west-block (same model 0 m, groundElevationTP 15.347)",
+  "status": "Normal display. Three shopfront assets placed on the existing west-block; all positions, depths and sizes inferred from dated photos (see docs/core/D03_FRONTAGE_20261018.md).",
+  "layers": {
+    "placements": "web/placements.json lists the parts (frame, u/v/z, date, confidence, sources); see docs/core/PLACEMENTS_SCHEMA.md",
+    "nishimura_entry_2025-09": "host coordinates",
+    "taiseido_notice_2025-01": "edge frame on the west_tile_trim jamb",
+    "pharmacy_rack_2025-02": "edge frame on the PLATEAU wall line"
+  },
+  "host_change": "assets/buildings/west-block/web/west-block.glb is now the cut-only host (110 triangles removed, see west-block/source/d03-entry-v002). Original: west-block/source/d03-entry-v002/west-block_pre_d03.glb sha256 3e9d4573f2d88d65877583f23442740fac333849d0c4f7877202b6905812026a",
+  "rollback": "copy west-block_pre_d03.glb over west-block/web/west-block.glb, delete this folder and its id in src/main.ts and src/perf/budget.ts",
+  "stats": {
+    "triangles": 6124,
+    "primitives": 16
+  },
+  "files": {
+    "README.md": {
+      "bytes": 1588,
+      "sha256": "4739f37883c47dbbdcb91bdd045277203227db34c7780be0d7c6e7fe01647bc6"
+    },
+    "source/build_d03_frontage.mjs": {
+      "bytes": 3308,
+      "sha256": "dbf236b85c9e7b29165c76cf6a04f1eaac7000be04972d7ca9265cb7bd848bb5"
+    },
+    "source/baked-v1/pharmacy-rack-2025-02.glb": {
+      "bytes": 162396,
+      "sha256": "6a3c55f4e452d16eb942921dee05f601e75cbc11bff6c371dca5ade8c02ec2bf"
+    },
+    "source/baked-v1/taiseido-notice-2025-01.glb": {
+      "bytes": 9460,
+      "sha256": "dc2cb63681b4e079f6ec47e8eac0ece5e43e854619609738a6ecf0bdb9799524"
+    },
+    "source/provenance/LICENSE.txt": {
+      "bytes": 405,
+      "sha256": "da731e897e0775c736058b69d84752108eb7d6b91cf4fa40447c6c7b44ff09b6"
+    },
+    "source/provenance/SOURCES.json": {
+      "bytes": 2178,
+      "sha256": "b6bfefdc491ea0a4a172d6ee78e75f11afe9ca33166916d02dd1ee179a89e6e8"
+    },
+    "source/provenance/column_license.txt": {
+      "bytes": 623,
+      "sha256": "948b5d4adfba30c2eede6580fcce874b81490af509e700eaf0af061a424a851c"
+    },
+    "source/provenance/column_sources.json": {
+      "bytes": 2501,
+      "sha256": "e95ef0585b8123b1db472b1539b96abd55f7eded6a0f6c1ee6763e7428de489b"
+    },
+    "source/provenance/entry_assembly_appendix_original.glb": {
+      "bytes": 150860,
+      "sha256": "af9a9c568b18fd31e3fb74b5b52d786ee9c65f5162431565657f8831b252c984"
+    },
+    "source/provenance/manifest.json": {
+      "bytes": 3594,
+      "sha256": "2b000b1402912edceb17d81e15402362f0aafc3f86079de4aa16353d837c0e07"
+    },
+    "source/provenance/pharmacy_display_rack_original.glb": {
+      "bytes": 162504,
+      "sha256": "478a731531c6e9973653c1974bb1284b7cfc09454b08013f93e951d599cacac0"
+    },
+    "source/provenance/placement.json": {
+      "bytes": 1547,
+      "sha256": "694f988581fb79bb470e25240ed31fb5f1fca1d0fb49f206f363eee435d4e5e3"
+    },
+    "source/provenance/rack_README.md": {
+      "bytes": 2836,
+      "sha256": "b38f74774a53c625a266faaaeb5a45302f309586ed3db74e29e0605be5cc46cf"
+    },
+    "source/provenance/screen_license.txt": {
+      "bytes": 386,
+      "sha256": "778efb3177c68336e08a33128b289d1273ccf535b2257d1baa968520373330ac"
+    },
+    "source/provenance/screen_sources.json": {
+      "bytes": 2427,
+      "sha256": "0c739cd83bcd9f38714cf9b8b07eb27f0c53857ee05a03728e2c4c5077be0542"
+    },
+    "source/provenance/taiseido_notice/D03_ASSET_STATUS.json": {
+      "bytes": 1705,
+      "sha256": "011cfd427c0a3034e19ce65c8f67ad9b696b875bcf1d7748946adb03d116d436"
+    },
+    "source/provenance/taiseido_notice/D03_JAN31_PHOTO_MATERIAL_PROVENANCE.json": {
+      "bytes": 1544,
+      "sha256": "f92a37e8059bc66d9202b8fe45f5bf45f408113b22367f993742b757ede5c0ed"
+    },
+    "source/provenance/taiseido_notice/D03_notice_face_20250131_native24x45.png": {
+      "bytes": 3200,
+      "sha256": "a6632c9cf23c1b8e5bdd255f5757a73d4010f8a32643819a9c5dd1c2a36be93f"
+    },
+    "source/provenance/taiseido_notice/D03_taiseido_corner_notice.glb": {
+      "bytes": 4912,
+      "sha256": "29c2bb8e067900167ed28dcdf1dc8618009acbb994ce79f41e3d005d6276d55e"
+    },
+    "source/provenance/taiseido_notice/D03_taiseido_corner_notice_20250131_photo_face.glb": {
+      "bytes": 9532,
+      "sha256": "3c3b5d1f626eb6b86967ab5a2cd64631b801dbaff4024f49dd3fecb63a611ba4"
+    },
+    "source/provenance/taiseido_notice/LICENSE_PROVENANCE.txt": {
+      "bytes": 1220,
+      "sha256": "9815a12de901a368ccc02d41f64e8673a8d02ce9525a75d5d76f0e035ebf4bf6"
+    },
+    "source/provenance/taiseido_notice/README.md": {
+      "bytes": 6795,
+      "sha256": "10072b6b0a19d669087900d43b41c10f8883f2f2aa3a4aeff60a217855d847f4"
+    },
+    "source/provenance/taiseido_notice/SOURCES.json": {
+      "bytes": 3155,
+      "sha256": "a5caff658281dc3bfeb46b57ea4a0d0097a0f9cec856359564906be1e9a2ee81"
+    },
+    "source/provenance/taiseido_notice/integration_contract.json": {
+      "bytes": 3107,
+      "sha256": "4d23bb081f0b71579af56f19e2e9ac1c7e5f86b6dec6c97a5d3bbd79a1a9fb93"
+    },
+    "source/provenance/taiseido_notice/manifest.json": {
+      "bytes": 10165,
+      "sha256": "c076c3ddb598e97e64fc58a28b38223b8a84016ac82d94c00a6b6341a07848ff"
+    },
+    "web/D03_taiseido_corner_notice_20250131_photo_face.glb": {
+      "bytes": 9532,
+      "sha256": "3c3b5d1f626eb6b86967ab5a2cd64631b801dbaff4024f49dd3fecb63a611ba4"
+    },
+    "web/d03-center-gai-frontage.glb": {
+      "bytes": 143664,
+      "sha256": "a1e79cf19827dedd9031c9d9af6bfcb5feb9a0f14b455d8c277e0edc29bd3ad0"
+    },
+    "web/emissive_day.json": {
+      "bytes": 3,
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    "web/emissive_night.json": {
+      "bytes": 3,
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    "web/pharmacy_display_rack.glb": {
+      "bytes": 162504,
+      "sha256": "478a731531c6e9973653c1974bb1284b7cfc09454b08013f93e951d599cacac0"
+    },
+    "web/placements.json": {
+      "bytes": 2908,
+      "sha256": "3d3f8e632c007d45ab4a2189f638dc3cc4c8515178c61caf7f1c933e0ed904c5"
+    },
+    "web/viewer.json": {
+      "bytes": 204,
+      "sha256": "2c7e60c33db8c41cac4507052031cf38543726e7486d52763ee5c7491a6cb388"
+    }
+  }
+}

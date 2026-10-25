@@ -1,0 +1,44 @@
+{
+  "id": "d11-da-tokyo790",
+  "host_ids": [
+    "way/120105790"
+  ],
+  "target_runtime_relative": "assets/buildings/d11-da-tokyo790/web/d11-da-tokyo790.glb",
+  "target_viewer_relative": "assets/buildings/d11-da-tokyo790/web/viewer.json",
+  "runtime_parent_matrix": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "source_frame_already_baked": true,
+  "ground_raise_already_baked": true,
+  "context_action": "Root only: exact source triangle matching from qa/source_footprint_correspondence.json; no bounding-box removal.",
+  "grounding": "CURRENT_GROUND_VERTEX_PROBES_PASS_RIGID_CANDIDATE",
+  "stats": {
+    "id": "d11-da-tokyo790",
+    "preserved_source_triangles": 14648,
+    "matched_source_triangles": 14648,
+    "unmatched": 0,
+    "unused": 0,
+    "max_world_vertex_error_m": 2.8712807710572575e-06,
+    "preserved_winding": true,
+    "added_support_triangles": 0,
+    "final_primitives": 5,
+    "final_triangles": 14648,
+    "bytes": 767252,
+    "sha256": "b990bf03d48a0a087c86995c27310a4b040c4cd44eb06c5a7efaa6d33346a804"
+  }
+}

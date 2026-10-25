@@ -1,0 +1,53 @@
+Recorded V12 preview derivatives / 実録V12プレビュー由来音源
+=========================================================
+Creator: cheesepuff (Freesound)
+Lambo idle and rev.mp3: https://freesound.org/people/cheesepuff/sounds/112075/
+lambo rev.mp3: https://freesound.org/people/cheesepuff/sounds/112076/
+License: Creative Commons CC0 1.0 Universal
+https://creativecommons.org/publicdomain/zero/1.0/
+Source metadata / license evidence checked: 2026-10-22 UTC.
+
+The uploader describes their own dealer video and identifies a Lamborghini
+Murcielago LP-670 SuperVeloce V12. This is uploader-reported provenance, not
+independent audio authentication, and does not imply Lamborghini endorsement.
+The audio is not a verified Nissan R34 / RB26 recording.
+
+IMPORTANT SOURCE QUALITY
+Downloaded source files were public low-quality 24 kHz MP3 PREVIEWS, not the
+original 44.1 kHz source MP3 masters. Original downloads require login and were
+not obtained. The preview's two channels are sample-for-sample identical, so
+mono retains all recorded channel information. Derivatives remain 24 kHz;
+converting to WAV does not restore detail lost in the preview encoding.
+
+DERIVATIVES
+v12-idle-loop.wav: long preview 3.9-6.9 s, bass-rich timbral bed, 2.88 s cycle.
+v12-body-loop.wav: long preview 12.5-16.5 s, denser body timbre, 3.88 s cycle.
+v12-rev-event.wav: complete short preview, 5.330 s, non-looping native-pitch event.
+The two beds are NOT measured low/mid/high-RPM or load-specific recordings.
+The approved short preview contains several rev swells, followed by a final
+decay. Throttle-lift handling fades that event; it is not a separately recorded
+overrun layer. No high-speed loop is manufactured from the changing rev.
+
+PROCESSING
+Identical-channel mono extraction; DC removal; shared -4.450 dB attenuation;
+PCM16 quantization. Beds use a 120 ms half-cosine equal-gain seam and a circular
+boundary rotation. The full event has a 15 ms entrance fade and an 80 ms exit
+fade. No authoring EQ, compression, synthesis, pitch shifting, or time stretching.
+Exact source cuts, hashes, peaks, seams, band-energy statistics, limitations and
+100 ms event envelope: qa/audio-derivatives.json.
+Rebuild: python tests/make_v12_layers.py [path/to/lamborghini-audio-research]
+Authoring dependencies: ffmpeg, NumPy, SciPy. They are not runtime dependencies.
+
+Selection and checks use numeric waveform/spectral analysis. No claim is made
+of subjective listening validation, voice-free background, true RPM mapping,
+or production-master quality. Preview artifacts/background sound may remain.
+CC0 does not itself clear third-party privacy/trademark rights or guarantee
+that an uploader owns every right. Attribution is optional under CC0, but this
+provenance record is retained.
+
+配布元がV12のMurcielagoと申告した録音の低品質MP3プレビューを使用しています。
+原盤ではなく、実際のR34/RB26の録音でもありません。24 kHzの同一左右チャンネルを
+モノラル化し、同じ録音から低音のベッドと厚み用のベッドを作成しています。
+2つのベッドは音色上の役割であり、実測RPM・負荷に対応する録音ではありません。
+承認された短い空吹かし音は全体を自然速度で使用し、高回転ループへ引き伸ばしません。
+人による試聴品質、背景音声がないこと、実車音響の再現性は未検証です。

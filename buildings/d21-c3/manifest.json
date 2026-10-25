@@ -1,0 +1,29 @@
+{
+  "id": "d21-c3",
+  "asset_id": "D21_subway_c3_entrance_Undated_v001",
+  "host_ids": [
+    "way/1333409442"
+  ],
+  "translation": [
+    205.64,
+    0.3,
+    135.78
+  ],
+  "rotation": [
+    0,
+    0,
+    0
+  ],
+  "scale": [
+    1,
+    1,
+    1
+  ],
+  "source_base_tp": 15.3,
+  "ground_correction_m": 0,
+  "original_bin_preserved": true,
+  "enabled": false,
+  "status": "disabled: continuous ground obscures stairs; exterior base fit unresolved",
+  "inference": "All appearance and entry direction inferred; no photographic verification; no terrain/collision changes",
+  "source_runtime_sha256": "6b5600fa4ed04d69e026e2087e42d811bb240607195d7cde61fca3252b937264"
+}

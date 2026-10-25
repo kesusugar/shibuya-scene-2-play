@@ -1,0 +1,69 @@
+{
+ "id": "tactile",
+ "status": "partial plaza connection prototype; junction/route positions, southern endpoint, colour and October layout unverified",
+ "datum_tp_m": 15,
+ "coordinates": "Blender X east, Y north, Z = T.P.-15; web X east, Y up, Z south",
+ "licences": {
+  "terrain": "MLIT Project PLATEAU, CC BY 4.0 compatible",
+  "positions": "OSM ODbL and GSI aerial measurements, see ground/core manifest",
+  "photos": "reference only, SOURCES.json; no photographic texture"
+ },
+ "build_stats": {
+  "count": 57372,
+  "missing": 0,
+  "min_offset_m": 0.002,
+  "max_offset_m": 0.007
+ },
+ "inputs": {
+  "assets/ground/core/web/ground_core.glb": {
+   "sha256": "37755dd24d3fe78418b3133210a6dc05ebe2c3c2f615b5a8bd22a4db6279dd32",
+   "bytes": 3700232
+  },
+  "assets/ground/core/source/data/crosswalks_measured.json": {
+   "sha256": "dbaa6719fcca798114ce4aa0d958ddaeae9bf93c3c8b96c7c76316ce05f084e0",
+   "bytes": 17538
+  },
+  "assets/street/core/source/data/street_input.json": {
+   "sha256": "a962769658a1e3a63ad3792a2a0959cbe4d09a2fb0fc5527fe2caea68fd95bb5",
+   "bytes": 8625
+  },
+  "assets/street/core/source/data/street_layout.json": {
+   "sha256": "432af341562ab3072f75593e98c43de847b59a35de03b9881075b7f3eecf0870",
+   "bytes": 7087
+  },
+  "assets/ground/core/source/blender/paving_boundary.py": {
+   "sha256": "18735b9bc65292ba853d6053bb01a625decd1c939bccca36ad745b99fbb1a861",
+   "bytes": 2010
+  }
+ },
+ "files": {
+  "web/tactile.glb": {
+   "sha256": "1dc0e2774d8936e7c949286037e9e92de4f2a14ef8583147712dca3cbe1ad4d2",
+   "bytes": 1530368
+  },
+  "source/data/layout.json": {
+   "sha256": "34890fcc347c42409dfd211dfad2f97f885b95484be2e3997b115404d966689d",
+   "bytes": 1580
+  },
+  "source/data/stats.json": {
+   "sha256": "cc32a5db621f71daffcee09711faccf8e1b9e6409c0001cfc971f963d30ebf96",
+   "bytes": 53691
+  },
+  "source/blender/build_tactile.py": {
+   "sha256": "1ea493b37fa57e8572d78ee85812956c6a012bb5e91d20364e7ad27800551479",
+   "bytes": 8737
+  },
+  "source/tools/write_manifest.py": {
+   "sha256": "b199131e9b6930a1ffbc3b1d1b57529c9a40bdab58ce1b90761ea086b925cf09",
+   "bytes": 1492
+  },
+  "source/refs/SOURCES.json": {
+   "sha256": "6e6a1d10a1a7fb6422ec9151f7ca84d885b5dadda342bc55ac78e2e37c787619",
+   "bytes": 1047
+  },
+  "README.md": {
+   "sha256": "8adf2723b8f8975d2a4cd632fb60158d4f8ec7b84e7e440a2a05d5f4690ce49e",
+   "bytes": 2630
+  }
+ }
+}

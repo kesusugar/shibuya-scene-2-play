@@ -1,0 +1,34 @@
+{
+  "asset": "d11-shared490491",
+  "host_reference": "155749491 / alias 155749490",
+  "models": [
+    {
+      "source": "D11_Unnamed490491_SharedEnvelope_InferredExterior_v001.glb",
+      "source_sha256": "2c2f2adf29574842f4cc3e4d90e0026753ef9615e711cf35a29df24ca1d8dd20",
+      "runtime": "d11-shared490491.glb",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        141.45540304175404,
+        2.409,
+        -194.97303011674265,
+        1
+      ],
+      "binary_preserved": true
+    }
+  ],
+  "status": "staged_not_visually_verified",
+  "basis": "Source origin [141.45540304175404,194.97303011674265,.76]; Blender ENU -> glTF [x,z,-y]. One physical model for two aliases.",
+  "height_correction": "historical_inferred_correction_pending_current_ground_check",
+  "private_source_origin": "Originals remain privately archived; source copies are geometry-only runtime inputs."
+}

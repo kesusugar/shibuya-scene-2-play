@@ -1,0 +1,269 @@
+{
+  "id": "d19-square-ab-composites",
+  "model": "d19-square-ab-composites.glb",
+  "world_baked": true,
+  "groundElevationTP": 15,
+  "sun": {
+    "azimuth_deg": 207,
+    "elevation_deg": 57
+  },
+  "bounds": [
+    [
+      -113.14148193359375,
+      3.0011680429542453,
+      203.57511337280275
+    ],
+    [
+      -58.8981462097168,
+      52.769889206227106,
+      269.4851884209313
+    ]
+  ],
+  "planBounds": [
+    -113.14148193359375,
+    -269.4851884209313,
+    -58.8981462097168,
+    -203.57511337280275
+  ],
+  "bytes": 1071688,
+  "primitives": 8,
+  "triangles": 47373,
+  "sha256": "b20771699d9a891533b1ad218ac98b33a2853cf37d25103dc173eeb8550abcdf",
+  "components": [
+    {
+      "square": "A",
+      "host": [
+        "way/136396938"
+      ],
+      "photoRoot": [
+        -99.5903384672746,
+        10.169887680348197,
+        259.1187846464538
+      ],
+      "photoMatrix": [
+        0.9305824913781011,
+        0,
+        -0.36608226772206043,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0.36608226772206043,
+        0,
+        0.9305824913781011,
+        0,
+        -99.5903384672746,
+        10.169887680348197,
+        259.1187846464538,
+        1
+      ],
+      "bodyRoot": [
+        -93.06,
+        3.8698876803481967,
+        247.58
+      ],
+      "frontGrade": 10.169887680348197,
+      "frontEdge": [
+        [
+          -102.729,
+          -269.004
+        ],
+        [
+          -90.474,
+          -264.183
+        ]
+      ],
+      "proof": {
+        "clip": {
+          "changed_primitives": 18,
+          "net_removed_triangles": -3372
+        },
+        "boxes": [
+          {
+            "matrix": [
+              0.9305824913781011,
+              0,
+              -0.36608226772206043,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0.36608226772206043,
+              0,
+              0.9305824913781011,
+              0,
+              -99.5903384672746,
+              10.169887680348197,
+              259.1187846464538,
+              1
+            ],
+            "min": [
+              -6.65,
+              0,
+              7.5
+            ],
+            "max": [
+              6.65,
+              41.7,
+              8.5
+            ]
+          },
+          {
+            "matrix": [
+              0.9305824913781011,
+              0,
+              -0.36608226772206043,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0.36608226772206043,
+              0,
+              0.9305824913781011,
+              0,
+              -99.5903384672746,
+              10.169887680348197,
+              259.1187846464538,
+              1
+            ],
+            "min": [
+              -6.85,
+              0,
+              -10.5
+            ],
+            "max": [
+              -6.1,
+              41.7,
+              8.5
+            ]
+          }
+        ],
+        "footFit": {
+          "maximum_vertical_adjustment": 0.5262570012634952,
+          "changed_vertex_instances": 1714,
+          "fullHeight": 2.5,
+          "stopHeight": 5,
+          "upper_geometry_unchanged": true,
+          "strategy": "downward-only-preserve-buried-floor-heights",
+          "raiseBuriedGeometry": false,
+          "minimumVerticalJacobian": 1,
+          "upperUnchangedWorldY": 8.869887680348196
+        }
+      },
+      "inference": "3F road datum inferred at measured raised street; 1F body is6.3m below, upper crop dimensions preserved",
+      "full_building_complete": false
+    },
+    {
+      "square": "B",
+      "host": [
+        "way/129061828"
+      ],
+      "photoRoot": [
+        -76.726,
+        8.4,
+        219.60750000000002
+      ],
+      "photoMatrix": [
+        0.9224672214231384,
+        0,
+        -0.38607541413546975,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0.38607541413546975,
+        0,
+        0.9224672214231384,
+        0,
+        -76.726,
+        8.4,
+        219.60750000000002,
+        1
+      ],
+      "bodyRoot": [
+        -84.917,
+        2.6499999999999986,
+        217.532
+      ],
+      "frontGrade": 3.6506390949594874,
+      "frontEdge": [
+        [
+          -89.687,
+          -225.032
+        ],
+        [
+          -63.765,
+          -214.183
+        ]
+      ],
+      "proof": {
+        "clip": {
+          "changed_primitives": 14,
+          "net_removed_triangles": -767
+        },
+        "boxes": [
+          {
+            "matrix": [
+              0.9224672214231384,
+              0,
+              -0.38607541413546975,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0.38607541413546975,
+              0,
+              0.9224672214231384,
+              0,
+              -76.726,
+              8.4,
+              219.60750000000002,
+              1
+            ],
+            "min": [
+              -12.9,
+              0,
+              -0.65
+            ],
+            "max": [
+              12.9,
+              11.4,
+              0.65
+            ]
+          }
+        ],
+        "footFit": {
+          "maximum_vertical_adjustment": 2.3045924295874274,
+          "changed_vertex_instances": 2515,
+          "fullHeight": 2.5,
+          "stopHeight": 5,
+          "upper_geometry_unchanged": true
+        }
+      },
+      "inference": "Upper photo band top aligned to existing facade ledge at local-world19.8m; crop bottom8.4m, width preserved25.8m, lower candidate undated and may reflect later appearance",
+      "full_building_complete": false
+    }
+  ],
+  "uvSplit": {
+    "primitives": [
+      {
+        "material": "Original_procedural_gray_granite",
+        "beforeTriangles": 336,
+        "afterTriangles": 1712,
+        "areaBefore": 76.87167437548902,
+        "areaAfter": 76.87167437548935
+      }
+    ],
+    "addedTriangles": 1376,
+    "geometryMethod": "UV-space clipping only; original 3D planes and surface area preserved, no simplification"
+  },
+  "host_ids": [
+    "way/129061828"
+  ],
+  "visual_review": "PENDING"
+}

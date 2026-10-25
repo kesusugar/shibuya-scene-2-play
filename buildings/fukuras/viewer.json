@@ -1,0 +1,19 @@
+{
+  "groundElevationTP": 15,
+  "planBounds": [
+    -66.96099853515625,
+    -241.43243776878506,
+    6.708831310272217,
+    -168.1734619140625
+  ],
+  "sun": {
+    "azimuth_deg": 207,
+    "elevation_deg": 57
+  },
+  "d19_lower_components": {
+    "scope": "Historical west frontage, south2F entrance, southwest stair, inferred connecting deck/plinths",
+    "walkable": false,
+    "collision_added": false,
+    "ground_modified": false
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": "hachiko",
+  "status": "Complete original scan; station-facing yaw estimated from fixed landmarks/plaque, ground remeasured at 371 rim points",
+  "datum_tp_m": 15,
+  "source": {
+    "creator": "Maurice Svay",
+    "url": "https://sketchfab.com/3d-models/hachiko-fffee43c3cbc4b7ea20d6556a360b25f",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "source/scan-candidate/PROVENANCE.md and README.md"
+  },
+  "build_stats": {
+    "triangles": 85934,
+    "primitives": 1,
+    "anchor_tp": 15.38528848630522,
+    "max_burial_m": 0.07229273208674647
+  },
+  "runtime_texture": {
+    "original": [
+      4096,
+      4096
+    ],
+    "runtime": [
+      1536,
+      1536
+    ],
+    "filter": "Lanczos",
+    "jpeg_quality": 80,
+    "subsampling": "4:2:0",
+    "geometry_uv_normals_material_parameters_preserved": true
+  },
+  "placement": "source/data/scan-placement.json",
+  "legacy": "source/legacy; not served or loaded",
+  "files": {
+    "web/hachiko.glb": {
+      "bytes": 2911696,
+      "sha256": "0d68077edad1fc24858cdb9c42001439488728fc2e4779676ee3f0e3e821077e"
+    },
+    "README.md": {
+      "bytes": 4105,
+      "sha256": "87bd1bc22d1a1977ea7eb7665b91ce1c974d256985fb9dd35469c034a08938cf"
+    },
+    "source/data/scan-placement.json": {
+      "bytes": 100319,
+      "sha256": "508a5ec5894ce34016319a709305b2719e8284c3aad92202d63ebe0468db20cc"
+    },
+    "source/tools/build_scan_runtime.py": {
+      "bytes": 2290,
+      "sha256": "2d4c94ec956044f31010f929142f7374a858324e677b5f4094022b3b0ebb50ea"
+    },
+    "source/scan-candidate/model/hachiko_uploaded_scan_candidate_v001.glb": {
+      "bytes": 7719592,
+      "sha256": "cd20601d57308a1b50892c05d509a6295ca24ca2045cfd37421995a840bf039e"
+    },
+    "source/scan-candidate/model/transform.json": {
+      "bytes": 3504,
+      "sha256": "d4a9ed1a89b3038b2c7f8eca728585d5159de202a433f77b787fc6220d95fc8b"
+    },
+    "source/scan-candidate/PROVENANCE.md": {
+      "bytes": 2996,
+      "sha256": "0cadc69e0356df0658f101c61587f9d0304a8c5c27ad01e64bc531f0130e63fd"
+    },
+    "source/legacy/hachiko.glb": {
+      "bytes": 1540900,
+      "sha256": "370db19f30af6c4c3ab9d49ae910fa99e14643fc507630f90655cf6d220d0ae5"
+    },
+    "web/PROVENANCE.md": {
+      "bytes": 3706,
+      "sha256": "37639d81a0c6f5f5e85cfe885109441b707d4e143499ccb7d9ba11bfb1759783"
+    },
+    "source/scan-candidate/README.md": {
+      "bytes": 5706,
+      "sha256": "56a3346e35e8048b77eb6d433cc388bd42e2739ecc6986d482229176c5f7f2d2"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "planBounds": [
+    122.847,
+    109.186,
+    148.585,
+    116.742
+  ],
+  "groundElevationTP": 15,
+  "sun": {
+    "azimuth_deg": 207,
+    "elevation_deg": 57
+  }
+}

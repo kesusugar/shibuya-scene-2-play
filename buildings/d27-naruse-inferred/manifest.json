@@ -1,0 +1,17 @@
+{
+  "id": "d27-naruse-inferred",
+  "enabled": true,
+  "status": "Inferred Naruse partial shell and non-accessible grade-contact plinth, not observed building or district completion.",
+  "epoch": "undated inferred",
+  "sourceHost": "way/140482621",
+  "primitives": 13,
+  "triangles": 2048,
+  "bytes": 270812,
+  "sha256": "c4fcf71080a7299e5458870017c66789e96f83cf7634e7d72157fe2f5aabecce",
+  "sourceOriginalsRetained": true,
+  "hide_from_C_stage_shell": [],
+  "groundBaseY": -0.5274060854353457,
+  "accessibleEntrance": false,
+  "walkableInterior": false,
+  "wholeBuildingCompletionCredit": 0
+}

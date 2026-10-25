@@ -1,0 +1,12 @@
+{
+  "id": "d23-b3-canopy",
+  "enabled": false,
+  "status": "Local final QA and bounded palette visual review accepted; dependency publication pending. No complete-building or verified station-access claim.",
+  "collision": "Four inferred canopy columns plus exactly three original C receiver triangles restored as alpha-MASK collision carriers; no new walk surface.",
+  "whole_leaf_completion_credit": 0,
+  "primitives": 2,
+  "triangles": 88,
+  "bytes": 17972,
+  "sourceOriginalsRetained": true,
+  "hide_from_C_stage_shell": []
+}

@@ -1,0 +1,117 @@
+{
+  "asset": "d11-shu896",
+  "host_ids": [
+    "way/138670896"
+  ],
+  "base_commit": "2927a823f89480feed494328b8abb14c93cb83a5",
+  "datum_tp": 15,
+  "source_to_runtime": "(east,north,up) -> (east,up,-north), already applied once in supplied GLBs",
+  "models": [
+    {
+      "source": {
+        "path": "model/D11_Shu896_Coherent_Inferred_v001.glb",
+        "bytes": 1681776,
+        "sha256": "6e7d636bae5089e1fcb097f5a08f50f8b784c7941098b181f2d14843beb8c5a6"
+      },
+      "runtime": "d11-shu896.glb",
+      "matrix": [
+        -0.05174547212355745,
+        0.0,
+        -0.998660305666902,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.998660305666902,
+        0.0,
+        -0.05174547212355745,
+        0.0,
+        145.18200000000002,
+        0.75,
+        -182.49849999999998,
+        1.0
+      ],
+      "original_bin_preserved": true
+    }
+  ],
+  "source_frame": {
+    "status": "INFERRED_REVIEW_CANDIDATE_NOT_MEASURED",
+    "front_candidate": 10,
+    "origin_source": [
+      145.18200000000002,
+      182.49849999999998,
+      0.75
+    ],
+    "x_axis_source": [
+      -0.05174547212355745,
+      0.998660305666902,
+      0
+    ],
+    "y_axis_source": [
+      -0.998660305666902,
+      -0.05174547212355745,
+      0
+    ],
+    "z_axis_source": [
+      0,
+      0,
+      1
+    ],
+    "source_front_width_m": 14.648624679470757,
+    "source_ground_z": 0.75,
+    "source_roof_top_local": 28.75,
+    "source_recessed_roof_local": 24.401,
+    "upper_translation_z_option": 21.375,
+    "upper_scale": [
+      1,
+      1,
+      1
+    ],
+    "lower_translation_z": 0,
+    "lower_scale": [
+      1,
+      1,
+      1
+    ],
+    "middle_inferred_vertical_interval": [
+      4.25,
+      21.375
+    ],
+    "upper_lower_y_registration": "derive actual facade plane from original generators; do not center AABBs blindly",
+    "world_transform": null
+  },
+  "runtime_root_offset": 0,
+  "scale": [
+    1,
+    1,
+    1
+  ],
+  "grounding_status": "Local review: current ground measured; Shu lower +1.69m and middle trim inferred; shared integration acceptance pending",
+  "activation": "Integrated as one exclusive assembly; original source hosts excluded",
+  "source_archive": {
+    "local_path": "D11_SHU896_COHERENT_ENVELOPE_RUNTIME_20261019.zip",
+    "bytes": 362372,
+    "sha256": "8c9652b652abb28ed85426477ff8b7af3e66a0e4bfcb1bf806674c1b42c099e0",
+    "index_sha256_matches": true,
+    "zip_crc_ok": true,
+    "drive_name_size_verified_utc": "2026-10-19T14:49:57Z",
+    "drive_sha256_returned": false,
+    "glbs": [
+      {
+        "path": "model/D11_Shu896_Coherent_Inferred_v001.glb",
+        "bytes": 1681776,
+        "sha256": "6e7d636bae5089e1fcb097f5a08f50f8b784c7941098b181f2d14843beb8c5a6"
+      }
+    ]
+  },
+  "inference": "Four middle window bands/fins and centered/high-cut alignment inferred, not measured floor count or photo seam.",
+  "preservation": "All original input bytes remain in FULL inputs. Assembled GLB preserves vertex attributes/material JSON via lossless rebatch, not same bytes as component GLBs. Keep original lower/upper assets archived and inactive if assembled alternative is active.",
+  "d24_exact_reserve": {
+    "input_sha256": "8c157d23bf3a60f743e886ea816bbb47f40d5d327839655314042e3175877ac9",
+    "output_sha256": "91fa93efeef6c96643596989042f4ebd79e99960303df3cb1067130ec2964aed",
+    "draw_saving": 2,
+    "byte_saving": 888588,
+    "source": "../../districts/d24/reserve/source/d11-shu896.glb"
+  }
+}

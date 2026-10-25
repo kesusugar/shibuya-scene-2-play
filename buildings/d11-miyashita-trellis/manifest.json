@@ -1,0 +1,88 @@
+{
+  "id": "d11-miyashita-trellis",
+  "model": "d11-miyashita-trellis.glb",
+  "world_baked": true,
+  "placement": {
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "bounds": [
+    [
+      109.97632075807739,
+      18.01497256796249,
+      -390.3636355845974
+    ],
+    [
+      135.5451253639404,
+      25.11997258703598,
+      -329.62784615944963
+    ]
+  ],
+  "center": [
+    122.75628871907833,
+    21.6159630432524,
+    -359.9218177887217
+  ],
+  "bytes": 1480172,
+  "primitives": 1,
+  "triangles": 69312,
+  "sha256": "09e248ef29dbff33dc1aaf02b8d2f35b6fadc558eaee517a4fac9b0418a31f76",
+  "inference": "NEWLY_INFERRED_CONSERVATIVE_ROOF_MOUNT",
+  "source_parent_already_applied": {
+    "matrix_column_major": [
+      0.9998580596104948,
+      0.0,
+      0.016848164052392513,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      -0.016848164052392513,
+      0.0,
+      0.9998580596104948,
+      0.0,
+      122.25184579825492,
+      18.014972567962495,
+      -330.0,
+      1.0
+    ],
+    "status": "NEWLY_INFERRED_CONSERVATIVE_ROOF_MOUNT",
+    "not_exact_restoration": true,
+    "basis": "First rib at north330m, centered on NORTH footprint midline; +Y toward hotel, span24m unchanged; roof datum rederived."
+  },
+  "do_not_apply_source_parent_again": true,
+  "parser": "NodeIO+MeshoptDecoder roundtrip PASS; browser/Three visual integration still root-owned",
+  "geometry_validation": {
+    "id": "d11-miyashita-trellis",
+    "triangles": 69312,
+    "bidirectional_max_vertex_distance_m": 3.552713678800501e-15,
+    "bidirectional_max_triangle_centroid_distance_m": 1.2710574864626038e-13,
+    "triangle_count_equal": true,
+    "pass": true
+  },
+  "planBounds": [
+    109.97632075807739,
+    329.62784615944963,
+    135.5451253639404,
+    390.3636355845974
+  ],
+  "sun": {
+    "azimuth_deg": 207,
+    "elevation_deg": 57
+  },
+  "groundElevationTP": 15
+}

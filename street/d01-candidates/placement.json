@@ -1,0 +1,100 @@
+{
+  "status": "T-A/E-A normal estimated assembly; A photo ordering unresolved; T-B comparison only",
+  "units": "metres, Three XYZ; Y = TP - 15",
+  "assembly": {
+    "position": [
+      7.4,
+      0.4009,
+      45.5
+    ],
+    "yaw_deg": -168.85,
+    "scale": 1
+  },
+  "tree_soil_offset_y": 0.92,
+  "roadside": {
+    "g01": {
+      "position": [
+        29.901652332275727,
+        -0.079,
+        16.0856664201462
+      ],
+      "yaw_deg": 171.9,
+      "scale": 1,
+      "osm_id": "node/8007279073"
+    },
+    "g02": {
+      "position": [
+        41.85869540320028,
+        -0.189,
+        17.755458781784345
+      ],
+      "yaw_deg": 143.33,
+      "scale": 1,
+      "osm_id": "node/8007279074"
+    }
+  },
+  "basis": {
+    "positions": "Existing R and OSM G01/G02 anchors retained, not fitted to photo pixels. A statue/tree ordering remains unresolved.",
+    "yaw": "Reference-facing -Z points toward saved A/B camera in plan; estimated orientation, not surveyed.",
+    "soil": "E-A authoring soil_tree_attachment is 0.92m above its ground origin; tree root attaches there within the shared assembly, not to pavement.",
+    "scale": "Author delivery dimensions retained uniformly. No nonuniform fit.",
+    "ground": "Runtime fit of lowest 0.18m only; 64 perimeter + centre ground probes and 32 independent stone-ring checks. Rails, coping, soil and upright tree unchanged. Local enclosure collision replaces old rectangle/tree collision."
+  },
+  "restoration": {
+    "url": "?d01=off",
+    "baseline_commit": "e67d4ae34ce1d43300011b975e89e2c4b98d11f8",
+    "assembly": {
+      "position": [
+        7.4,
+        0.4009,
+        45.5
+      ],
+      "yaw_deg": -168.85,
+      "scale": 1
+    },
+    "old_tree": "/street/hachiko-rear-tree/hachiko-rear-tree.glb",
+    "old_enclosure": "/street/hachiko-fit/enclosure.glb"
+  },
+  "trials": [
+    {
+      "id": "a-east",
+      "position": [
+        16,
+        0.4,
+        45.5
+      ],
+      "decision": "rejected: 8.6m east shift nearly aligns tree and statue in saved A, but no evidence for this large relocation; C places circle in open circulation area"
+    },
+    {
+      "id": "a-ne",
+      "position": [
+        16,
+        0.4,
+        43
+      ],
+      "decision": "rejected: 8.96m relocation still leaves tree left of statue in saved A; cannot resolve static camera/object contradiction"
+    },
+    {
+      "id": "b-wide",
+      "target": "g01",
+      "scale": 1.2,
+      "decision": "candidate only: projected width increases, open branch gaps persist"
+    },
+    {
+      "id": "b-turn",
+      "target": "g01",
+      "yaw_deg": 261.9,
+      "decision": "rejected: narrower projected crown"
+    },
+    {
+      "id": "b-near",
+      "target": "g01",
+      "position": [
+        29.901652332275727,
+        -0.079,
+        17.0856664201462
+      ],
+      "decision": "candidate trial only: one metre toward camera; does not establish trunk identity"
+    }
+  ]
+}

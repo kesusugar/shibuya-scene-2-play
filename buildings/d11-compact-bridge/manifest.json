@@ -1,0 +1,51 @@
+{
+  "asset": "d11-compact-bridge",
+  "host_ids": [
+    "brid/brid_32c694b5-5723-4a50-a9a9-87b6b64cedb8"
+  ],
+  "datum_tp": 15,
+  "models": [
+    {
+      "runtime": "d11-compact-bridge.glb",
+      "source": "source/public-host.json",
+      "stats": {
+        "bytes": 38988,
+        "primitives": 3,
+        "triangles": 507
+      }
+    }
+  ],
+  "independent_regeneration": {
+    "input": "source/public-host.json",
+    "input_sha256": "13ccce75e1c14cd3497d465f239c9cf4108a95103e045c1341f7fdbb356042fc",
+    "runtime": "d11-compact-bridge.glb",
+    "runtime_sha256": "30a9cb8b66c8042a258616570c05e6baa5f2c138105cbf7327fc282da7ade802",
+    "bytes": 38988,
+    "primitives": 3,
+    "triangles": 507,
+    "source_faces": 507,
+    "source_faces_accounted": 507,
+    "source_faces_removed": 0,
+    "private_inputs_used": false,
+    "coordinate_mapping": "Public [east,north,TP-15] => glTF [east,TP-15,-north]; local recenter plus root translation only",
+    "runtime_bounds_source_axes": [
+      [
+        132.69300022888183,
+        199.40700090026854,
+        -0.4760000839233398
+      ],
+      [
+        171.54799977111816,
+        232.69499909973143,
+        7.673000083923339
+      ]
+    ],
+    "maximum_vertex_error_m": 1.1939514667724244e-06,
+    "preserves_source_elevations": true,
+    "terrain_snap_or_scale": false,
+    "duplicate_source_triangles": "Preserved as supplied, none removed",
+    "publication_or_license_approval_claimed": false
+  },
+  "support_policy": "Existing support remains separate and unchanged where present; never combined into source-derived geometry.",
+  "status": "Local regenerated candidate only; licensing review and integrated validation remain parent-owned."
+}

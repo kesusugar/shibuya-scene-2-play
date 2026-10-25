@@ -1,0 +1,118 @@
+{
+  "id": "d16-umehara-composite",
+  "host": "way/136587729",
+  "world_baked": true,
+  "model": "d16-umehara-composite.glb",
+  "placement": {
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "planBounds": [
+    -243.0854913293797,
+    -80.12259357590828,
+    -226.0864709330966,
+    -59.79621638302258
+  ],
+  "bounds": [
+    [
+      -243.0854913293797,
+      5.664846330751904,
+      59.79621638302258
+    ],
+    [
+      -226.0864709330966,
+      41.883001251220705,
+      80.12259357590828
+    ]
+  ],
+  "groundElevationTP": 15,
+  "sun": {
+    "azimuth_deg": 207,
+    "elevation_deg": 57
+  },
+  "bytes": 266748,
+  "primitives": 3,
+  "triangles": 11637,
+  "sha256": "89a8338cf23667c36cd694a0cf76de7ef8b2c4412c0a03ba7cb9f40215552d42",
+  "ground_anchor": 6.814996749033459,
+  "inference": "Source facade, candidate host face and world carrier alignment inferred; original dimensions preserved, dated state and absolute fit not surveyed.",
+  "component_transforms": [
+    {
+      "source": "d16-intake/dot-extracted/18PDgsCXKOaWHuMA0AeyUrqAWGMQuKq93/model/D16_Umehara_Marugame_ObservedFrontSide_CaptureUnknown_v001_RUNTIME_B.glb",
+      "matrix": [
+        -0.8948677948848256,
+        0,
+        0.44633130035655116,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -0.44633130035655116,
+        0,
+        -0.8948677948848256,
+        0,
+        -235.1289694831635,
+        6.814996749033459,
+        70.1295687451609,
+        1
+      ],
+      "footFit": {
+        "maximum_vertical_adjustment": 1.1501504123234554,
+        "changed_vertex_instances": 822,
+        "fullHeight": 0,
+        "stopHeight": 0.8,
+        "upper_geometry_unchanged": true
+      }
+    },
+    {
+      "source": "d16-intake/extracted/D16_Umehara_EastUpper_Penthouse_Inferred_Undated_v001/runtime/D16_Umehara_EastUpper_Penthouse_Inferred_Undated_v001_B.glb",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -233.22728571428556,
+        5.295000000000002,
+        68.73062585034016,
+        1
+      ],
+      "footFit": {
+        "maximum_vertical_adjustment": 0,
+        "changed_vertex_instances": 0,
+        "fullHeight": 2.5,
+        "stopHeight": 5,
+        "upper_geometry_unchanged": true
+      }
+    }
+  ],
+  "remainder_clip_reports": [
+    {
+      "changed_primitives": 2,
+      "net_removed_triangles": -16
+    }
+  ],
+  "visual_review": "REVIEWED_IN_DISTRICT_CAPTURE_WITH_INFERRED_GEOMETRY_AND_DATE_LIMITATIONS",
+  "evidence": "evidence/dot-d16/after-corrected"
+}

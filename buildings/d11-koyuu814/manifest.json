@@ -1,0 +1,44 @@
+{
+  "id": "d11-koyuu814",
+  "host_ids": [
+    "way/120105814"
+  ],
+  "target_runtime_relative": "assets/buildings/d11-koyuu814/web/d11-koyuu814.glb",
+  "target_viewer_relative": "assets/buildings/d11-koyuu814/web/viewer.json",
+  "runtime_parent_matrix": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "source_frame_already_baked": true,
+  "ground_raise_already_baked": true,
+  "context_action": "Root only: exact source triangle matching from qa/source_footprint_correspondence.json; no bounding-box removal.",
+  "grounding": "CURRENT_GROUND_VERTEX_PROBES_PASS_RIGID_CANDIDATE",
+  "stats": {
+    "id": "d11-koyuu814",
+    "preserved_source_triangles": 12183,
+    "matched_source_triangles": 12183,
+    "unmatched": 0,
+    "unused": 0,
+    "max_world_vertex_error_m": 1.936843498264637e-06,
+    "preserved_winding": true,
+    "added_support_triangles": 0,
+    "final_primitives": 3,
+    "final_triangles": 12183,
+    "bytes": 651596,
+    "sha256": "c8258a9b151b70edeed674be20920bb0fe9a40586dfb99684062bf88d2c249be"
+  }
+}

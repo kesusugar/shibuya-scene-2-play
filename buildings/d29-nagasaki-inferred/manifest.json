@@ -1,0 +1,17 @@
+{
+  "id": "d29-nagasaki-inferred",
+  "enabled": true,
+  "status": "Undated inferred Nagasaki-source way/136730024 partial shell and non-accessible grade-contact plinth; not observed building or district completion.",
+  "epoch": "undated inferred",
+  "sourceHost": "way/136730024",
+  "primitives": 13,
+  "triangles": 1090,
+  "bytes": 137700,
+  "sha256": "95cfffb32eb49562c0f6cd6967da8436b2fb216a7b8e14db52e839eb28cafcd1",
+  "sourceOriginalsRetained": true,
+  "hide_from_C_stage_shell": [],
+  "groundBaseY": 2.624031434167649,
+  "accessibleEntrance": false,
+  "walkableInterior": false,
+  "wholeBuildingCompletionCredit": 0
+}

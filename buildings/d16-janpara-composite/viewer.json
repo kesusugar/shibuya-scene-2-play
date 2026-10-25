@@ -1,0 +1,112 @@
+{
+  "id": "d16-janpara-composite",
+  "host": "way/136587790",
+  "world_baked": true,
+  "model": "d16-janpara-composite.glb",
+  "placement": {
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "planBounds": [
+    -233.39613617183986,
+    -61.781074222761504,
+    -229.5405758749354,
+    -59.54237069158255
+  ],
+  "bounds": [
+    [
+      -233.39613617183986,
+      6.801764132075716,
+      59.54237069158255
+    ],
+    [
+      -229.5405758749354,
+      25.076764666133332,
+      61.781074222761504
+    ]
+  ],
+  "groundElevationTP": 15,
+  "sun": {
+    "azimuth_deg": 207,
+    "elevation_deg": 57
+  },
+  "bytes": 250388,
+  "primitives": 4,
+  "triangles": 11612,
+  "sha256": "2c54f63ef04087c095d2c145cdbd7d416b4a939d1fe90e32c164342da2b2e15a",
+  "ground_anchor": 6.261764132075716,
+  "inference": "Source facade, candidate host face and world carrier alignment inferred; original dimensions preserved, dated state and absolute fit not surveyed. Photo crop bottom inferred at0.54m above measured frontage grade to meet the upper module at3.08m; no photographed threshold claimed.",
+  "component_transforms": [
+    {
+      "source": "d16-intake/dot-extracted/1B9yjdUsLF13DyXKgdQXb15uRxs6utOHP/runtime/D16_JanparaShibuyaDogenzaka_ObservedCrop_ShallowElectronics_Undated_v001.glb",
+      "matrix": [
+        -0.8955916714827509,
+        0,
+        0.44487701443290184,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -0.44487701443290184,
+        0,
+        -0.8955916714827509,
+        0,
+        -231.475,
+        6.801764132075716,
+        60.6785,
+        1
+      ],
+      "footFit": null
+    },
+    {
+      "source": "d16-intake/extracted/D16_KoshinBldg_UpperFront_Inferred_Undated_v001/runtime/D16_KoshinBldg_UpperFront_Inferred_Undated_v001_B.glb",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -228.7663692307693,
+        6.261764132075716,
+        66.0321076923077,
+        1
+      ],
+      "footFit": {
+        "maximum_vertical_adjustment": 0.24724331067118754,
+        "changed_vertex_instances": 228,
+        "fullHeight": 2.5,
+        "stopHeight": 5,
+        "upper_geometry_unchanged": true
+      }
+    }
+  ],
+  "remainder_clip_reports": [
+    {
+      "changed_primitives": 2,
+      "net_removed_triangles": -42
+    }
+  ],
+  "visual_review": "REVIEWED_IN_DISTRICT_CAPTURE_WITH_INFERRED_GEOMETRY_AND_DATE_LIMITATIONS",
+  "evidence": "evidence/dot-d16/after-corrected"
+}

@@ -1,0 +1,58 @@
+{
+  "asset": "d11-tower-records",
+  "host_reference": null,
+  "models": [
+    {
+      "source": "TowerRecords_v003_original.glb",
+      "source_sha256": "183fa45147297128a3c08e56a1b0fad4df373d568a3216d94c3084334298738b",
+      "runtime": "d11-tower-records.glb",
+      "matrix": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        47.8445,
+        2.2881862708,
+        -274.108,
+        1
+      ],
+      "binary_preserved": true
+    },
+    {
+      "source": "TowerRecords_PracticalRoof_Inferred_v001.glb",
+      "source_sha256": "8c2f16ec4d8def57d8967c58370f7094b7503caa7500a3e17000e3cc1822c147",
+      "runtime": "TowerRecords_PracticalRoof_Inferred_v001.glb",
+      "matrix": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        47.8445,
+        2.2881862708,
+        -274.108,
+        1
+      ],
+      "binary_preserved": true
+    }
+  ],
+  "status": "staged_not_visually_verified",
+  "basis": "Historical inferred production placement, scale1; rejected source overlay scale is not used. Needs current visual/ground review.",
+  "height_correction": "historical_inferred_correction_pending_current_ground_check",
+  "private_source_origin": "Originals remain privately archived; source copies are geometry-only runtime inputs."
+}

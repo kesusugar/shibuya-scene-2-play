@@ -1,0 +1,58 @@
+{
+  "id": "d12-eiraku-window-cassette-frames",
+  "model": "d12-eiraku-window-cassette-frames.glb",
+  "world_baked": true,
+  "placement": {
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "planBounds": [
+    45.35086441040039,
+    9.285463333129883,
+    50.10970687866211,
+    27.035627365112305
+  ],
+  "bounds": [
+    [
+      45.35086441040039,
+      5.836999828338623,
+      -27.035627365112305
+    ],
+    [
+      50.10970687866211,
+      32.886999542236325,
+      -9.285463333129883
+    ]
+  ],
+  "groundElevationTP": 15,
+  "sun": {
+    "azimuth_deg": 207,
+    "elevation_deg": 57
+  },
+  "bytes": 103736,
+  "primitives": 1,
+  "triangles": 4744,
+  "sha256": "3f66775c3dd25260893981798685622588eee54d77e931a572acad548c848e30",
+  "inference": "SOURCE_HOST_FRAME_SHARED_WITH_MAGNET_EIRAKU",
+  "source_root_translation": [
+    0,
+    -0.093,
+    0
+  ],
+  "visual_review": "REVIEWED_IN_13_VIEW_DISTRICT_CAPTURE_NOT_PHOTOMETRIC_CERTIFICATION",
+  "review_evidence": "evidence/dot-d12/after-verified",
+  "provenance_index": "assets/districts/d12/source/provenance/INDEX.json"
+}

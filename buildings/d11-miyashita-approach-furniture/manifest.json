@@ -1,0 +1,98 @@
+{
+  "id": "d11-miyashita-approach-furniture",
+  "model": "d11-miyashita-approach-furniture.glb",
+  "world_baked": true,
+  "placement": {
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "bounds": [
+    [
+      87.51262565603992,
+      0.49062345221363046,
+      -83.0225663096898
+    ],
+    [
+      104.83675212893274,
+      2.0345276375087353,
+      -81.95362722835031
+    ]
+  ],
+  "center": [
+    96.17468889248633,
+    1.2625755448611828,
+    -82.48809676902005
+  ],
+  "bytes": 2369392,
+  "primitives": 1,
+  "triangles": 62280,
+  "sha256": "40b3eaf31be3b9a740c5d8fb098c52a5fe860beee6f5fce815ed14cc8becc58a",
+  "inference": "NEWLY_INFERRED_GROUND_SIDE_NOT_PHOTO_EXACT",
+  "source_parent_already_applied": {
+    "translation": [
+      0,
+      0,
+      0
+    ],
+    "status": "REPLACED_OCCLUDED_UPPER_MOUNT",
+    "not_exact_restoration": true
+  },
+  "do_not_apply_source_parent_again": true,
+  "parser": "NodeIO+MeshoptDecoder roundtrip PASS; browser/Three visual integration still root-owned",
+  "planBounds": [
+    87.51262565603992,
+    81.95362722835031,
+    104.83675212893274,
+    83.0225663096898
+  ],
+  "sun": {
+    "azimuth_deg": 207,
+    "elevation_deg": 57
+  },
+  "groundElevationTP": 15,
+  "groundSideMounts": [
+    {
+      "file": "white_planter_row_meshopt.glb",
+      "east": 89,
+      "north": 82.5,
+      "verticalTranslation": 0.49062345221363046,
+      "groundSamples": 184,
+      "status": "NEWLY_INFERRED_GROUND_SIDE_NOT_PHOTO_EXACT"
+    },
+    {
+      "file": "miyashita_cycle_push_portable_sign.glb",
+      "east": 104.5,
+      "north": 82.8,
+      "verticalTranslation": 0.954527691058293,
+      "groundSamples": 220,
+      "status": "NEWLY_INFERRED_GROUND_SIDE_NOT_PHOTO_EXACT"
+    }
+  ],
+  "historical_geometry_validation": {
+    "id": "d11-miyashita-approach-furniture",
+    "triangles": 62280,
+    "bidirectional_max_vertex_distance_m": 8.713270677304584e-07,
+    "bidirectional_max_triangle_centroid_distance_m": 8.559294939191039e-07,
+    "triangle_count_equal": true,
+    "pass": true
+  },
+  "geometry_validation": {
+    "triangle_count": 62280,
+    "original_components_unchanged": true,
+    "new_mount_roundtrip": "PASS",
+    "visual_review": "PASS: after-final-mounts/furniture.png"
+  }
+}

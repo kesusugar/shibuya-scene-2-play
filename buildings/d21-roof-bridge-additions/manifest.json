@@ -1,0 +1,368 @@
+{
+  "id": "d21-roof-bridge-additions-three",
+  "model": "d21-roof-bridge-additions.glb",
+  "enabled": true,
+  "status": "REGISTERED VISUAL-ONLY; bounded composed QA complete; see evidence/dot-d21/REVIEW.md",
+  "world_baked": true,
+  "groundElevationTP": 15,
+  "primitives": 2,
+  "triangles": 4491,
+  "bounds": {
+    "min": [
+      43.39751434326172,
+      10.399999618530273,
+      58.7122802734375
+    ],
+    "max": [
+      224.6249542236328,
+      230.4969940185547,
+      175.68467712402344
+    ]
+  },
+  "bytes": 316128,
+  "sha256": "56dad7b6c93217b824e98b669fc52f1d67e0dd01590bb7789b81eb527a942f0f",
+  "host_ids": [
+    "brid/brid_0e0c081e-d376-4692-91c7-a3c866c1e46e",
+    "way/760664437",
+    "way/617560918",
+    "plateau/bldg_d7fb4726-719f-47a1-a94f-4d0a1e89a2e0"
+  ],
+  "hide_from_C_stage_shell": [],
+  "visual_only": true,
+  "collision_role": "No new solid building collision; preserve existing host solids",
+  "components": [
+    {
+      "asset": "D21_bridge_brid0e0c_edge_Undated_v001",
+      "source_id": "brid/brid_0e0c081e-d376-4692-91c7-a3c866c1e46e",
+      "host_ids": [
+        "brid/brid_0e0c081e-d376-4692-91c7-a3c866c1e46e",
+        "way/760664437"
+      ],
+      "source_sha256": "fa8bd5727ccc901a2039b205ea04567b5212d27b48899a21f16acec5b7139167",
+      "root": [
+        198.75,
+        0.3800000000000008,
+        75.61
+      ],
+      "source_base_tp": 15.38,
+      "yaw_radians": 0,
+      "baseSource": "Explicit source baseTP minus15 once, matched to identified host upper surface, no terrain fit",
+      "footFit": {
+        "applied": false,
+        "reason": "Additive host surface datum; never terrain fitted"
+      },
+      "terrainSamples": [],
+      "materialSemantics": [
+        {
+          "name": "clear",
+          "lookClass": "wall",
+          "base": [
+            0.550000011920929,
+            0.6200000047683716,
+            0.6499999761581421,
+            0.2800000011920929
+          ],
+          "metallic": 0.20000000298023224,
+          "roughness": 0.05000000074505806,
+          "emissive": [
+            0,
+            0,
+            0
+          ],
+          "alphaMode": "BLEND",
+          "doubleSided": true,
+          "extensions": []
+        },
+        {
+          "name": "steel",
+          "lookClass": "wall",
+          "base": [
+            0.30000001192092896,
+            0.3100000023841858,
+            0.33000001311302185,
+            1
+          ],
+          "metallic": 0.5,
+          "roughness": 0.4000000059604645,
+          "emissive": [
+            0,
+            0,
+            0
+          ],
+          "alphaMode": "OPAQUE",
+          "doubleSided": true,
+          "extensions": []
+        },
+        {
+          "name": "concrete",
+          "lookClass": "wall",
+          "base": [
+            0.6200000047683716,
+            0.6200000047683716,
+            0.6000000238418579,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 0.800000011920929,
+          "emissive": [
+            0,
+            0,
+            0
+          ],
+          "alphaMode": "OPAQUE",
+          "doubleSided": true,
+          "extensions": []
+        },
+        {
+          "name": "white",
+          "lookClass": "wall",
+          "base": [
+            0.8799999952316284,
+            0.8799999952316284,
+            0.8600000143051147,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 0.800000011920929,
+          "emissive": [
+            0,
+            0,
+            0
+          ],
+          "alphaMode": "OPAQUE",
+          "doubleSided": true,
+          "extensions": []
+        }
+      ],
+      "primitives": 4,
+      "triangles": 1220,
+      "bounds": {
+        "min": [
+          172.49608421325684,
+          13.131000404357911,
+          58.71227966308594
+        ],
+        "max": [
+          224.6249485015869,
+          16.918000106811526,
+          92.49604354858398
+        ]
+      }
+    },
+    {
+      "asset": "D21_scramblesq_rooftop_fence_Undated_v001",
+      "source_id": "way/617560918",
+      "host_ids": [
+        "way/617560918"
+      ],
+      "source_sha256": "789837500b1ab31ff3009af66cfd4b0fef979076ee6b1d286aa3453b9d58e9a9",
+      "root": [
+        0,
+        0,
+        0
+      ],
+      "source_base_tp": null,
+      "yaw_radians": 0,
+      "baseSource": "Already WORLD baked and height at228.637; identity translation, no TP subtraction",
+      "footFit": {
+        "applied": false,
+        "reason": "Additive host surface datum; never terrain fitted"
+      },
+      "terrainSamples": [],
+      "materialSemantics": [
+        {
+          "name": "clear",
+          "lookClass": "wall",
+          "base": [
+            0.550000011920929,
+            0.6200000047683716,
+            0.6499999761581421,
+            0.2800000011920929
+          ],
+          "metallic": 0.20000000298023224,
+          "roughness": 0.05000000074505806,
+          "emissive": [
+            0,
+            0,
+            0
+          ],
+          "alphaMode": "BLEND",
+          "doubleSided": true,
+          "extensions": []
+        },
+        {
+          "name": "steel",
+          "lookClass": "wall",
+          "base": [
+            0.30000001192092896,
+            0.3100000023841858,
+            0.33000001311302185,
+            1
+          ],
+          "metallic": 0.5,
+          "roughness": 0.4000000059604645,
+          "emissive": [
+            0,
+            0,
+            0
+          ],
+          "alphaMode": "OPAQUE",
+          "doubleSided": true,
+          "extensions": []
+        },
+        {
+          "name": "concrete",
+          "lookClass": "wall",
+          "base": [
+            0.6200000047683716,
+            0.6200000047683716,
+            0.6000000238418579,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 0.800000011920929,
+          "emissive": [
+            0,
+            0,
+            0
+          ],
+          "alphaMode": "OPAQUE",
+          "doubleSided": true,
+          "extensions": []
+        },
+        {
+          "name": "deck",
+          "lookClass": "wall",
+          "base": [
+            0.550000011920929,
+            0.550000011920929,
+            0.5299999713897705,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 0.800000011920929,
+          "emissive": [
+            0,
+            0,
+            0
+          ],
+          "alphaMode": "OPAQUE",
+          "doubleSided": true,
+          "extensions": []
+        }
+      ],
+      "primitives": 4,
+      "triangles": 1231,
+      "bounds": {
+        "min": [
+          143.90097045898438,
+          228.63699340820312,
+          100.72303771972656
+        ],
+        "max": [
+          176.81777954101562,
+          230.4969940185547,
+          143.06634521484375
+        ]
+      }
+    },
+    {
+      "asset": "D21_station_southeast_roofedge_Undated_v001",
+      "source_id": "plateau/bldg_d7fb4726-719f-47a1-a94f-4d0a1e89a2e0",
+      "host_ids": [
+        "plateau/bldg_d7fb4726-719f-47a1-a94f-4d0a1e89a2e0"
+      ],
+      "source_sha256": "3f171412dbec7ea9be91af4c3663c6d1012c92a0b378df79c1d0d311994115a2",
+      "root": [
+        127,
+        -0.3800000000000008,
+        158.7
+      ],
+      "source_base_tp": 14.62,
+      "yaw_radians": 0,
+      "baseSource": "Explicit source baseTP minus15 once, matched to identified host upper surface, no terrain fit",
+      "footFit": {
+        "applied": false,
+        "reason": "Additive host surface datum; never terrain fitted"
+      },
+      "terrainSamples": [],
+      "materialSemantics": [
+        {
+          "name": "concrete",
+          "lookClass": "wall",
+          "base": [
+            0.6200000047683716,
+            0.6200000047683716,
+            0.6000000238418579,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 0.800000011920929,
+          "emissive": [
+            0,
+            0,
+            0
+          ],
+          "alphaMode": "OPAQUE",
+          "doubleSided": true,
+          "extensions": []
+        },
+        {
+          "name": "steel",
+          "lookClass": "wall",
+          "base": [
+            0.30000001192092896,
+            0.3100000023841858,
+            0.33000001311302185,
+            1
+          ],
+          "metallic": 0.5,
+          "roughness": 0.4000000059604645,
+          "emissive": [
+            0,
+            0,
+            0
+          ],
+          "alphaMode": "OPAQUE",
+          "doubleSided": true,
+          "extensions": []
+        }
+      ],
+      "primitives": 2,
+      "triangles": 2040,
+      "bounds": {
+        "min": [
+          43.39751434326172,
+          10.39999973297119,
+          75.8361846923828
+        ],
+        "max": [
+          143.04986763000488,
+          23.849000091552732,
+          175.68467445373534
+        ]
+      }
+    }
+  ],
+  "sourceTriangles": 4491,
+  "sourcePrimitives": 10,
+  "budget": {
+    "bytes": 3000000,
+    "primitives": 40,
+    "triangles": 120000
+  },
+  "protected": [
+    "QFRONT",
+    "Seibu Shibuya",
+    "walking",
+    "FPS",
+    "D01",
+    "Elevator21",
+    "B7",
+    "C3",
+    "existing roof/bridge host geometry"
+  ],
+  "visual_review": "APPROVED bounded 2026-10-20 review; 4 neighborhood hosts and 3 separate additions only. Five neighborhood candidates deferred; e340 facade occluded. See hash-linked final28 captures and actual-host audit.",
+  "bridge_surface_fit_evidence": "evidence/bridge-fit.json",
+  "limitations": "Bridge-only vertical section translation max1.127m and triangle edge length change up to0.4464%; host geometry unchanged. Not surveyed; no new walkable surface. Deck/Ginza excluded."
+}

@@ -1,0 +1,325 @@
+{
+  "id": "fukuras",
+  "source_id": "way/55588118",
+  "level": "B",
+  "status": "D19 bounded historical lower-entry integration; source/atlas Three comparison passed; closer west/final district review pending; not whole-building completion",
+  "stats": {
+    "bytes": 976204,
+    "primitives": 18,
+    "triangles": 32855
+  },
+  "generator": "assets/buildings/fukuras/source/d19-placement/source/build-combined.mjs",
+  "files": {
+    "README.md": {
+      "bytes": 5658,
+      "sha256": "08a2c08824d356bcdc34953e1545409514c18a5d289858296a7b842f88ac18fc"
+    },
+    "SOURCE_NOTES.md": {
+      "bytes": 1095,
+      "sha256": "b5b305dbc1fa5de6d75de089282eb2cf0437bc5ed054b36bef0161977bea2993"
+    },
+    "evidence/tessellation-v4/cameras.json": {
+      "bytes": 638,
+      "sha256": "5b45aaa258e343045fe3390bbbdbce25ea43f450910ec6eee05905df40f32492"
+    },
+    "evidence/tessellation-v4/check-editable.py": {
+      "bytes": 2115,
+      "sha256": "78aa711cbd85a228eddf1e3a16a5a93a602bcf22baf7619ee6bcc633eaf21138"
+    },
+    "evidence/tessellation-v4/editable-parity.json": {
+      "bytes": 6638,
+      "sha256": "a26ae07a228c583a24ee3636e84c7bdd4c0d9a982918bafc5a5e03d865451705"
+    },
+    "evidence/tessellation-v4/focused-tests.txt": {
+      "bytes": 723,
+      "sha256": "5960683658af1bd9e52b63f05e76d01937402335d1da907befb4294e1e2d0cd1"
+    },
+    "evidence/tessellation-v4/main-before-after.jpg": {
+      "bytes": 252341,
+      "sha256": "988f7c8552fc0c33108ad0152c9ba5d32ae5832f43b9358540cd370371aeb6e4"
+    },
+    "evidence/tessellation-v4/regeneration.json": {
+      "bytes": 1461,
+      "sha256": "abe1fa51f0234e0bb9e57ecb946dcb3e49ee26ac001bc3295cd58e83932e9e33"
+    },
+    "evidence/tessellation-v4/render-comparison.py": {
+      "bytes": 2641,
+      "sha256": "3a0a4a6f79a581b0068d22906b7bc2ee03e66a4f91a2c0c30727f5c50ce5c2ee"
+    },
+    "evidence/tessellation-v4/validation.json": {
+      "bytes": 1156,
+      "sha256": "bc8ba3e4f38a0fdd1f4538dd67b13a8bac1e96883b7372ff107223ca682cab69"
+    },
+    "source/blender/build.py": {
+      "bytes": 23980,
+      "sha256": "fcdaa7815c3ce265ac2af2f277013221e8cd4a37876295d8ab7f34a78e3bff52"
+    },
+    "source/blender/fukuras.blend": {
+      "bytes": 1941712,
+      "sha256": "047236c2fdad7db96ed4e35ecf02c88b993cfc233a1c3770f6960af94fe23bc5"
+    },
+    "source/d19-placement/generated/atlas-report.json": {
+      "bytes": 32045,
+      "sha256": "04a54b8314cc38cbff67d57d8ddf726dfc17d79855f93c27b0cad510a5c12cf4"
+    },
+    "source/d19-placement/generated/combined-off-target-proof.json": {
+      "bytes": 249,
+      "sha256": "704450d74d2d52ee930ca4fa470d7a7710a2dfc19102b468c58df9dc6731a61f"
+    },
+    "source/d19-placement/generated/combined-report.json": {
+      "bytes": 478,
+      "sha256": "df8c7e3f1f5d918551dd2d1451706338c96d12551d1be4a886ce8a4ed4c11c4b"
+    },
+    "source/d19-placement/generated/off-target-proof.json": {
+      "bytes": 249,
+      "sha256": "5bba41fcac08a84292e4ba19f2653dd25d701538b5a5c801f681b5bce7c3fb1a"
+    },
+    "source/d19-placement/generated/patch-proof.json": {
+      "bytes": 18527,
+      "sha256": "bd73c94f0b29984ab10b18b86a5ab3ef9affe667747976027e605f5d74435b7b"
+    },
+    "source/d19-placement/generated/viewer.json": {
+      "bytes": 2753,
+      "sha256": "28d5634ba56525e6edc7aa0af93e56c258c0a49e02729618b18d9902cd96592b"
+    },
+    "source/d19-placement/original-pbr-comparison.glb": {
+      "bytes": 1171484,
+      "sha256": "e77d8bf6251b66d9ecb795de1cb6b422f0f3c5f445fdff8f054dd04acab09462"
+    },
+    "source/d19-placement/runtime-meta.json": {
+      "bytes": 12237,
+      "sha256": "5ac874ad8fce302d435d0935d01f1b9b8202734cfe768df220af74ff928be861"
+    },
+    "source/d19-placement/source/atlas.mjs": {
+      "bytes": 4538,
+      "sha256": "ede1854a9f47f51a761c478154fb51872f6cbb2fa72a0224a9ec8bc8a7bf5af1"
+    },
+    "source/d19-placement/source/attempted-anchors.json": {
+      "bytes": 3966,
+      "sha256": "2809d124663d44f37e4bc36cdc21dfc0d0c945a8a758cb03c87f07b463268261"
+    },
+    "source/d19-placement/source/build-candidate.mjs": {
+      "bytes": 8020,
+      "sha256": "3834f092b68f8ae34719d84fe900109477553bf5cb455b63eaa49739f706522f"
+    },
+    "source/d19-placement/source/build-combined.mjs": {
+      "bytes": 2476,
+      "sha256": "ae6c1e1b14d22cccbc9630eda159764a0358f5ffea839a05a901a5f0fe0c922c"
+    },
+    "source/d19-placement/source/clip-boxes.mjs": {
+      "bytes": 2922,
+      "sha256": "b8a98a40e7ef25af1a4eaf290179fac8885926fb59883e23f559bc22b39ad255"
+    },
+    "source/d19-placement/source/fukuras-clip-boxes.mjs": {
+      "bytes": 3010,
+      "sha256": "69bfd0479f2ebef18ee34fa2ff632d5dbf880d7e5984c400afcb92a0fa7f6baa"
+    },
+    "source/d19-placement/source/original-host.glb": {
+      "bytes": 1137516,
+      "sha256": "4454c7c1e0c910688d68a879f8c94b1fa02d058641d23dddde6ad5c37e9d6f44"
+    },
+    "source/d19-placement/source/pack-atlas.py": {
+      "bytes": 3147,
+      "sha256": "044ec9e7fb722a0596ec4ea3845c25d3b036e5dd5393e4f4bca1c8d2303825fd"
+    },
+    "source/d19-placement/source/palette.mjs": {
+      "bytes": 4054,
+      "sha256": "bb42c3e7c71b143abb20d2b3055f9adbf8121649cf9fe31c5cf03dbd175516dd"
+    },
+    "source/d19-placement/source/south-2f-entry/docs/DIMENSIONS_AND_UNCERTAINTY.md": {
+      "bytes": 2507,
+      "sha256": "488aef27ca0a15fcab33833e329f1dc387568271480f2d4c415b732176889b62"
+    },
+    "source/d19-placement/source/south-2f-entry/docs/HOST_SURFACE_CONTRACT.json": {
+      "bytes": 3303,
+      "sha256": "dff63370e5966c3d80768e265bff7277707a1b5f1f9039aa28dcd5a145101bf8"
+    },
+    "source/d19-placement/source/south-2f-entry/docs/QA_SUMMARY.md": {
+      "bytes": 1487,
+      "sha256": "2e7e52a11b412ac1601eb437184ed7f865ac0e4f15eff432bc64d3be16a02f51"
+    },
+    "source/d19-placement/source/south-2f-entry/docs/SOURCES_AND_RIGHTS.md": {
+      "bytes": 2299,
+      "sha256": "2dbec27eb7c2d3aa07215d97bd0c364623662bbff5d2c81ba68844d997cfc3e3"
+    },
+    "source/d19-placement/source/south-2f-entry.glb": {
+      "bytes": 281808,
+      "sha256": "f58ea6a201b9aadb2c665d65738cfdb43204d06ddb6e82ba15cbe053567aff48"
+    },
+    "source/d19-placement/source/southwest-stair/docs/ESTIMATES.md": {
+      "bytes": 3905,
+      "sha256": "2c9de64afba6e546620dc4cdb7f7ced8862999a6ae614134ce08651d2c1396a1"
+    },
+    "source/d19-placement/source/southwest-stair/docs/HOST_SURFACE_CONTRACT.json": {
+      "bytes": 4005,
+      "sha256": "35a7779a9f470258204c7ac9fa5b5fd88fecb31ed868198c71c7aa2c6424de64"
+    },
+    "source/d19-placement/source/southwest-stair/docs/QA_SUMMARY.md": {
+      "bytes": 2698,
+      "sha256": "e19ee5fe4df72f069b6c05fe2c7c57a7ca33c7f2a8a9f0ea63ae8d7ac04fa191"
+    },
+    "source/d19-placement/source/southwest-stair/docs/SOURCES_AND_RIGHTS.md": {
+      "bytes": 3310,
+      "sha256": "bdc129c67fcfac622f9c4128ce06e2b55b76802384e4525ff7bb5b0e1c678174"
+    },
+    "source/d19-placement/source/southwest-stair.glb": {
+      "bytes": 620988,
+      "sha256": "65549a48a8a45c621f4fc9ab227d3c3d898c8b5b827438cb83aa91a33d5fdd5f"
+    },
+    "source/d19-placement/source/terrain.mjs": {
+      "bytes": 1567,
+      "sha256": "0338f8771016a5197a23184a3d61cda466492dae5e87a90ba9f71c568be73330"
+    },
+    "source/d19-placement/source/verify-bounded-patch.mjs": {
+      "bytes": 5077,
+      "sha256": "445d025f978c6dbad26306a57e1ba6cf6a7eff1f33d012806cd98d94d815a316"
+    },
+    "source/d19-placement/source/west-storefront/docs/DIMENSIONS_AND_UNCERTAINTY.md": {
+      "bytes": 2183,
+      "sha256": "1bb9755441d8f39626ac96a38710f4b23de4dbcdbbc03fffdef9f1cbd66d0703"
+    },
+    "source/d19-placement/source/west-storefront/docs/FONT_LICENSE-Noto-CJK.txt": {
+      "bytes": 14712,
+      "sha256": "849f4ea9c214fa4ac3593b770c699f387534b11ce671264c1b10d85bdcb5997b"
+    },
+    "source/d19-placement/source/west-storefront/docs/FONT_PROVENANCE.json": {
+      "bytes": 413,
+      "sha256": "1b9e26cd12b92816b300afd60a039964c78ece89d635d5f86899d81f9a0d3c95"
+    },
+    "source/d19-placement/source/west-storefront/docs/HOST_SURFACE_CONTRACT.json": {
+      "bytes": 3424,
+      "sha256": "78c775514e68c9de65be2ae1776e9073facca7e73a9e470ebedddaf8adc8d14b"
+    },
+    "source/d19-placement/source/west-storefront/docs/QA_SUMMARY.md": {
+      "bytes": 1570,
+      "sha256": "4d6c7e81f49444fe818671ac99d7dce361cf840772fc71a92069620c1595be45"
+    },
+    "source/d19-placement/source/west-storefront/docs/SOURCES_AND_RIGHTS.md": {
+      "bytes": 2154,
+      "sha256": "2b9d6439c7d8b3b0afda093377f098c6bbb1ce1f2e6c1138a2af33038838ad60"
+    },
+    "source/d19-placement/source/west-storefront.glb": {
+      "bytes": 393232,
+      "sha256": "cfef75dd4a917e34cd3b8c52c21c986a144f57fb23a28c66a6f305a31d7415a0"
+    },
+    "source/data/baseline.glb": {
+      "bytes": 781556,
+      "sha256": "e25a48ed0f4792088de9e5dfed71db2249e5a7b95f71b9d7cf866bde6a8069bb"
+    },
+    "source/data/baseline_stats.json": {
+      "bytes": 14178,
+      "sha256": "3e17e34410f830c9e47c5617368205c5eb01ba43e4dd1072e51f2ae6cdd261be"
+    },
+    "source/data/facade_map.json": {
+      "bytes": 352959,
+      "sha256": "516eedb806888683eedd37c3046a84aae74f75fb7517e0ca0fb249d770f68272"
+    },
+    "source/data/layout.json": {
+      "bytes": 756,
+      "sha256": "641291e87d215811f1cc65bbe9979fe4008b6bbb727cb1a254da3241b3d76996"
+    },
+    "source/data/plateau.json": {
+      "bytes": 64691,
+      "sha256": "a7ab8db419a3551440f2daa3371dc66b8b07314f7cc7ded67922a1e769df0b82"
+    },
+    "source/data/roof35_repair.json": {
+      "bytes": 3840,
+      "sha256": "2779d276d0ebf78a53994fdad130360f735e2a21ef0adf79ab3ae051ff095699"
+    },
+    "source/data/stats.json": {
+      "bytes": 17730,
+      "sha256": "f98571520ac525d8d2945c0cf5ebbc1ca27c7ed3ac77150fa6ec9f35d2627df0"
+    },
+    "source/data/tessellation_repair.json": {
+      "bytes": 4829,
+      "sha256": "065a269a563c5719fe9e0aed7b6ef6630461e17f71f086237fb9dd4940c97c1d"
+    },
+    "source/data/tessellation_repair_v2.json": {
+      "bytes": 3105,
+      "sha256": "e5345b6c7fb477636e521e695fc6199ebf8d4b5b8c83f6bb11fe54261b39be92"
+    },
+    "source/refs/FIDELITY_SOURCES.md": {
+      "bytes": 2999,
+      "sha256": "e0647b6f519067115eb471072813219f108a2e86e6e342c3194e8cc7d9cccca9"
+    },
+    "source/refs/OCT10-north-actual-crop.jpg": {
+      "bytes": 25801,
+      "sha256": "2b67fa46cc1e0251938d766952b223f7fd48e790d0a85006123aafec51e2838e"
+    },
+    "source/refs/OCT11-facade-actual-crop.jpg": {
+      "bytes": 51423,
+      "sha256": "4ad8857ccdce0382e396e464e2bf924acb3b86119f6d2896fe5e71973ecbe8cb"
+    },
+    "source/refs/OCT11-podium-actual-crop.jpg": {
+      "bytes": 16358,
+      "sha256": "37088fbc374daf4b398aef7f5b7198c2fb6fcfc47b01a086a4ea0bd424fee4f1"
+    },
+    "source/refs/OCT18-north-actual-crop.jpg": {
+      "bytes": 18551,
+      "sha256": "83598567631a40372beb7d9d69ce0365d7142865cf184f11417aa1ca5daba4d0"
+    },
+    "source/refs/SEP30-northeast-actual-crop.jpg": {
+      "bytes": 77553,
+      "sha256": "c1e9def335f22048734a0785eac29bcdc3dda00a55a60c672fbac001098f08f7"
+    },
+    "source/refs/SOURCES.md": {
+      "bytes": 528,
+      "sha256": "a785da31e87eab7cd74cccd12244570c320e5301416a465b03b4466edc6db702"
+    },
+    "source/refs/reference.jpg": {
+      "bytes": 8923985,
+      "sha256": "394e4469f5343c17725566bbf6c0168712a28f0bf2e15098217258bf6a736145"
+    },
+    "source/refs/reference.jpg.json": {
+      "bytes": 2582,
+      "sha256": "480c561a8eece4ec3514add977791f82eeebbbf01e625ccbc8de4fb644bfcdc5"
+    },
+    "source/tessellation-v4/historical-main-fidelity.test.ts.txt": {
+      "bytes": 6059,
+      "sha256": "5c5c4a0b7d3228e3c8e37b8344623fe5b209b04e39228886843a9fe393ba530d"
+    },
+    "source/tessellation-v4/main-build.py": {
+      "bytes": 12013,
+      "sha256": "f407cbfb43db3d088cafe15d3fccf2e4e1e29e89c4cb7447ffaba84854ecf7f5"
+    },
+    "source/tessellation-v4/main.glb": {
+      "bytes": 1046328,
+      "sha256": "accdfc0288c42caa6ef956d63cc6be4196bee54be39b57dd5f4a95097dfb3a3d"
+    },
+    "web/emissive_day.json": {
+      "bytes": 3,
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    "web/emissive_night.json": {
+      "bytes": 3,
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    "web/fukuras.glb": {
+      "bytes": 976204,
+      "sha256": "e83083a1d79f21c69d3889754e74b253e9a27c419e66ad0cc893f3c33c64b357"
+    },
+    "web/viewer.json": {
+      "bytes": 437,
+      "sha256": "05cdfb4e3f349668b70b8f888b775fcd2b4e93d3f2877a67b8f1da12947a8a35"
+    }
+  },
+  "verification": {
+    "report": "evidence/tessellation-v4/validation.json",
+    "base_commit": "2d1d416d5b4428db7a983e510eeaba08332f707f",
+    "limitations": "No whole-scene build/browser/FPS verification; existing facade approximation retained."
+  },
+  "d19_revision": {
+    "original_host_sha256": "4454c7c1e0c910688d68a879f8c94b1fa02d058641d23dddde6ad5c37e9d6f44",
+    "runtime_sha256": "e83083a1d79f21c69d3889754e74b253e9a27c419e66ad0cc893f3c33c64b357",
+    "source35_roof_exact": true,
+    "photographic_geometry_exact": true,
+    "off_target_exact_triangles": 12090,
+    "atomic_host_and_lower_components": true,
+    "new_stair_walkable": false
+  },
+  "d19_visual_review": {
+    "browser_comparison": "evidence/dot-d19/fukuras-atlas-comparison.json",
+    "actual_render": "evidence/dot-d19/acceptance-day/fukuras_close.png",
+    "west_close": "evidence/dot-d19/close-validation/fukuras_west_clear-day.png"
+  }
+}

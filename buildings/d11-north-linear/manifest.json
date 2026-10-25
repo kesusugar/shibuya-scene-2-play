@@ -1,0 +1,34 @@
+{
+  "asset": "d11-north-linear",
+  "host_reference": "brid_cb8a47ec-def6-47a9-9366-b294a047ee63",
+  "models": [
+    {
+      "source": "north-linear-cb8a47ec.glb",
+      "source_sha256": "dcb831654f63ac5c4284688dfc65658235e093428997a3bf3cfe08ce0fc0cbdd",
+      "runtime": "d11-north-linear.glb",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        86.8715,
+        1.213,
+        -288.8625,
+        1
+      ],
+      "binary_preserved": true
+    }
+  ],
+  "status": "staged_not_visually_verified",
+  "basis": "Context origin [86.8715,288.8625,1.213]; glTF local from ENU. Preserve source elevation, no ground snap.",
+  "height_correction": "historical_inferred_correction_pending_current_ground_check",
+  "private_source_origin": "Originals remain privately archived; source copies are geometry-only runtime inputs."
+}

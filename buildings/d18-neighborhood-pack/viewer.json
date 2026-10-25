@@ -1,0 +1,1317 @@
+{
+  "id": "d18-neighborhood-pack",
+  "model": "d18-neighborhood-pack.glb",
+  "world_baked": true,
+  "placement": {
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "groundElevationTP": 15,
+  "sun": {
+    "azimuth_deg": 207,
+    "elevation_deg": 57
+  },
+  "bounds": [
+    [
+      -146.87836492193662,
+      1.0947637039422986,
+      113.2532572395488
+    ],
+    [
+      -21.009450736344313,
+      50.41799896240234,
+      207.3674851229054
+    ]
+  ],
+  "planBounds": [
+    -146.87836492193662,
+    -207.3674851229054,
+    -21.009450736344313,
+    -113.2532572395488
+  ],
+  "bytes": 2251320,
+  "primitives": 7,
+  "triangles": 39092,
+  "sha256": "07c319a3058e6d8b266be4f193c509635698b7ae04fc8a7113939a82954cdcfa",
+  "components": [
+    {
+      "source_asset": "D18_ekimae_kaikan_bldg_set_v002",
+      "host_ids": [
+        "way/60739620"
+      ],
+      "source_file": "d18-intake/extracted/D18_ekimae_kaikan_bldg_set_v002/web/D18_ekimae_kaikan_bldg_set_v002_B.glb",
+      "original_sha256": "e27b496b5214edfa161f109d4b9bf2162577014dfa746d4afaeb3b59f70301a2",
+      "original_triangles": 4622,
+      "root": [
+        -44.3,
+        0.9299999999999997,
+        114.3
+      ],
+      "rotation_y": -2.76614719485143,
+      "footFit": {
+        "maximum_vertical_adjustment": 1.25270970683236,
+        "changed_vertex_instances": 141,
+        "fullHeight": 2.5,
+        "stopHeight": 5,
+        "upper_geometry_unchanged": true
+      },
+      "original_contract": {
+        "asset_id": "D18_ekimae_kaikan_bldg_set_v002",
+        "enabled": false,
+        "district": "D18",
+        "glb": "web/D18_ekimae_kaikan_bldg_set_v002_B.glb",
+        "coordinate_note": "glTF: +X = along the street face a\u2192b, +Y = up (m above base_tp), +Z = out to the street. Plan coords = context_input.json (x east, y north, m). World(plan) = origin + X*t + Z*n, t=(b-a)/|b-a|, n=(t_y,-t_x); height = base_tp + Y.",
+        "placement": {
+          "plan_origin_xy": [
+            -44.3,
+            -114.3
+          ],
+          "plan_b_xy": [
+            -74.34,
+            -126.14
+          ],
+          "face_length_m": 32.29,
+          "yaw_deg_ccw_from_east": -158.489,
+          "base_tp_m": 15.93,
+          "base_offset_from_TP15_m": 0.93
+        },
+        "hide_from_C_stage_shell": [
+          "way/60739620"
+        ],
+        "notes": null
+      }
+    },
+    {
+      "source_asset": "D18_five_bld_bldg_set_v002",
+      "host_ids": [
+        "way/129061829"
+      ],
+      "source_file": "d18-intake/extracted/D18_five_bld_bldg_set_v002/runtime/D18_five_bld_bldg_set_v002_B.glb",
+      "original_sha256": "ef6fe427a9f2e99227053fd21c56090366a5fe8af5be2f45231fee16280cacf3",
+      "original_triangles": 1550,
+      "root": [
+        -122.69,
+        3.0070000000000014,
+        176.41
+      ],
+      "rotation_y": 0,
+      "footFit": {
+        "maximum_vertical_adjustment": 1.372375015476515,
+        "changed_vertex_instances": 886,
+        "fullHeight": 2.5,
+        "stopHeight": 5,
+        "upper_geometry_unchanged": true
+      },
+      "original_contract": {
+        "asset_id": "D18_five_bld_bldg_set_v002",
+        "enabled": false,
+        "district": "D18",
+        "glb": "runtime/D18_five_bld_bldg_set_v002_B.glb",
+        "replaces": "D18_five_bld_bldg_set_v001",
+        "placement": {
+          "plan_origin_xy": [
+            -122.69,
+            -176.41
+          ],
+          "yaw_deg_ccw_from_east": 0,
+          "base_tp_m": 18.007,
+          "derived_from": "inventory footprint centroid"
+        },
+        "world_transform": null,
+        "hide_from_C_stage_shell": [
+          "way/129061829"
+        ]
+      }
+    },
+    {
+      "source_asset": "D18_kusumoto2_bldg_set_v002",
+      "host_ids": [
+        "way/136397972"
+      ],
+      "source_file": "d18-intake/extracted/D18_kusumoto2_bldg_set_v002/runtime/D18_kusumoto2_bldg_set_v002_B.glb",
+      "original_sha256": "896c6e7ecb1ff8d4de3416c29e2f8c70aabd2810406574dff577c59180d6f846",
+      "original_triangles": 1132,
+      "root": [
+        -130.75,
+        3.379999999999999,
+        188.96
+      ],
+      "rotation_y": 0,
+      "footFit": {
+        "maximum_vertical_adjustment": 1.3878345767325166,
+        "changed_vertex_instances": 952,
+        "fullHeight": 2.5,
+        "stopHeight": 5,
+        "upper_geometry_unchanged": true
+      },
+      "original_contract": {
+        "asset_id": "D18_kusumoto2_bldg_set_v002",
+        "enabled": false,
+        "district": "D18",
+        "glb": "runtime/D18_kusumoto2_bldg_set_v002_B.glb",
+        "replaces": "D18_kusumoto2_bldg_set_v001",
+        "placement": {
+          "plan_origin_xy": [
+            -130.75,
+            -188.96
+          ],
+          "yaw_deg_ccw_from_east": 0,
+          "base_tp_m": 18.38,
+          "derived_from": "inventory footprint centroid"
+        },
+        "world_transform": null,
+        "hide_from_C_stage_shell": [
+          "way/136397972"
+        ]
+      }
+    },
+    {
+      "source_asset": "D18_shibuya_mitsubishi_bldg_set_v002",
+      "host_ids": [
+        "way/136398535"
+      ],
+      "source_file": "d18-intake/extracted/D18_shibuya_mitsubishi_bldg_set_v002/web/D18_shibuya_mitsubishi_bldg_set_v002_B.glb",
+      "original_sha256": "bcf26baacdfd214c7ad69bdde9acec3ba6d534da297286ed84f0f92ea770c914",
+      "original_triangles": 5948,
+      "root": [
+        -34.74,
+        1.1000000000000014,
+        127.73
+      ],
+      "rotation_y": -2.7754628295676884,
+      "footFit": {
+        "maximum_vertical_adjustment": 1.3262320609153848,
+        "changed_vertex_instances": 1132,
+        "fullHeight": 2.5,
+        "stopHeight": 5,
+        "upper_geometry_unchanged": true
+      },
+      "original_contract": {
+        "asset_id": "D18_shibuya_mitsubishi_bldg_set_v002",
+        "enabled": false,
+        "district": "D18",
+        "glb": "web/D18_shibuya_mitsubishi_bldg_set_v002_B.glb",
+        "coordinate_note": "glTF: +X = along the street face a\u2192b, +Y = up (m above base_tp), +Z = out to the street. Plan coords = context_input.json (x east, y north, m). World(plan) = origin + X*t + Z*n, t=(b-a)/|b-a|, n=(t_y,-t_x); height = base_tp + Y.",
+        "placement": {
+          "plan_origin_xy": [
+            -34.74,
+            -127.73
+          ],
+          "plan_b_xy": [
+            -80.33,
+            -145.21
+          ],
+          "face_length_m": 48.83,
+          "yaw_deg_ccw_from_east": -159.022,
+          "base_tp_m": 16.1,
+          "base_offset_from_TP15_m": 1.1
+        },
+        "hide_from_C_stage_shell": [
+          "way/136398535"
+        ],
+        "notes": null
+      }
+    },
+    {
+      "source_asset": "D18_shibuya_sede_bldg_set_v001",
+      "host_ids": [
+        "way/157077427"
+      ],
+      "source_file": "d18-intake/extracted/D18_shibuya_sede_bldg_set_v001/web/D18_shibuya_sede_bldg_set_v001_B.glb",
+      "original_sha256": "763410d72045a27b61faeebff99c03234de0af1c5b3c6d23eb0d8cc12da26bda",
+      "original_triangles": 711,
+      "root": [
+        -82.77,
+        2.0219999999999985,
+        162.45
+      ],
+      "rotation_y": 1.9779163837173719,
+      "footFit": {
+        "maximum_vertical_adjustment": 0.8470025138595051,
+        "changed_vertex_instances": 573,
+        "fullHeight": 2.5,
+        "stopHeight": 5,
+        "upper_geometry_unchanged": true
+      },
+      "original_contract": {
+        "asset_id": "D18_shibuya_sede_bldg_set_v001",
+        "enabled": false,
+        "district": "D18",
+        "glb": "web/D18_shibuya_sede_bldg_set_v001_B.glb",
+        "coordinate_note": "glTF: +X = along the street face a\u2192b, +Y = up (m above base_tp), +Z = out to the street. Plan coords = context_input.json (x east, y north, m). World(plan) = origin + X*t + Z*n, t=(b-a)/|b-a|, n=(t_y,-t_x); height = base_tp + Y.",
+        "placement": {
+          "plan_origin_xy": [
+            -82.77,
+            -162.45
+          ],
+          "plan_b_xy": [
+            -89.07,
+            -147.84
+          ],
+          "face_length_m": 15.91,
+          "yaw_deg_ccw_from_east": 113.326,
+          "base_tp_m": 17.022,
+          "base_offset_from_TP15_m": 2.022
+        },
+        "hide_from_C_stage_shell": [
+          "way/157077427"
+        ],
+        "notes": null
+      }
+    },
+    {
+      "source_asset": "D18_shoriki_bldg_set_v002",
+      "host_ids": [
+        "way/136398541"
+      ],
+      "source_file": "d18-intake/extracted/D18_shoriki_bldg_set_v002/runtime/D18_shoriki_bldg_set_v002_B.glb",
+      "original_sha256": "e8bc8125373663e53e33053a3006c02044f0c9dd0d0f58a5e6493e902ec20d20",
+      "original_triangles": 870,
+      "root": [
+        -89.75,
+        2.5820000000000007,
+        174.37
+      ],
+      "rotation_y": 0,
+      "footFit": {
+        "maximum_vertical_adjustment": 0.4036307143802961,
+        "changed_vertex_instances": 432,
+        "fullHeight": 2.5,
+        "stopHeight": 5,
+        "upper_geometry_unchanged": true
+      },
+      "original_contract": {
+        "asset_id": "D18_shoriki_bldg_set_v002",
+        "enabled": false,
+        "district": "D18",
+        "glb": "runtime/D18_shoriki_bldg_set_v002_B.glb",
+        "replaces": "D18_shoriki_bldg_set_v001",
+        "placement": {
+          "plan_origin_xy": [
+            -89.75,
+            -174.37
+          ],
+          "yaw_deg_ccw_from_east": 0,
+          "base_tp_m": 17.582,
+          "derived_from": "inventory footprint centroid"
+        },
+        "world_transform": null,
+        "hide_from_C_stage_shell": [
+          "way/136398541"
+        ]
+      }
+    },
+    {
+      "source_asset": "D18_susa_bldg_set_v002",
+      "host_ids": [
+        "way/136397985"
+      ],
+      "source_file": "d18-intake/extracted/D18_susa_bldg_set_v002/runtime/D18_susa_bldg_set_v002_B.glb",
+      "original_sha256": "6fa5d3a76374ba47592b4aa2b28ca5e57ede0f004f972051df6a70c0b694aadc",
+      "original_triangles": 602,
+      "root": [
+        -127.47,
+        3.7059999999999995,
+        196.11
+      ],
+      "rotation_y": 0,
+      "footFit": {
+        "maximum_vertical_adjustment": 1.201088753615843,
+        "changed_vertex_instances": 370,
+        "fullHeight": 2.5,
+        "stopHeight": 5,
+        "upper_geometry_unchanged": true
+      },
+      "original_contract": {
+        "asset_id": "D18_susa_bldg_set_v002",
+        "enabled": false,
+        "district": "D18",
+        "glb": "runtime/D18_susa_bldg_set_v002_B.glb",
+        "replaces": "D18_susa_bldg_set_v001",
+        "placement": {
+          "plan_origin_xy": [
+            -127.47,
+            -196.11
+          ],
+          "yaw_deg_ccw_from_east": 0,
+          "base_tp_m": 18.706,
+          "derived_from": "inventory footprint centroid"
+        },
+        "world_transform": null,
+        "hide_from_C_stage_shell": [
+          "way/136397985"
+        ]
+      }
+    },
+    {
+      "source_asset": "D18_the_renga_bldg_set_v003",
+      "host_ids": [
+        "way/136398548"
+      ],
+      "source_file": "d18-intake/extracted/D18_the_renga_bldg_set_v003/runtime/D18_the_renga_bldg_set_v003_B.glb",
+      "original_sha256": "9fb68d4b59a8cbc36209cee66add7ff3f28e357ddbcf7b55df226881089f5cd5",
+      "original_triangles": 3204,
+      "root": [
+        -103.65,
+        2.001999999999999,
+        148.81
+      ],
+      "rotation_y": 0,
+      "footFit": {
+        "maximum_vertical_adjustment": 1.159289228572434,
+        "changed_vertex_instances": 1472,
+        "fullHeight": 2.5,
+        "stopHeight": 5,
+        "upper_geometry_unchanged": true
+      },
+      "original_contract": {
+        "asset_id": "D18_the_renga_bldg_set_v003",
+        "enabled": false,
+        "district": "D18",
+        "glb": "runtime/D18_the_renga_bldg_set_v003_B.glb",
+        "replaces": "D18_the_renga_bldg_set_v002",
+        "placement": {
+          "plan_origin_xy": [
+            -103.65,
+            -148.81
+          ],
+          "yaw_deg_ccw_from_east": 0,
+          "base_tp_m": 17.002,
+          "derived_from": "inventory footprint centroid"
+        },
+        "world_transform": null,
+        "hide_from_C_stage_shell": [
+          "way/136398548"
+        ]
+      }
+    },
+    {
+      "source_asset": "D18_way129061815_bldg_set_v002",
+      "host_ids": [
+        "way/129061815"
+      ],
+      "source_file": "d18-intake/extracted/D18_way129061815_bldg_set_v002/runtime/D18_way129061815_bldg_set_v002_B.glb",
+      "original_sha256": "59f70ba97fa0dde9195b1df62ab59ddae3323c1e491b57f9ae5d703a2c19fbee",
+      "original_triangles": 1092,
+      "root": [
+        -111.55,
+        2.8500000000000014,
+        183.42
+      ],
+      "rotation_y": 0,
+      "footFit": {
+        "maximum_vertical_adjustment": 0.9449225544531689,
+        "changed_vertex_instances": 640,
+        "fullHeight": 2.5,
+        "stopHeight": 5,
+        "upper_geometry_unchanged": true
+      },
+      "original_contract": {
+        "asset_id": "D18_way129061815_bldg_set_v002",
+        "enabled": false,
+        "district": "D18",
+        "glb": "runtime/D18_way129061815_bldg_set_v002_B.glb",
+        "replaces": "D18_way129061815_bldg_set_v001",
+        "placement": {
+          "plan_origin_xy": [
+            -111.55,
+            -183.42
+          ],
+          "yaw_deg_ccw_from_east": 0,
+          "base_tp_m": 17.85,
+          "derived_from": "inventory footprint centroid"
+        },
+        "world_transform": null,
+        "hide_from_C_stage_shell": [
+          "way/129061815"
+        ]
+      }
+    },
+    {
+      "source_asset": "D18_way129061822_bldg_set_v002",
+      "host_ids": [
+        "way/129061822"
+      ],
+      "source_file": "d18-intake/extracted/D18_way129061822_bldg_set_v002/runtime/D18_way129061822_bldg_set_v002_B.glb",
+      "original_sha256": "e8eba9f117ff694493c0322062c948bef15c5a51c6a2a7785a4867445fa1b3e1",
+      "original_triangles": 785,
+      "root": [
+        -98.2,
+        2.9299999999999997,
+        191.39
+      ],
+      "rotation_y": 0,
+      "footFit": {
+        "maximum_vertical_adjustment": 0.36232392391282275,
+        "changed_vertex_instances": 758,
+        "fullHeight": 2.5,
+        "stopHeight": 5,
+        "upper_geometry_unchanged": true
+      },
+      "original_contract": {
+        "asset_id": "D18_way129061822_bldg_set_v002",
+        "enabled": false,
+        "district": "D18",
+        "glb": "runtime/D18_way129061822_bldg_set_v002_B.glb",
+        "replaces": "D18_way129061822_bldg_set_v001",
+        "placement": {
+          "plan_origin_xy": [
+            -98.2,
+            -191.39
+          ],
+          "yaw_deg_ccw_from_east": 0,
+          "base_tp_m": 17.93,
+          "derived_from": "inventory footprint centroid"
+        },
+        "world_transform": null,
+        "hide_from_C_stage_shell": [
+          "way/129061822"
+        ]
+      }
+    },
+    {
+      "source_asset": "D18_way129061825_bldg_set_v002",
+      "host_ids": [
+        "way/129061825"
+      ],
+      "source_file": "d18-intake/extracted/D18_way129061825_bldg_set_v002/runtime/D18_way129061825_bldg_set_v002_B.glb",
+      "original_sha256": "89a3e00a70671f5b0f99207fbe0f21e319849687ae73d22057113b55f39e892e",
+      "original_triangles": 1469,
+      "root": [
+        -78.03,
+        1.5700000000000003,
+        136.35
+      ],
+      "rotation_y": 0,
+      "footFit": {
+        "maximum_vertical_adjustment": 0.681606382559207,
+        "changed_vertex_instances": 990,
+        "fullHeight": 2.5,
+        "stopHeight": 5,
+        "upper_geometry_unchanged": true
+      },
+      "original_contract": {
+        "asset_id": "D18_way129061825_bldg_set_v002",
+        "enabled": false,
+        "district": "D18",
+        "glb": "runtime/D18_way129061825_bldg_set_v002_B.glb",
+        "replaces": "D18_way129061825_bldg_set_v001",
+        "placement": {
+          "plan_origin_xy": [
+            -78.03,
+            -136.35
+          ],
+          "yaw_deg_ccw_from_east": 0,
+          "base_tp_m": 16.57,
+          "derived_from": "inventory footprint centroid"
+        },
+        "world_transform": null,
+        "hide_from_C_stage_shell": [
+          "way/129061825"
+        ]
+      }
+    },
+    {
+      "source_asset": "D18_way129061827_bldg_set_v002",
+      "host_ids": [
+        "way/129061827"
+      ],
+      "source_file": "d18-intake/extracted/D18_way129061827_bldg_set_v002/runtime/D18_way129061827_bldg_set_v002_B.glb",
+      "original_sha256": "38a614e779fa428284aa681cd4aca4311608d1544cbf6fcf6cab9b25782ae0e0",
+      "original_triangles": 698,
+      "root": [
+        -104.32,
+        2.8500000000000014,
+        187.26
+      ],
+      "rotation_y": 0,
+      "footFit": {
+        "maximum_vertical_adjustment": 0.5903176334910515,
+        "changed_vertex_instances": 398,
+        "fullHeight": 2.5,
+        "stopHeight": 5,
+        "upper_geometry_unchanged": true
+      },
+      "original_contract": {
+        "asset_id": "D18_way129061827_bldg_set_v002",
+        "enabled": false,
+        "district": "D18",
+        "glb": "runtime/D18_way129061827_bldg_set_v002_B.glb",
+        "replaces": "D18_way129061827_bldg_set_v001",
+        "placement": {
+          "plan_origin_xy": [
+            -104.32,
+            -187.26
+          ],
+          "yaw_deg_ccw_from_east": 0,
+          "base_tp_m": 17.85,
+          "derived_from": "inventory footprint centroid"
+        },
+        "world_transform": null,
+        "hide_from_C_stage_shell": [
+          "way/129061827"
+        ]
+      }
+    },
+    {
+      "source_asset": "D18_way136397968_bldg_set_v002",
+      "host_ids": [
+        "way/136397968"
+      ],
+      "source_file": "d18-intake/extracted/D18_way136397968_bldg_set_v002/runtime/D18_way136397968_bldg_set_v002_B.glb",
+      "original_sha256": "575d394ca787f414955d2fa24d842ad9eae434b872ec03680740e6e9c31ddb42",
+      "original_triangles": 668,
+      "root": [
+        -117.86,
+        3.3200000000000003,
+        194.86
+      ],
+      "rotation_y": 0,
+      "footFit": {
+        "maximum_vertical_adjustment": 0.9873393401350202,
+        "changed_vertex_instances": 684,
+        "fullHeight": 2.5,
+        "stopHeight": 5,
+        "upper_geometry_unchanged": true
+      },
+      "original_contract": {
+        "asset_id": "D18_way136397968_bldg_set_v002",
+        "enabled": false,
+        "district": "D18",
+        "glb": "runtime/D18_way136397968_bldg_set_v002_B.glb",
+        "replaces": "D18_way136397968_bldg_set_v001",
+        "placement": {
+          "plan_origin_xy": [
+            -117.86,
+            -194.86
+          ],
+          "yaw_deg_ccw_from_east": 0,
+          "base_tp_m": 18.32,
+          "derived_from": "inventory footprint centroid"
+        },
+        "world_transform": null,
+        "hide_from_C_stage_shell": [
+          "way/136397968"
+        ]
+      }
+    },
+    {
+      "source_asset": "D18_way136397971_bldg_set_v002",
+      "host_ids": [
+        "way/136397971"
+      ],
+      "source_file": "d18-intake/extracted/D18_way136397971_bldg_set_v002/runtime/D18_way136397971_bldg_set_v002_B.glb",
+      "original_sha256": "9ebd343f8c0381d98c686e8b1d30749b3e667fb3ba84f3cebf4ed98cda4c7c42",
+      "original_triangles": 654,
+      "root": [
+        -135.39,
+        3.460000000000001,
+        181.14
+      ],
+      "rotation_y": 0,
+      "footFit": {
+        "maximum_vertical_adjustment": 1.0688479502236818,
+        "changed_vertex_instances": 404,
+        "fullHeight": 2.5,
+        "stopHeight": 5,
+        "upper_geometry_unchanged": true
+      },
+      "original_contract": {
+        "asset_id": "D18_way136397971_bldg_set_v002",
+        "enabled": false,
+        "district": "D18",
+        "glb": "runtime/D18_way136397971_bldg_set_v002_B.glb",
+        "replaces": "D18_way136397971_bldg_set_v001",
+        "placement": {
+          "plan_origin_xy": [
+            -135.39,
+            -181.14
+          ],
+          "yaw_deg_ccw_from_east": 0,
+          "base_tp_m": 18.46,
+          "derived_from": "inventory footprint centroid"
+        },
+        "world_transform": null,
+        "hide_from_C_stage_shell": [
+          "way/136397971"
+        ]
+      }
+    },
+    {
+      "source_asset": "D18_way136397981_bldg_set_v002",
+      "host_ids": [
+        "way/136397981"
+      ],
+      "source_file": "d18-intake/extracted/D18_way136397981_bldg_set_v002/runtime/D18_way136397981_bldg_set_v002_B.glb",
+      "original_sha256": "1c1294b1de0de69cca78302c2de112405e8e5a6b7f96706f0ad676c0b2f26a9a",
+      "original_triangles": 792,
+      "root": [
+        -112.05,
+        3.09,
+        195.03
+      ],
+      "rotation_y": 0,
+      "footFit": {
+        "maximum_vertical_adjustment": 0.6813908773521941,
+        "changed_vertex_instances": 652,
+        "fullHeight": 2.5,
+        "stopHeight": 5,
+        "upper_geometry_unchanged": true
+      },
+      "original_contract": {
+        "asset_id": "D18_way136397981_bldg_set_v002",
+        "enabled": false,
+        "district": "D18",
+        "glb": "runtime/D18_way136397981_bldg_set_v002_B.glb",
+        "replaces": "D18_way136397981_bldg_set_v001",
+        "placement": {
+          "plan_origin_xy": [
+            -112.05,
+            -195.03
+          ],
+          "yaw_deg_ccw_from_east": 0,
+          "base_tp_m": 18.09,
+          "derived_from": "inventory footprint centroid"
+        },
+        "world_transform": null,
+        "hide_from_C_stage_shell": [
+          "way/136397981"
+        ]
+      }
+    },
+    {
+      "source_asset": "D18_way136397983_bldg_set_v002",
+      "host_ids": [
+        "way/136397983"
+      ],
+      "source_file": "d18-intake/extracted/D18_way136397983_bldg_set_v002/runtime/D18_way136397983_bldg_set_v002_B.glb",
+      "original_sha256": "18ac3146db9099433ec5fe4ed01ffb5c88ca554beb8cf3779371037f9696ac1f",
+      "original_triangles": 274,
+      "root": [
+        -106.37,
+        3.0799999999999983,
+        194.6
+      ],
+      "rotation_y": 0,
+      "footFit": {
+        "maximum_vertical_adjustment": 0.402811112110702,
+        "changed_vertex_instances": 330,
+        "fullHeight": 2.5,
+        "stopHeight": 5,
+        "upper_geometry_unchanged": true
+      },
+      "original_contract": {
+        "asset_id": "D18_way136397983_bldg_set_v002",
+        "enabled": false,
+        "district": "D18",
+        "glb": "runtime/D18_way136397983_bldg_set_v002_B.glb",
+        "replaces": "D18_way136397983_bldg_set_v001",
+        "placement": {
+          "plan_origin_xy": [
+            -106.37,
+            -194.6
+          ],
+          "yaw_deg_ccw_from_east": 0,
+          "base_tp_m": 18.08,
+          "derived_from": "inventory footprint centroid"
+        },
+        "world_transform": null,
+        "hide_from_C_stage_shell": [
+          "way/136397983"
+        ]
+      }
+    },
+    {
+      "source_asset": "D18_way136397988_bldg_set_v002",
+      "host_ids": [
+        "way/136397988"
+      ],
+      "source_file": "d18-intake/extracted/D18_way136397988_bldg_set_v002/runtime/D18_way136397988_bldg_set_v002_B.glb",
+      "original_sha256": "485c5726de54b0f9e1fc2b34ade5703eb62f0186b198bb8d6860df5911d237d2",
+      "original_triangles": 626,
+      "root": [
+        -139.27,
+        3.654,
+        174.65
+      ],
+      "rotation_y": 0,
+      "footFit": {
+        "maximum_vertical_adjustment": 0.7056440944509755,
+        "changed_vertex_instances": 438,
+        "fullHeight": 2.5,
+        "stopHeight": 5,
+        "upper_geometry_unchanged": true
+      },
+      "original_contract": {
+        "asset_id": "D18_way136397988_bldg_set_v002",
+        "enabled": false,
+        "district": "D18",
+        "glb": "runtime/D18_way136397988_bldg_set_v002_B.glb",
+        "replaces": "D18_way136397988_bldg_set_v001",
+        "placement": {
+          "plan_origin_xy": [
+            -139.27,
+            -174.65
+          ],
+          "yaw_deg_ccw_from_east": 0,
+          "base_tp_m": 18.654,
+          "derived_from": "inventory footprint centroid"
+        },
+        "world_transform": null,
+        "hide_from_C_stage_shell": [
+          "way/136397988"
+        ]
+      }
+    },
+    {
+      "source_asset": "D18_way136397989_bldg_set_v002",
+      "host_ids": [
+        "way/136397989"
+      ],
+      "source_file": "d18-intake/extracted/D18_way136397989_bldg_set_v002/runtime/D18_way136397989_bldg_set_v002_B.glb",
+      "original_sha256": "0a671f5543f2b50bd78416ec4957b05162e887fd253b4347d11ad10a3e54c345",
+      "original_triangles": 492,
+      "root": [
+        -120.69,
+        4.006,
+        200.84
+      ],
+      "rotation_y": 0,
+      "footFit": {
+        "maximum_vertical_adjustment": 0.3215045023757216,
+        "changed_vertex_instances": 532,
+        "fullHeight": 2.5,
+        "stopHeight": 5,
+        "upper_geometry_unchanged": true
+      },
+      "original_contract": {
+        "asset_id": "D18_way136397989_bldg_set_v002",
+        "enabled": false,
+        "district": "D18",
+        "glb": "runtime/D18_way136397989_bldg_set_v002_B.glb",
+        "replaces": "D18_way136397989_bldg_set_v001",
+        "placement": {
+          "plan_origin_xy": [
+            -120.69,
+            -200.84
+          ],
+          "yaw_deg_ccw_from_east": 0,
+          "base_tp_m": 19.006,
+          "derived_from": "inventory footprint centroid"
+        },
+        "world_transform": null,
+        "hide_from_C_stage_shell": [
+          "way/136397989"
+        ]
+      }
+    },
+    {
+      "source_asset": "D18_way136397992_bldg_set_v002",
+      "host_ids": [
+        "way/136397992"
+      ],
+      "source_file": "d18-intake/extracted/D18_way136397992_bldg_set_v002/runtime/D18_way136397992_bldg_set_v002_B.glb",
+      "original_sha256": "26ee3dafb5a2586767f3840b6badcea4866bca2a8694b15c84ae26af3e7a7e68",
+      "original_triangles": 667,
+      "root": [
+        -143,
+        3.6950000000000003,
+        167.52
+      ],
+      "rotation_y": 0,
+      "footFit": {
+        "maximum_vertical_adjustment": 0.4709117722472743,
+        "changed_vertex_instances": 618,
+        "fullHeight": 2.5,
+        "stopHeight": 5,
+        "upper_geometry_unchanged": true
+      },
+      "original_contract": {
+        "asset_id": "D18_way136397992_bldg_set_v002",
+        "enabled": false,
+        "district": "D18",
+        "glb": "runtime/D18_way136397992_bldg_set_v002_B.glb",
+        "replaces": "D18_way136397992_bldg_set_v001",
+        "placement": {
+          "plan_origin_xy": [
+            -143,
+            -167.52
+          ],
+          "yaw_deg_ccw_from_east": 0,
+          "base_tp_m": 18.695,
+          "derived_from": "inventory footprint centroid"
+        },
+        "world_transform": null,
+        "hide_from_C_stage_shell": [
+          "way/136397992"
+        ]
+      }
+    },
+    {
+      "source_asset": "D18_way136397993_bldg_set_v002",
+      "host_ids": [
+        "way/136397993"
+      ],
+      "source_file": "d18-intake/extracted/D18_way136397993_bldg_set_v002/runtime/D18_way136397993_bldg_set_v002_B.glb",
+      "original_sha256": "4a87b57fd9a7c21c3223d959559fea40a20ccbe942c637f7b56e1797f69608ca",
+      "original_triangles": 491,
+      "root": [
+        -126.46,
+        4.283999999999999,
+        202.88
+      ],
+      "rotation_y": 0,
+      "footFit": {
+        "maximum_vertical_adjustment": 0.6500026416135941,
+        "changed_vertex_instances": 618,
+        "fullHeight": 2.5,
+        "stopHeight": 5,
+        "upper_geometry_unchanged": true
+      },
+      "original_contract": {
+        "asset_id": "D18_way136397993_bldg_set_v002",
+        "enabled": false,
+        "district": "D18",
+        "glb": "runtime/D18_way136397993_bldg_set_v002_B.glb",
+        "replaces": "D18_way136397993_bldg_set_v001",
+        "placement": {
+          "plan_origin_xy": [
+            -126.46,
+            -202.88
+          ],
+          "yaw_deg_ccw_from_east": 0,
+          "base_tp_m": 19.284,
+          "derived_from": "inventory footprint centroid"
+        },
+        "world_transform": null,
+        "hide_from_C_stage_shell": [
+          "way/136397993"
+        ]
+      }
+    },
+    {
+      "source_asset": "D18_way136398534_bldg_set_v003",
+      "host_ids": [
+        "way/136398534"
+      ],
+      "source_file": "d18-intake/extracted/D18_way136398534_bldg_set_v003/runtime/D18_way136398534_bldg_set_v003_B.glb",
+      "original_sha256": "799a3fed543971ecbe44b074609b01cb3e625f7a729fbe79425946046fe089dd",
+      "original_triangles": 3563,
+      "root": [
+        -32.22,
+        1.1900000000000013,
+        156.8
+      ],
+      "rotation_y": 0,
+      "footFit": {
+        "maximum_vertical_adjustment": 0.730332912233518,
+        "changed_vertex_instances": 990,
+        "fullHeight": 2.5,
+        "stopHeight": 5,
+        "upper_geometry_unchanged": true
+      },
+      "original_contract": {
+        "asset_id": "D18_way136398534_bldg_set_v003",
+        "enabled": false,
+        "district": "D18",
+        "glb": "runtime/D18_way136398534_bldg_set_v003_B.glb",
+        "replaces": "D18_way136398534_bldg_set_v002",
+        "placement": {
+          "plan_origin_xy": [
+            -32.22,
+            -156.8
+          ],
+          "yaw_deg_ccw_from_east": 0,
+          "base_tp_m": 16.19,
+          "derived_from": "inventory footprint centroid"
+        },
+        "world_transform": null,
+        "hide_from_C_stage_shell": [
+          "way/136398534"
+        ]
+      }
+    },
+    {
+      "source_asset": "D18_way136398537_bldg_set_v003",
+      "host_ids": [
+        "way/136398537"
+      ],
+      "source_file": "d18-intake/extracted/D18_way136398537_bldg_set_v003/runtime/D18_way136398537_bldg_set_v003_B.glb",
+      "original_sha256": "4d343db4c126fd9b20be63c8b51e7c6a1802dde21d9470a331b48f7cc485f5de",
+      "original_triangles": 1706,
+      "root": [
+        -50.17,
+        1.8000000000000007,
+        163.91
+      ],
+      "rotation_y": 0,
+      "footFit": {
+        "maximum_vertical_adjustment": 0.45319216537652196,
+        "changed_vertex_instances": 602,
+        "fullHeight": 2.5,
+        "stopHeight": 5,
+        "upper_geometry_unchanged": true
+      },
+      "original_contract": {
+        "asset_id": "D18_way136398537_bldg_set_v003",
+        "enabled": false,
+        "district": "D18",
+        "glb": "runtime/D18_way136398537_bldg_set_v003_B.glb",
+        "replaces": "D18_way136398537_bldg_set_v002",
+        "placement": {
+          "plan_origin_xy": [
+            -50.17,
+            -163.91
+          ],
+          "yaw_deg_ccw_from_east": 0,
+          "base_tp_m": 16.8,
+          "derived_from": "inventory footprint centroid"
+        },
+        "world_transform": null,
+        "hide_from_C_stage_shell": [
+          "way/136398537"
+        ]
+      }
+    },
+    {
+      "source_asset": "D18_way136398538_bldg_set_v002",
+      "host_ids": [
+        "way/136398538"
+      ],
+      "source_file": "d18-intake/extracted/D18_way136398538_bldg_set_v002/runtime/D18_way136398538_bldg_set_v002_B.glb",
+      "original_sha256": "64977eda2b2bebbf9225f3999b9010ff7f9d3ceeb3f271324f0ead13a12bbf62",
+      "original_triangles": 346,
+      "root": [
+        -96.29,
+        2.4840000000000018,
+        169.59
+      ],
+      "rotation_y": 0,
+      "footFit": {
+        "maximum_vertical_adjustment": 0.43149647809991365,
+        "changed_vertex_instances": 330,
+        "fullHeight": 2.5,
+        "stopHeight": 5,
+        "upper_geometry_unchanged": true
+      },
+      "original_contract": {
+        "asset_id": "D18_way136398538_bldg_set_v002",
+        "enabled": false,
+        "district": "D18",
+        "glb": "runtime/D18_way136398538_bldg_set_v002_B.glb",
+        "replaces": "D18_way136398538_bldg_set_v001",
+        "placement": {
+          "plan_origin_xy": [
+            -96.29,
+            -169.59
+          ],
+          "yaw_deg_ccw_from_east": 0,
+          "base_tp_m": 17.484,
+          "derived_from": "inventory footprint centroid"
+        },
+        "world_transform": null,
+        "hide_from_C_stage_shell": [
+          "way/136398538"
+        ]
+      }
+    },
+    {
+      "source_asset": "D18_way136398539_bldg_set_v002",
+      "host_ids": [
+        "way/136398539"
+      ],
+      "source_file": "d18-intake/extracted/D18_way136398539_bldg_set_v002/runtime/D18_way136398539_bldg_set_v002_B.glb",
+      "original_sha256": "af7878f2551d010f56c0237258a274d6a12e7f98e5905a2de0ba725226049234",
+      "original_triangles": 1996,
+      "root": [
+        -103.3,
+        2.460000000000001,
+        163.92
+      ],
+      "rotation_y": 0,
+      "footFit": {
+        "maximum_vertical_adjustment": 0.5803661797333152,
+        "changed_vertex_instances": 1014,
+        "fullHeight": 2.5,
+        "stopHeight": 5,
+        "upper_geometry_unchanged": true
+      },
+      "original_contract": {
+        "asset_id": "D18_way136398539_bldg_set_v002",
+        "enabled": false,
+        "district": "D18",
+        "glb": "runtime/D18_way136398539_bldg_set_v002_B.glb",
+        "replaces": "D18_way136398539_bldg_set_v001",
+        "placement": {
+          "plan_origin_xy": [
+            -103.3,
+            -163.92
+          ],
+          "yaw_deg_ccw_from_east": 0,
+          "base_tp_m": 17.46,
+          "derived_from": "inventory footprint centroid"
+        },
+        "world_transform": null,
+        "hide_from_C_stage_shell": [
+          "way/136398539"
+        ]
+      }
+    },
+    {
+      "source_asset": "D18_way136398543_bldg_set_v002",
+      "host_ids": [
+        "way/136398543"
+      ],
+      "source_file": "d18-intake/extracted/D18_way136398543_bldg_set_v002/runtime/D18_way136398543_bldg_set_v002_B.glb",
+      "original_sha256": "11e4c7c4546f7b1fe034af83fbe3c039a7f2767d50ecdfd822c518e7ddca2451",
+      "original_triangles": 645,
+      "root": [
+        -122.6,
+        2.91,
+        151.37
+      ],
+      "rotation_y": 0,
+      "footFit": {
+        "maximum_vertical_adjustment": 0.3985080797074555,
+        "changed_vertex_instances": 698,
+        "fullHeight": 2.5,
+        "stopHeight": 5,
+        "upper_geometry_unchanged": true
+      },
+      "original_contract": {
+        "asset_id": "D18_way136398543_bldg_set_v002",
+        "enabled": false,
+        "district": "D18",
+        "glb": "runtime/D18_way136398543_bldg_set_v002_B.glb",
+        "replaces": "D18_way136398543_bldg_set_v001",
+        "placement": {
+          "plan_origin_xy": [
+            -122.6,
+            -151.37
+          ],
+          "yaw_deg_ccw_from_east": 0,
+          "base_tp_m": 17.91,
+          "derived_from": "inventory footprint centroid"
+        },
+        "world_transform": null,
+        "hide_from_C_stage_shell": [
+          "way/136398543"
+        ]
+      }
+    },
+    {
+      "source_asset": "D18_way136398544_bldg_set_v002",
+      "host_ids": [
+        "way/136398544"
+      ],
+      "source_file": "d18-intake/extracted/D18_way136398544_bldg_set_v002/runtime/D18_way136398544_bldg_set_v002_B.glb",
+      "original_sha256": "03bb8afcf6f871a3b89fb7dcfa61b861967c92cb6b691aad20e24c15bb34ed9f",
+      "original_triangles": 885,
+      "root": [
+        -67.12,
+        2.469000000000001,
+        170.82
+      ],
+      "rotation_y": 0,
+      "footFit": {
+        "maximum_vertical_adjustment": 0.21046055587283974,
+        "changed_vertex_instances": 810,
+        "fullHeight": 2.5,
+        "stopHeight": 5,
+        "upper_geometry_unchanged": true
+      },
+      "original_contract": {
+        "asset_id": "D18_way136398544_bldg_set_v002",
+        "enabled": false,
+        "district": "D18",
+        "glb": "runtime/D18_way136398544_bldg_set_v002_B.glb",
+        "replaces": "D18_way136398544_bldg_set_v001",
+        "placement": {
+          "plan_origin_xy": [
+            -67.12,
+            -170.82
+          ],
+          "yaw_deg_ccw_from_east": 0,
+          "base_tp_m": 17.469,
+          "derived_from": "inventory footprint centroid"
+        },
+        "world_transform": null,
+        "hide_from_C_stage_shell": [
+          "way/136398544"
+        ]
+      }
+    },
+    {
+      "source_asset": "D18_way136398547_bldg_set_v002",
+      "host_ids": [
+        "way/136398547"
+      ],
+      "source_file": "d18-intake/extracted/D18_way136398547_bldg_set_v002/runtime/D18_way136398547_bldg_set_v002_B.glb",
+      "original_sha256": "e85c56ffa88ae4640a974495ddd61e96f105fc1636f252ae25cfc0f90924bc54",
+      "original_triangles": 1512,
+      "root": [
+        -116.75,
+        2.658999999999999,
+        151.19
+      ],
+      "rotation_y": 0,
+      "footFit": {
+        "maximum_vertical_adjustment": 0.5904381218558089,
+        "changed_vertex_instances": 800,
+        "fullHeight": 2.5,
+        "stopHeight": 5,
+        "upper_geometry_unchanged": true
+      },
+      "original_contract": {
+        "asset_id": "D18_way136398547_bldg_set_v002",
+        "enabled": false,
+        "district": "D18",
+        "glb": "runtime/D18_way136398547_bldg_set_v002_B.glb",
+        "replaces": "D18_way136398547_bldg_set_v001",
+        "placement": {
+          "plan_origin_xy": [
+            -116.75,
+            -151.19
+          ],
+          "yaw_deg_ccw_from_east": 0,
+          "base_tp_m": 17.659,
+          "derived_from": "inventory footprint centroid"
+        },
+        "world_transform": null,
+        "hide_from_C_stage_shell": [
+          "way/136398547"
+        ]
+      }
+    },
+    {
+      "source_asset": "D18_way136398549_bldg_set_v002",
+      "host_ids": [
+        "way/136398549"
+      ],
+      "source_file": "d18-intake/extracted/D18_way136398549_bldg_set_v002/runtime/D18_way136398549_bldg_set_v002_B.glb",
+      "original_sha256": "450eedca71b1fb9fc53b1f012eb98060834930db72c7f4a642d618c00b47d152",
+      "original_triangles": 946,
+      "root": [
+        -79.89,
+        2.5100000000000016,
+        179.56
+      ],
+      "rotation_y": 0,
+      "footFit": {
+        "maximum_vertical_adjustment": 0.37541839046493763,
+        "changed_vertex_instances": 1068,
+        "fullHeight": 2.5,
+        "stopHeight": 5,
+        "upper_geometry_unchanged": true
+      },
+      "original_contract": {
+        "asset_id": "D18_way136398549_bldg_set_v002",
+        "enabled": false,
+        "district": "D18",
+        "glb": "runtime/D18_way136398549_bldg_set_v002_B.glb",
+        "replaces": "D18_way136398549_bldg_set_v001",
+        "placement": {
+          "plan_origin_xy": [
+            -79.89,
+            -179.56
+          ],
+          "yaw_deg_ccw_from_east": 0,
+          "base_tp_m": 17.51,
+          "derived_from": "inventory footprint centroid"
+        },
+        "world_transform": null,
+        "hide_from_C_stage_shell": [
+          "way/136398549"
+        ]
+      }
+    }
+  ],
+  "uvSplit": {
+    "primitives": [
+      {
+        "material": "int_fridge",
+        "beforeTriangles": 2,
+        "afterTriangles": 30,
+        "areaBefore": 83.84862656218395,
+        "areaAfter": 83.84862656218395
+      },
+      {
+        "material": "int_shelf",
+        "beforeTriangles": 4,
+        "afterTriangles": 84,
+        "areaBefore": 90.86735983839154,
+        "areaAfter": 90.86735983839152
+      },
+      {
+        "material": "int_magazine",
+        "beforeTriangles": 2,
+        "afterTriangles": 14,
+        "areaBefore": 4.740737992588578,
+        "areaAfter": 4.740737992588578
+      },
+      {
+        "material": "int_fridge",
+        "beforeTriangles": 2,
+        "afterTriangles": 6,
+        "areaBefore": 11.234999300688502,
+        "areaAfter": 11.234999300688502
+      },
+      {
+        "material": "int_shelf",
+        "beforeTriangles": 2,
+        "afterTriangles": 24,
+        "areaBefore": 19.998791186026818,
+        "areaAfter": 19.99879118602682
+      }
+    ],
+    "addedTriangles": 146,
+    "geometryMethod": "UV-space clipping only; original 3D planes and surface area preserved, no simplification"
+  },
+  "host_ids": [
+    "way/60739620",
+    "way/129061829",
+    "way/136397972",
+    "way/136398535",
+    "way/157077427",
+    "way/136398541",
+    "way/136397985",
+    "way/136398548",
+    "way/129061815",
+    "way/129061822",
+    "way/129061825",
+    "way/129061827",
+    "way/136397968",
+    "way/136397971",
+    "way/136397981",
+    "way/136397983",
+    "way/136397988",
+    "way/136397989",
+    "way/136397992",
+    "way/136397993",
+    "way/136398534",
+    "way/136398537",
+    "way/136398538",
+    "way/136398539",
+    "way/136398543",
+    "way/136398544",
+    "way/136398547",
+    "way/136398549"
+  ],
+  "inference": "28 delivered building candidates, mixed photo-based and inferred, terrain-fitted lower floors; no claim of surveyed complete district or dated exactness",
+  "visual_review": "REVIEWED_NINE_VIEWS_AND_FIVE_NORMALIZED_SOURCE_ATLAS_COMPARISONS",
+  "evidence": "evidence/dot-d18/after-verified",
+  "source_name_fix": "Building ground_* mesh/node names normalized to D18_ground_* to avoid road look classification; archived originals unchanged"
+}

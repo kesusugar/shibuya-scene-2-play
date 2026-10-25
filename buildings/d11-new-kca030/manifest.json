@@ -1,0 +1,34 @@
+{
+  "asset": "d11-new-kca030",
+  "host_reference": "136730030",
+  "models": [
+    {
+      "source": "NewKCA_Complete_Inferred.glb",
+      "source_sha256": "c9add5dce6d18e50c7fa746cba71111907b36adf14794ac0c3e6bb2a0c753ef2",
+      "runtime": "d11-new-kca030.glb",
+      "matrix": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        49.854,
+        1.33,
+        -110.624,
+        1
+      ],
+      "binary_preserved": true
+    }
+  ],
+  "status": "staged_not_visually_verified",
+  "basis": "New-epoch original western/southern facades, scale1, cardinal orientation, centered on old site bounding rectangle as an inferred placement; do not claim old bank footprint identical.",
+  "height_correction": "historical_inferred_correction_pending_current_ground_check",
+  "private_source_origin": "Originals remain privately archived; source copies are geometry-only runtime inputs."
+}

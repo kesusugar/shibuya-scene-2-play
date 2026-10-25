@@ -1,0 +1,118 @@
+{
+  "id": "d16-dogenzaka-tr-composite",
+  "host": "way/136397978",
+  "world_baked": true,
+  "model": "d16-dogenzaka-tr-composite.glb",
+  "placement": {
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "planBounds": [
+    -308.00478076933973,
+    -223.39358110347345,
+    -289.15849227764704,
+    -205.5521989748511
+  ],
+  "bounds": [
+    [
+      -308.00478076933973,
+      16.936261104203655,
+      205.5521989748511
+    ],
+    [
+      -289.15849227764704,
+      47.828421996690224,
+      223.39358110347345
+    ]
+  ],
+  "groundElevationTP": 15,
+  "sun": {
+    "azimuth_deg": 207,
+    "elevation_deg": 57
+  },
+  "bytes": 1142116,
+  "primitives": 5,
+  "triangles": 57865,
+  "sha256": "b7673f690bc3cb9ec5156b94d72eeeb725d613286fc1ffb680eb83b726aca4b8",
+  "ground_anchor": 19.988421844102337,
+  "inference": "Source facade, candidate host face and world carrier alignment inferred; original dimensions preserved, dated state and absolute fit not surveyed. Source remainder datum4.433 was an offsite estimate; both parts share measured driveway-side grade, without claiming original ground datum was correct.",
+  "component_transforms": [
+    {
+      "source": "d16-intake/dot-extracted/1GBHLy6wI-mzWGn0N2A0moajO80o-k-t4/d16_dogenzaka_tr_frontage_v002_20261018/model/D16_DogenzakaTR_StreetFrontage_VisibleInterior_Undated_v002_RUNTIME_B.glb",
+      "matrix": [
+        0.5351851658221923,
+        0,
+        0.8447347739284045,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -0.8447347739284045,
+        0,
+        0.5351851658221923,
+        0,
+        -302.1966880159717,
+        19.988421844102337,
+        215.93225929488716,
+        1
+      ],
+      "footFit": {
+        "maximum_vertical_adjustment": 1.2027551272532255,
+        "changed_vertex_instances": 8910,
+        "fullHeight": 0,
+        "stopHeight": 0.8,
+        "upper_geometry_unchanged": true
+      }
+    },
+    {
+      "source": "d16-intake/extracted/D16_DogenzakaTR_SidesRoof_Inferred_Undated_v001/runtime/D16_DogenzakaTR_SidesRoof_Inferred_Undated_v001_B.glb",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -298.46064000000007,
+        19.988421844102337,
+        214.02319999999997,
+        1
+      ],
+      "footFit": {
+        "maximum_vertical_adjustment": 3.052160644028816,
+        "changed_vertex_instances": 1288,
+        "fullHeight": 2.5,
+        "stopHeight": 5,
+        "upper_geometry_unchanged": true
+      }
+    }
+  ],
+  "remainder_clip_reports": [
+    {
+      "changed_primitives": 8,
+      "net_removed_triangles": -3
+    }
+  ],
+  "visual_review": "REVIEWED_IN_DISTRICT_CAPTURE_WITH_INFERRED_GEOMETRY_AND_DATE_LIMITATIONS",
+  "evidence": "evidence/dot-d16/after-corrected"
+}

@@ -1,0 +1,403 @@
+{
+  "id": "d22-mufg-trust",
+  "enabled": true,
+  "status": "LOCAL REVIEW ACCEPTED; inferred visual-only candidate, not merged or deployed",
+  "world_baked": false,
+  "precision_root_translation": [
+    263.63,
+    6.042172,
+    1.92
+  ],
+  "source_base_tp": null,
+  "root": [
+    263.63,
+    6.042172,
+    1.92
+  ],
+  "base_inferred_from_runtime_terrain": true,
+  "source_sha256": "7a92880ecb3d5a73c434d8ab8db0953384cff5fe35699613937f28c6e559c4fd",
+  "sha256": "c73d7e278aae38347f305e3a9e4dde1adf8e976608121a429aadffb5add21732",
+  "primitives": 5,
+  "triangles": 71054,
+  "bytes": 1898024,
+  "bounds": {
+    "min": [
+      251.14230525970459,
+      3.7199001761169432,
+      -11.257263259887695
+    ],
+    "max": [
+      274.4803580093384,
+      46.802170321533204,
+      16.50993148803711
+    ]
+  },
+  "hide_from_C_stage_shell": [],
+  "source_host_ids": [
+    "way/138589824"
+  ],
+  "footFit": {
+    "partitionPieces": 4118,
+    "method": "candidate-only lower5m split at taper and stop planes; exact terrain-cell partition with transition-only adaptive midpoint/centroid vertical interpolation error<=0.5mm; +5mm clearance target",
+    "trianglesBefore": 1636,
+    "trianglesAfter": 71054,
+    "lowerTriangles": 69858,
+    "upperTriangles": 1196,
+    "maxDepth": 13,
+    "unresolved": 0,
+    "flips": 0,
+    "newDegenerate": 0,
+    "maxDisplacement": 2.322271937816394,
+    "terrainTriangles": 200,
+    "areaCoverage": [
+      {
+        "node": "INFERRED_ground.001",
+        "material": "steel",
+        "sourceTriangle": 11,
+        "expectedArea": 13.686190383616378,
+        "coveredArea": 13.686188879888057,
+        "delta": -1.5037283205288077e-06
+      }
+    ],
+    "gapBridges": [
+      {
+        "centroid": [
+          255.2447195011436,
+          6.044484939148566,
+          -10.131526793121608
+        ],
+        "nearestGroundEdgeDistance": 0.0009894880246107856
+      },
+      {
+        "centroid": [
+          255.2447195011436,
+          6.04887125089175,
+          -10.131526793121608
+        ],
+        "nearestGroundEdgeDistance": 0.0009894880246107856
+      },
+      {
+        "centroid": [
+          255.2447195011436,
+          7.048444311743184,
+          -10.131526793121608
+        ],
+        "nearestGroundEdgeDistance": 0.0009894880246107856
+      },
+      {
+        "centroid": [
+          255.2447195011436,
+          9.838239960173127,
+          -10.131526793121608
+        ],
+        "nearestGroundEdgeDistance": 0.0009894880246107856
+      },
+      {
+        "centroid": [
+          255.2447195011436,
+          8.940125984014985,
+          -10.131526793121608
+        ],
+        "nearestGroundEdgeDistance": 0.0009894880246107856
+      },
+      {
+        "centroid": [
+          255.24082254527045,
+          9.822171971389771,
+          -10.130737079164247
+        ],
+        "nearestGroundEdgeDistance": 0.0009894913601506733
+      },
+      {
+        "centroid": [
+          255.109393962252,
+          9.822171971389771,
+          -10.10410711152307
+        ],
+        "nearestGroundEdgeDistance": 0.0009857867102415479
+      },
+      {
+        "centroid": [
+          255.10764469772153,
+          9.822171971389771,
+          -10.102742907380772
+        ],
+        "nearestGroundEdgeDistance": 3.817139083556623e-06
+      },
+      {
+        "centroid": [
+          255.24082254527045,
+          6.062171999552965,
+          -10.130737079164247
+        ],
+        "nearestGroundEdgeDistance": 0.0009894913601506733
+      },
+      {
+        "centroid": [
+          255.109393962252,
+          6.062171999552965,
+          -10.10410711152307
+        ],
+        "nearestGroundEdgeDistance": 0.0009857867102415479
+      },
+      {
+        "centroid": [
+          255.10764469772153,
+          6.062171999552965,
+          -10.102742907380772
+        ],
+        "nearestGroundEdgeDistance": 3.817139083556623e-06
+      },
+      {
+        "centroid": [
+          254.7988166336777,
+          9.843538945339201,
+          -0.4692305264383535
+        ],
+        "nearestGroundEdgeDistance": 0.0010015601143015548
+      },
+      {
+        "centroid": [
+          254.82459330902847,
+          9.843372343148104,
+          -0.41416076171154237
+        ],
+        "nearestGroundEdgeDistance": 4.806134918944889e-07
+      },
+      {
+        "centroid": [
+          254.7988166336777,
+          9.918538993022914,
+          -0.4692305264383535
+        ],
+        "nearestGroundEdgeDistance": 0.0010015601143015548
+      },
+      {
+        "centroid": [
+          254.82459330902847,
+          9.91837239083182,
+          -0.41416076171154237
+        ],
+        "nearestGroundEdgeDistance": 4.806134918944889e-07
+      },
+      {
+        "centroid": [
+          251.27106138818107,
+          9.80283421651361,
+          -8.34133611196053
+        ],
+        "nearestGroundEdgeDistance": 0.0010021475052563672
+      },
+      {
+        "centroid": [
+          251.27106138818107,
+          9.877834264197327,
+          -8.34133611196053
+        ],
+        "nearestGroundEdgeDistance": 0.0010021475052563672
+      },
+      {
+        "centroid": [
+          253.55979988679883,
+          9.942172095367432,
+          -3.2340625206711646
+        ],
+        "nearestGroundEdgeDistance": 0.0009994383260831371
+      },
+      {
+        "centroid": [
+          252.3205354373444,
+          9.942172095367432,
+          -5.999447257452071
+        ],
+        "nearestGroundEdgeDistance": 0.0009973165321365887
+      },
+      {
+        "centroid": [
+          252.16014386738442,
+          9.942172095367432,
+          -6.357356665989213
+        ],
+        "nearestGroundEdgeDistance": 0.0009970441136929464
+      },
+      {
+        "centroid": [
+          253.32267316059034,
+          9.942172095367432,
+          -3.765661260241353
+        ],
+        "nearestGroundEdgeDistance": 2.977144475158746e-06
+      },
+      {
+        "centroid": [
+          252.16069412231445,
+          9.942172095367432,
+          -6.358584898459908
+        ],
+        "nearestGroundEdgeDistance": 9.616392122682504e-06
+      },
+      {
+        "centroid": [
+          252.16069793701172,
+          9.942172095367432,
+          -6.358598076910858
+        ],
+        "nearestGroundEdgeDistance": 7.460282193339557e-07
+      },
+      {
+        "centroid": [
+          251.99980520286698,
+          9.942172095367432,
+          -6.715148017254528
+        ],
+        "nearestGroundEdgeDistance": 0.0009967716945305564
+      },
+      {
+        "centroid": [
+          251.99945232285654,
+          9.942172095367432,
+          -6.715935460798409
+        ],
+        "nearestGroundEdgeDistance": 0.0009967716827213216
+      },
+      {
+        "centroid": [
+          251.95485222087646,
+          9.942172095367432,
+          -6.815459371910752
+        ],
+        "nearestGroundEdgeDistance": 0.000996696521492376
+      },
+      {
+        "centroid": [
+          251.590732801237,
+          9.942172095367432,
+          -7.627981917069636
+        ],
+        "nearestGroundEdgeDistance": 0.0009960794205369325
+      },
+      {
+        "centroid": [
+          251.95565960433777,
+          9.942172095367432,
+          -6.816114276280011
+        ],
+        "nearestGroundEdgeDistance": 1.1739120017591696e-05
+      },
+      {
+        "centroid": [
+          251.61191782665915,
+          9.942172095367432,
+          -7.583166619105344
+        ],
+        "nearestGroundEdgeDistance": 7.127015214457451e-06
+      },
+      {
+        "centroid": [
+          253.5832989232194,
+          9.792172,
+          -3.1816250789772234
+        ],
+        "nearestGroundEdgeDistance": 0.0009994849400652664
+      },
+      {
+        "centroid": [
+          253.60051633552254,
+          9.792172,
+          -3.1456577877173877
+        ],
+        "nearestGroundEdgeDistance": 3.650232439219743e-06
+      },
+      {
+        "centroid": [
+          252.34428217634064,
+          9.792172,
+          -5.94645707320986
+        ],
+        "nearestGroundEdgeDistance": 0.0009973631518784285
+      },
+      {
+        "centroid": [
+          252.3205354373444,
+          9.792172,
+          -5.999447257452071
+        ],
+        "nearestGroundEdgeDistance": 0.0009973165321365887
+      },
+      {
+        "centroid": [
+          252.16014386738442,
+          9.792172,
+          -6.357356665989213
+        ],
+        "nearestGroundEdgeDistance": 0.0009970441136929464
+      },
+      {
+        "centroid": [
+          252.3434115817857,
+          9.792172,
+          -5.950858881045901
+        ],
+        "nearestGroundEdgeDistance": 5.512839602224858e-06
+      },
+      {
+        "centroid": [
+          252.16069412231445,
+          9.792172,
+          -6.358584898459908
+        ],
+        "nearestGroundEdgeDistance": 9.616392122682504e-06
+      },
+      {
+        "centroid": [
+          251.99980520286698,
+          9.792172,
+          -6.715148017254528
+        ],
+        "nearestGroundEdgeDistance": 0.0009967716945305564
+      },
+      {
+        "centroid": [
+          251.99945232285654,
+          9.792172,
+          -6.715935460798409
+        ],
+        "nearestGroundEdgeDistance": 0.0009967716827213216
+      },
+      {
+        "centroid": [
+          251.95485222087646,
+          9.792172,
+          -6.815459371910753
+        ],
+        "nearestGroundEdgeDistance": 0.000996696521492376
+      },
+      {
+        "centroid": [
+          251.590732801237,
+          9.792172,
+          -7.627981917069636
+        ],
+        "nearestGroundEdgeDistance": 0.0009960794205369325
+      },
+      {
+        "centroid": [
+          251.95565960433777,
+          9.792172,
+          -6.816114276280011
+        ],
+        "nearestGroundEdgeDistance": 1.1739120017591696e-05
+      },
+      {
+        "centroid": [
+          251.61191782665915,
+          9.792172,
+          -7.583166619105344
+        ],
+        "nearestGroundEdgeDistance": 7.127015214457451e-06
+      }
+    ],
+    "terrainSamples": 2095
+  },
+  "palette_quantized_not_lossless": true
+}

@@ -1,0 +1,74 @@
+{
+  "id": "d11-miyashita-ne-band",
+  "model": "d11-miyashita-ne-band.glb",
+  "world_baked": true,
+  "placement": {
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "bounds": [
+    [
+      134.85978346799448,
+      6.969972567962493,
+      -261.0281214740175
+    ],
+    [
+      137.49520077165778,
+      10.969972567962493,
+      -237.05698510236974
+    ]
+  ],
+  "center": [
+    136.58842936652553,
+    8.833178356697106,
+    -252.20432301479954
+  ],
+  "bytes": 50752,
+  "primitives": 6,
+  "triangles": 3360,
+  "sha256": "c579f790522d9c5cea1669b70cbea57dc7c295a92f7b520512f1988f69bdf160",
+  "inference": "REVALIDATED_RIGID_GROUND_ANCHOR",
+  "source_parent_already_applied": {
+    "translation": [
+      0,
+      0.9699725679624939,
+      0
+    ],
+    "status": "REVALIDATED_RIGID_GROUND_ANCHOR",
+    "basis": "Maximum penetration at original approach bottom vertices plus3mm; shared rigid facility datum"
+  },
+  "do_not_apply_source_parent_again": true,
+  "parser": "NodeIO+MeshoptDecoder roundtrip PASS; browser/Three visual integration still root-owned",
+  "geometry_validation": {
+    "id": "d11-miyashita-ne-band",
+    "triangles": 3360,
+    "bidirectional_max_vertex_distance_m": 1.0531104120222859e-06,
+    "bidirectional_max_triangle_centroid_distance_m": 1.0531103485576242e-06,
+    "triangle_count_equal": true,
+    "pass": true
+  },
+  "planBounds": [
+    134.85978346799448,
+    237.05698510236974,
+    137.49520077165778,
+    261.0281214740175
+  ],
+  "sun": {
+    "azimuth_deg": 207,
+    "elevation_deg": 57
+  },
+  "groundElevationTP": 15
+}

@@ -1,0 +1,14 @@
+{
+  "world_baked": true,
+  "groundElevationTP": 15,
+  "planBounds": [
+    281.5,
+    -127.2,
+    293,
+    -110.9
+  ],
+  "sun": {
+    "azimuth_deg": 207,
+    "elevation_deg": 57
+  }
+}

@@ -1,0 +1,714 @@
+{
+  "id": "d16-inferred-neighborhood",
+  "world_baked": true,
+  "model": "d16-inferred-neighborhood.glb",
+  "placement": {
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "bounds": [
+    [
+      -230.22399990761886,
+      3.5208202652335174,
+      50.0991815268182
+    ],
+    [
+      -181.12811399059046,
+      34.91000045776367,
+      133.27564072018578
+    ]
+  ],
+  "planBounds": [
+    -230.22399990761886,
+    -133.27564072018578,
+    -181.12811399059046,
+    -50.0991815268182
+  ],
+  "groundElevationTP": 15,
+  "sun": {
+    "azimuth_deg": 207,
+    "elevation_deg": 57
+  },
+  "bytes": 1056048,
+  "sha256": "f7b602b0b297981bad52f6c91abe21bfce35f5c7ab251efe0e686c59e1fc9cbc",
+  "primitives": 6,
+  "triangles": 41947,
+  "host_ids": [
+    "way/136587675",
+    "way/136587702",
+    "way/136587803",
+    "way/136587786",
+    "way/136587683",
+    "plateau/bldg_22618c26-b468-4a17-8ede-40d2c21e0a0b",
+    "way/136587717",
+    "way/136587726",
+    "way/136587737",
+    "way/136587807",
+    "plateau/bldg_a8665d00-b485-4beb-a2f1-a99b95dfec60",
+    "way/136587674",
+    "way/136587731",
+    "way/136587794"
+  ],
+  "components": [
+    {
+      "id": "d16-DainiEisushiHost-way136587675-Inferred",
+      "source_asset": "D16_DainiEisushiHost_way136587675_Inferred_Undated_v001",
+      "host_ids": [
+        "way/136587675"
+      ],
+      "model": "d16-DainiEisushiHost-way136587675-Inferred.glb",
+      "world_baked": true,
+      "placement": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "planBounds": [
+        -211.67572031017872,
+        -111.96464813137852,
+        -200.23728189465137,
+        -97.2219303884586
+      ],
+      "bounds": [
+        [
+          -211.67572031017872,
+          4.25454450547695,
+          97.2219303884586
+        ],
+        [
+          -200.23728189465137,
+          25.918999099731444,
+          111.96464813137852
+        ]
+      ],
+      "groundElevationTP": 15,
+      "sun": {
+        "azimuth_deg": 207,
+        "elevation_deg": 57
+      },
+      "bytes": 82148,
+      "primitives": 3,
+      "triangles": 2934,
+      "sha256": "b3ac024d6b7a44ec8e89129bff716d74e7930fd461193e676a1e8fae4bd6013a",
+      "inference": "UNDATED_PHOTO_UNVERIFIED_SOURCE_AND_TERRAIN_FIT",
+      "original_datum": 4.399999999999999,
+      "placement_height": 4.399999999999999,
+      "raise": 0,
+      "foot_fit": {
+        "method": "Vertical terrain fit below 2.5m, taper to zero at 5m; upper and roof kept at source elevation",
+        "maximum_correction_m": 0.3590456974633557,
+        "original_source_preserved": true
+      },
+      "ground_sample_count": 236,
+      "visual_review": "PENDING"
+    },
+    {
+      "id": "d16-LEEONE-InferredExterior-ShallowDining",
+      "source_asset": "D16_LEEONE_InferredExterior_ShallowDining_Undated_v001",
+      "host_ids": [
+        "way/136587702"
+      ],
+      "model": "d16-LEEONE-InferredExterior-ShallowDining.glb",
+      "world_baked": true,
+      "placement": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "planBounds": [
+        -213.30999987878715,
+        -90.74090316350949,
+        -203.33690875329887,
+        -78.50200011785519
+      ],
+      "bounds": [
+        [
+          -213.30999987878715,
+          3.900249491289258,
+          78.50200011785519
+        ],
+        [
+          -203.33690875329887,
+          15.00000035095215,
+          90.74090316350949
+        ]
+      ],
+      "groundElevationTP": 15,
+      "sun": {
+        "azimuth_deg": 207,
+        "elevation_deg": 57
+      },
+      "bytes": 22524,
+      "primitives": 4,
+      "triangles": 464,
+      "sha256": "6f3b8d3f0a4fd47fb6c6a61fcf1a9edfc605e2a6f826e6a406c9a79ff5cb911b",
+      "inference": "UNDATED_PHOTO_UNVERIFIED_SOURCE_AND_TERRAIN_FIT",
+      "original_datum": 3.893,
+      "placement_height": 3.893,
+      "raise": 0,
+      "foot_fit": {
+        "method": "Vertical terrain fit below 2.5m, taper to zero at 5m; upper and roof kept at source elevation",
+        "maximum_correction_m": 0.31759742407375857,
+        "original_source_preserved": true
+      },
+      "ground_sample_count": 123,
+      "visual_review": "PENDING"
+    },
+    {
+      "id": "d16-NagaiwaClinic-InferredExterior-ShallowReception",
+      "source_asset": "D16_NagaiwaClinic_InferredExterior_ShallowReception_Undated_v001",
+      "host_ids": [
+        "way/136587803"
+      ],
+      "model": "d16-NagaiwaClinic-InferredExterior-ShallowReception.glb",
+      "world_baked": true,
+      "placement": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "planBounds": [
+        -230.22399990761886,
+        -98.73221003088179,
+        -216.56333916390548,
+        -83.2850001958293
+      ],
+      "bounds": [
+        [
+          -230.22399990761886,
+          4.449209177643061,
+          83.2850001958293
+        ],
+        [
+          -216.56333916390548,
+          12.100000133514405,
+          98.73221003088179
+        ]
+      ],
+      "groundElevationTP": 15,
+      "sun": {
+        "azimuth_deg": 207,
+        "elevation_deg": 57
+      },
+      "bytes": 19112,
+      "primitives": 4,
+      "triangles": 362,
+      "sha256": "ec703f4459ca6305ccaee8db20d8a4a18551f10ec05a451dfddaeecbeb050a12",
+      "inference": "UNDATED_PHOTO_UNVERIFIED_SOURCE_AND_TERRAIN_FIT",
+      "original_datum": 4.49,
+      "placement_height": 4.49,
+      "raise": 0,
+      "foot_fit": {
+        "method": "Vertical terrain fit below 2.5m, taper to zero at 5m; upper and roof kept at source elevation",
+        "maximum_correction_m": 0.7894865454079102,
+        "original_source_preserved": true
+      },
+      "ground_sample_count": 142,
+      "visual_review": "PENDING"
+    },
+    {
+      "id": "d16-OwadaBldgCandidate-way136587786-Inferred",
+      "source_asset": "D16_OwadaBldgCandidate_way136587786_Inferred_Undated_v001",
+      "host_ids": [
+        "way/136587786"
+      ],
+      "model": "d16-OwadaBldgCandidate-way136587786-Inferred.glb",
+      "world_baked": true,
+      "placement": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "planBounds": [
+        -221.88747322184275,
+        -133.27564072018578,
+        -198.65852081400584,
+        -96.29537033444359
+      ],
+      "bounds": [
+        [
+          -221.88747322184275,
+          4.345002816796303,
+          96.29537033444359
+        ],
+        [
+          -198.65852081400584,
+          20.558999450683594,
+          133.27564072018578
+        ]
+      ],
+      "groundElevationTP": 15,
+      "sun": {
+        "azimuth_deg": 207,
+        "elevation_deg": 57
+      },
+      "bytes": 168384,
+      "primitives": 3,
+      "triangles": 6312,
+      "sha256": "ee59f24c0c8a37afe60bc1d8b8b73c78d151a423df81961c1c34196a4ed5ba34",
+      "inference": "UNDATED_PHOTO_UNVERIFIED_SOURCE_AND_TERRAIN_FIT",
+      "original_datum": 4.433,
+      "placement_height": 4.433,
+      "raise": 0,
+      "foot_fit": {
+        "method": "Vertical terrain fit below 2.5m, taper to zero at 5m; upper and roof kept at source elevation",
+        "maximum_correction_m": 0.6691374596631167,
+        "original_source_preserved": true
+      },
+      "ground_sample_count": 1234,
+      "visual_review": "PENDING"
+    },
+    {
+      "id": "d16-SeijitsuBldg-way136587683-Inferred",
+      "source_asset": "D16_SeijitsuBldg_way136587683_Inferred_Undated_v001",
+      "host_ids": [
+        "way/136587683"
+      ],
+      "model": "d16-SeijitsuBldg-way136587683-Inferred.glb",
+      "world_baked": true,
+      "placement": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "planBounds": [
+        -207.29874892066277,
+        -86.90991974713964,
+        -194.05424017737664,
+        -73.41608334424657
+      ],
+      "bounds": [
+        [
+          -207.29874892066277,
+          3.5309778477549543,
+          73.41608334424657
+        ],
+        [
+          -194.05424017737664,
+          19.70100064086914,
+          86.90991974713964
+        ]
+      ],
+      "groundElevationTP": 15,
+      "sun": {
+        "azimuth_deg": 207,
+        "elevation_deg": 57
+      },
+      "bytes": 83972,
+      "primitives": 3,
+      "triangles": 2847,
+      "sha256": "1fb2c3ee4b1c0d468cf7252d411a0830478fca9bd4df108f2e53628891bf7fd1",
+      "inference": "UNDATED_PHOTO_UNVERIFIED_SOURCE_AND_TERRAIN_FIT",
+      "original_datum": 3.597999999999999,
+      "placement_height": 3.597999999999999,
+      "raise": 0,
+      "foot_fit": {
+        "method": "Vertical terrain fit below 2.5m, taper to zero at 5m; upper and roof kept at source elevation",
+        "maximum_correction_m": 0.37760112522334055,
+        "original_source_preserved": true
+      },
+      "ground_sample_count": 436,
+      "visual_review": "PENDING"
+    },
+    {
+      "id": "d16-ShibusenrenBundle-5hosts-Inferred",
+      "source_asset": "D16_ShibusenrenBundle_5hosts_Inferred_Undated_v001",
+      "host_ids": [
+        "plateau/bldg_22618c26-b468-4a17-8ede-40d2c21e0a0b",
+        "way/136587717",
+        "way/136587726",
+        "way/136587737",
+        "way/136587807"
+      ],
+      "model": "d16-ShibusenrenBundle-5hosts-Inferred.glb",
+      "world_baked": true,
+      "placement": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "planBounds": [
+        -229.9713647407592,
+        -83.3504604040765,
+        -200.26154971542962,
+        -50.0991815268182
+      ],
+      "bounds": [
+        [
+          -229.9713647407592,
+          4.0186001503467565,
+          50.0991815268182
+        ],
+        [
+          -200.26154971542962,
+          34.91000045776367,
+          83.3504604040765
+        ]
+      ],
+      "groundElevationTP": 15,
+      "sun": {
+        "azimuth_deg": 207,
+        "elevation_deg": 57
+      },
+      "bytes": 677168,
+      "primitives": 3,
+      "triangles": 26902,
+      "sha256": "dadb0779240637b014d0ae0eca9870516865dc246634f76762f948e973d13c71",
+      "inference": "UNDATED_PHOTO_UNVERIFIED_SOURCE_AND_TERRAIN_FIT",
+      "original_datum": 3.8900000000000006,
+      "placement_height": 3.8900000000000006,
+      "raise": 0,
+      "foot_fit": {
+        "method": "Vertical terrain fit below 2.5m, taper to zero at 5m; upper and roof kept at source elevation",
+        "maximum_correction_m": 2.024128165773864,
+        "original_source_preserved": true
+      },
+      "ground_sample_count": 2686,
+      "visual_review": "PENDING"
+    },
+    {
+      "id": "d16-bldg-a8665d00-Inferred",
+      "source_asset": "D16_bldg_a8665d00_Inferred_Undated_v001",
+      "host_ids": [
+        "plateau/bldg_a8665d00-b485-4beb-a2f1-a99b95dfec60"
+      ],
+      "model": "d16-bldg-a8665d00-Inferred.glb",
+      "world_baked": true,
+      "placement": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "planBounds": [
+        -227.07786917297355,
+        -83.86888656509399,
+        -222.42024445144645,
+        -78.16409907234191
+      ],
+      "bounds": [
+        [
+          -227.07786917297355,
+          4.887596947908403,
+          78.16409907234191
+        ],
+        [
+          -222.42024445144645,
+          8.813775611877443,
+          83.86888656509399
+        ]
+      ],
+      "groundElevationTP": 15,
+      "sun": {
+        "azimuth_deg": 207,
+        "elevation_deg": 57
+      },
+      "bytes": 13024,
+      "primitives": 3,
+      "triangles": 212,
+      "sha256": "c3ccee81d0d155f3a5b988707019dd982f949cd01c5b1ba3d792bde7a8f4a125",
+      "inference": "UNDATED_PHOTO_UNVERIFIED_SOURCE_AND_TERRAIN_FIT",
+      "original_datum": 4.751000000000001,
+      "placement_height": 4.751000000000001,
+      "raise": 0,
+      "foot_fit": {
+        "method": "Vertical terrain fit below 2.5m, taper to zero at 5m; upper and roof kept at source elevation",
+        "maximum_correction_m": 0.573140880963032,
+        "original_source_preserved": true
+      },
+      "ground_sample_count": 96,
+      "visual_review": "PENDING"
+    },
+    {
+      "id": "d16-way136587674-Inferred",
+      "source_asset": "D16_way136587674_Inferred_Undated_v001",
+      "host_ids": [
+        "way/136587674"
+      ],
+      "model": "d16-way136587674-Inferred.glb",
+      "world_baked": true,
+      "placement": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "planBounds": [
+        -195.3673853938176,
+        -108.52149059336737,
+        -183.3206324641301,
+        -99.39151289027289
+      ],
+      "bounds": [
+        [
+          -195.3673853938176,
+          3.5208202652335174,
+          99.39151289027289
+        ],
+        [
+          -183.3206324641301,
+          17.050000411987305,
+          108.52149059336737
+        ]
+      ],
+      "groundElevationTP": 15,
+      "sun": {
+        "azimuth_deg": 207,
+        "elevation_deg": 57
+      },
+      "bytes": 21676,
+      "primitives": 3,
+      "triangles": 564,
+      "sha256": "b53f7d9afaaf9c979e7186bcda3adfe4e2c22178fa807b706b68da00ba89dc31",
+      "inference": "UNDATED_PHOTO_UNVERIFIED_SOURCE_AND_TERRAIN_FIT",
+      "original_datum": 3.4570000000000007,
+      "placement_height": 3.4570000000000007,
+      "raise": 0,
+      "foot_fit": {
+        "method": "Vertical terrain fit below 2.5m, taper to zero at 5m; upper and roof kept at source elevation",
+        "maximum_correction_m": 0.4804654362439297,
+        "original_source_preserved": true
+      },
+      "ground_sample_count": 116,
+      "visual_review": "PENDING"
+    },
+    {
+      "id": "d16-way136587731-Inferred",
+      "source_asset": "D16_way136587731_Inferred_Undated_v001",
+      "host_ids": [
+        "way/136587731"
+      ],
+      "model": "d16-way136587731-Inferred.glb",
+      "world_baked": true,
+      "placement": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "planBounds": [
+        -208.82228168869017,
+        -77.467290391922,
+        -198.90812477493284,
+        -69.89245962142945
+      ],
+      "bounds": [
+        [
+          -208.82228168869017,
+          3.907244843304156,
+          69.89245962142945
+        ],
+        [
+          -198.90812477493284,
+          12.108000312805174,
+          77.467290391922
+        ]
+      ],
+      "groundElevationTP": 15,
+      "sun": {
+        "azimuth_deg": 207,
+        "elevation_deg": 57
+      },
+      "bytes": 23528,
+      "primitives": 3,
+      "triangles": 580,
+      "sha256": "9cde3ae3356a7998028798708456d0262f622ebe8fdece385b11d49e7b51d1d2",
+      "inference": "UNDATED_PHOTO_UNVERIFIED_SOURCE_AND_TERRAIN_FIT",
+      "original_datum": 3.8359999999999985,
+      "placement_height": 3.8359999999999985,
+      "raise": 0,
+      "foot_fit": {
+        "method": "Vertical terrain fit below 2.5m, taper to zero at 5m; upper and roof kept at source elevation",
+        "maximum_correction_m": 0.25175333966733604,
+        "original_source_preserved": true
+      },
+      "ground_sample_count": 172,
+      "visual_review": "PENDING"
+    },
+    {
+      "id": "d16-way136587794-Inferred",
+      "source_asset": "D16_way136587794_Inferred_Undated_v001",
+      "host_ids": [
+        "way/136587794"
+      ],
+      "model": "d16-way136587794-Inferred.glb",
+      "world_baked": true,
+      "placement": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "planBounds": [
+        -193.11203265743006,
+        -113.4420405773211,
+        -181.12811399059046,
+        -104.2444850353289
+      ],
+      "bounds": [
+        [
+          -193.11203265743006,
+          3.526197633802891,
+          104.2444850353289
+        ],
+        [
+          -181.12811399059046,
+          20.150000854492188,
+          113.4420405773211
+        ]
+      ],
+      "groundElevationTP": 15,
+      "sun": {
+        "azimuth_deg": 207,
+        "elevation_deg": 57
+      },
+      "bytes": 26432,
+      "primitives": 3,
+      "triangles": 770,
+      "sha256": "fcceed868e21c63c6baf27ecf80e49228bd02faeb6107ed25ee2defbc1e84a6a",
+      "inference": "UNDATED_PHOTO_UNVERIFIED_SOURCE_AND_TERRAIN_FIT",
+      "original_datum": 3.471,
+      "placement_height": 3.471,
+      "raise": 0,
+      "foot_fit": {
+        "method": "Vertical terrain fit below 2.5m, taper to zero at 5m; upper and roof kept at source elevation",
+        "maximum_correction_m": 0.3876126032970514,
+        "original_source_preserved": true
+      },
+      "ground_sample_count": 116,
+      "visual_review": "PENDING"
+    }
+  ],
+  "inference": "10 nearby inferred building/row assemblies,14 hosts, shared material palette; originals preserved. Not survey or full district completion.",
+  "visual_review": "REVIEWED_IN_DISTRICT_CAPTURE_WITH_INFERRED_GEOMETRY_AND_DATE_LIMITATIONS",
+  "evidence": "evidence/dot-d16/after-corrected"
+}

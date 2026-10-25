@@ -1,0 +1,119 @@
+{
+  "id": "d12-toei-composite",
+  "host": "way/120105804",
+  "world_baked": true,
+  "model": "d12-toei-composite.glb",
+  "placement": {
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "planBounds": [
+    109.10803434753419,
+    23.72256528908387,
+    151.85546133422852,
+    62.70687745666504
+  ],
+  "bounds": [
+    [
+      109.10803434753419,
+      2.136859335027186,
+      -62.70687745666504
+    ],
+    [
+      151.85546133422852,
+      55.56199951171875,
+      -23.72256528908387
+    ]
+  ],
+  "groundElevationTP": 15,
+  "sun": {
+    "azimuth_deg": 207,
+    "elevation_deg": 57
+  },
+  "bytes": 396836,
+  "primitives": 2,
+  "triangles": 21554,
+  "sha256": "c23947535bbfdb81a29a1160361b0714e8bf1697cb0a1d3234f15b47f122460f",
+  "ground_anchor": 2.964764513097255,
+  "inference": "local facade alignment and vertical fit inferred from existing footprint and source carrier; not survey",
+  "component_transforms": [
+    {
+      "source": "d12-stage/toei-curve-fit.glb",
+      "matrix": [
+        0.5134871144753469,
+        0,
+        -0.8580973040790781,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0.8580973040790781,
+        0,
+        0.5134871144753469,
+        0,
+        144.46714978460972,
+        2.964764513097255,
+        -31.9200355253294,
+        1
+      ],
+      "footFit": {
+        "maximum_vertical_adjustment": 0.8279050783666831,
+        "changed_vertex_instances": 801,
+        "fullHeight": 0,
+        "stopHeight": 0.8,
+        "upper_geometry_unchanged": true
+      }
+    },
+    {
+      "source": "d12-intake/extracted/D12_toeiplaza_upper_cladding_roof_Undated_v001/runtime/D12_toeiplaza_upper_cladding_roof_Undated_v001_B.glb",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        133.549,
+        0.7,
+        -47.036,
+        1
+      ],
+      "footFit": {
+        "maximum_vertical_adjustment": 0,
+        "changed_vertex_instances": 0,
+        "fullHeight": 2.5,
+        "stopHeight": 5,
+        "upper_geometry_unchanged": true
+      }
+    }
+  ],
+  "remainder_clip_reports": [
+    {
+      "changed_primitives": 5,
+      "net_removed_triangles": -2062
+    }
+  ],
+  "visual_review": "REVIEWED_IN_13_VIEW_DISTRICT_CAPTURE_NOT_PHOTOMETRIC_CERTIFICATION",
+  "review_evidence": "evidence/dot-d12/after-verified",
+  "provenance_index": "assets/districts/d12/source/provenance/INDEX.json"
+}

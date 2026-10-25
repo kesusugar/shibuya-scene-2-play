@@ -1,0 +1,51 @@
+{
+  "asset": "d11-c80-neutral",
+  "host_ids": [
+    "plateau/bldg_c80bf9fe-4992-488e-aecd-6c7a456a654e"
+  ],
+  "datum_tp": 15,
+  "models": [
+    {
+      "runtime": "d11-c80-neutral.glb",
+      "source": "source/public-host.json",
+      "stats": {
+        "bytes": 2436,
+        "primitives": 2,
+        "triangles": 10
+      }
+    }
+  ],
+  "independent_regeneration": {
+    "input": "source/public-host.json",
+    "input_sha256": "1a26bc49f71300fb097536d46da8ab2df98384b8b17aa9bb098ed3c3814187ff",
+    "runtime": "d11-c80-neutral.glb",
+    "runtime_sha256": "ec4e91ad7f6060393c9f033f6dbf2fc994ad1e99172a95623457a7c51cd8c011",
+    "bytes": 2436,
+    "primitives": 2,
+    "triangles": 10,
+    "source_faces": 5,
+    "source_faces_accounted": 5,
+    "source_faces_removed": 0,
+    "private_inputs_used": false,
+    "coordinate_mapping": "Public [east,north,TP-15] => glTF [east,TP-15,-north]; local recenter plus root translation only",
+    "runtime_bounds_source_axes": [
+      [
+        83.7890000076294,
+        99.12899999713898,
+        1.4560000276565548
+      ],
+      [
+        85.97999999237061,
+        101.57300000286102,
+        4.913999972343444
+      ]
+    ],
+    "maximum_vertex_error_m": 3.984943825787495e-08,
+    "preserves_source_elevations": true,
+    "terrain_snap_or_scale": false,
+    "duplicate_source_triangles": "Preserved as supplied, none removed",
+    "publication_or_license_approval_claimed": false
+  },
+  "support_policy": "Existing support remains separate and unchanged where present; never combined into source-derived geometry.",
+  "status": "Local regenerated candidate only; licensing review and integrated validation remain parent-owned."
+}

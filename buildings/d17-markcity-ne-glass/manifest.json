@@ -1,0 +1,64 @@
+{
+  "id": "d17-markcity-ne-glass",
+  "model": "d17-markcity-ne-glass.glb",
+  "world_baked": true,
+  "placement": {
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "groundElevationTP": 15,
+  "sun": {
+    "azimuth_deg": 207,
+    "elevation_deg": 57
+  },
+  "bounds": [
+    [
+      -54.529849302949124,
+      0.5779999999999994,
+      61.55038159994645
+    ],
+    [
+      -44.43544474659652,
+      22.80999939727783,
+      74.48828634862961
+    ]
+  ],
+  "planBounds": [
+    -54.529849302949124,
+    -74.48828634862961,
+    -44.43544474659652,
+    -61.55038159994645
+  ],
+  "bytes": 165992,
+  "primitives": 3,
+  "triangles": 10870,
+  "sha256": "6e3245b6f6203b7480b1c0c914b0d957d1439f7bd62e4cf2ec3049dac0617978",
+  "source_mount": {
+    "id": "d17-markcity-ne-glass",
+    "file": "d17-intake/dot-extracted/11cY7AGc5DsbWp-EgGbyNfj9pevqsQ3KZ/assets/D17_markcity_east_glassscreen_B.glb",
+    "root": [
+      -46.322,
+      0.578,
+      61.886
+    ],
+    "theta": 1.7019711753928168
+  },
+  "footFit": null,
+  "duplicateSupports": [],
+  "visual_review": "REVIEWED_NE_CORNER_CLASS_PRESERVING_MATERIAL_CORRECTION",
+  "inference": "Candidate placement from source host frame; no collision or date certification",
+  "evidence": "evidence/dot-d18/after-verified/ne_corner.png"
+}

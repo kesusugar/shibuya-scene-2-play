@@ -1,0 +1,236 @@
+{
+  "id": "d19-fukuras-additions",
+  "model": "d19-fukuras-additions.glb",
+  "world_baked": true,
+  "groundElevationTP": 15,
+  "sun": {
+    "azimuth_deg": 207,
+    "elevation_deg": 57
+  },
+  "bounds": [
+    [
+      -67.00241204833983,
+      42.3000016784668,
+      168.36735647583006
+    ],
+    [
+      6.349638732910158,
+      106.87900024414063,
+      239.2056552734375
+    ]
+  ],
+  "planBounds": [
+    -67.00241204833983,
+    -239.2056552734375,
+    6.349638732910158,
+    -168.36735647583006
+  ],
+  "bytes": 117876,
+  "primitives": 3,
+  "triangles": 4600,
+  "sha256": "89f1534c82c09a3f5416612c30679325b21cef85c926c4af2467515ed2fbb324",
+  "components": [
+    {
+      "id": "D19_fukuras_upper_roof_Undated_v001",
+      "file": "d19-intake/extracted/D19_fukuras_upper_roof_Undated_v001/runtime/D19_fukuras_upper_roof_Undated_v001_B.glb",
+      "root": [
+        -27.266,
+        1.31,
+        204.884
+      ],
+      "yaw": 0,
+      "group": "d19-fukuras-additions",
+      "basis": "Source PLATEAU frame; facade nodes excluded from runtime, only independently reviewed roof node retained",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -27.266,
+        1.31,
+        204.884,
+        1
+      ],
+      "runtime_enabled": true,
+      "runtime_subset": "INFERRED_roof only; redundant facade grid omitted",
+      "sha256": "f2c10c205b585b637f9c0545dce8b9305252d187b11a62cb18a5eff685c32239"
+    },
+    {
+      "id": "D19_fukuras_podium_Undated_v001",
+      "file": "d19-intake/extracted/D19_fukuras_podium_Undated_v001/runtime/D19_fukuras_podium_Undated_v001_B.glb",
+      "root": [
+        -27.266,
+        1.31,
+        204.884
+      ],
+      "yaw": 0,
+      "group": "d19-fukuras-additions",
+      "basis": "Source PLATEAU frame; facade nodes excluded from runtime, only independently reviewed roof node retained",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -27.266,
+        1.31,
+        204.884,
+        1
+      ],
+      "runtime_enabled": false,
+      "reason": "Redundant grid overlaps retained host facade",
+      "sha256": "89d2716a83cc6e75eff7f2bacd6e14a4264313b0b6a7a1abef64c1a5db65097a"
+    },
+    {
+      "id": "west-storefront",
+      "file": "d19-intake/dot-extracted/1so5yRxrNDrJ4YCQ_VKwn8TRWIk4doqwP/assets/D19_west_frontage_B.glb",
+      "root": [
+        -45.315332882683514,
+        4.544646898629878,
+        222.9791673950696
+      ],
+      "yaw": -1.1648623314030562,
+      "group": "d19-fukuras-additions",
+      "basis": "West wall127, inferred along-wall20m station, terrain threshold",
+      "clip": {
+        "min": [
+          -6.1,
+          -0.1,
+          -0.85
+        ],
+        "max": [
+          6.1,
+          6.7,
+          0.6
+        ]
+      },
+      "matrix": [
+        0.3948770257889471,
+        0,
+        0.9187339846245349,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -0.9187339846245349,
+        0,
+        0.3948770257889471,
+        0,
+        -45.315332882683514,
+        4.544646898629878,
+        222.9791673950696,
+        1
+      ],
+      "runtime_enabled": false,
+      "reason": "Host grid/recess conflict or unresolved deck connection; not a completed placement",
+      "sha256": "cfef75dd4a917e34cd3b8c52c21c986a144f57fb23a28c66a6f305a31d7415a0"
+    },
+    {
+      "id": "south-2f-entry",
+      "file": "d19-intake/dot-extracted/15XwIEk2HzQInNnYw77y71PpkJ1nwgZbm/assets/D19_south_entry_B.glb",
+      "root": [
+        -18.285994097648917,
+        9.859880578190989,
+        231.35938948648612
+      ],
+      "yaw": 0.40671134745416,
+      "group": "d19-fukuras-additions",
+      "basis": "South wall160, official2F map relation; inferred along-wall20m and deck from unchanged3.96m stair rise",
+      "clip": {
+        "min": [
+          -4.4,
+          -0.16,
+          -1.9
+        ],
+        "max": [
+          3.1,
+          4.1,
+          1.65
+        ]
+      },
+      "matrix": [
+        0.9184267486005502,
+        0,
+        -0.395591086167297,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0.395591086167297,
+        0,
+        0.9184267486005502,
+        0,
+        -18.285994097648917,
+        9.859880578190989,
+        231.35938948648612,
+        1
+      ],
+      "runtime_enabled": false,
+      "reason": "Host grid/recess conflict or unresolved deck connection; not a completed placement",
+      "sha256": "f58ea6a201b9aadb2c665d65738cfdb43204d06ddb6e82ba15cbe053567aff48"
+    },
+    {
+      "id": "southwest-stair",
+      "file": "d19-intake/dot-extracted/1en8tDexVNXVihcJqINpPgRb-9ByBzVBX/assets/D19_Fukuras_SW_Stairs_B.glb",
+      "root": [
+        -33.155537581863754,
+        5.899880578190988,
+        239.81108023869922
+      ],
+      "yaw": -1.1640849793407366,
+      "group": "d19-fukuras-stair-visual",
+      "basis": "Official2F map stair runs parallel to south edge, measured lower landing, unchanged3.96m rise; no navigable stair claim",
+      "matrix": [
+        0.3955910861672969,
+        0,
+        0.9184267486005503,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -0.9184267486005503,
+        0,
+        0.3955910861672969,
+        0,
+        -33.155537581863754,
+        5.899880578190988,
+        239.81108023869922,
+        1
+      ],
+      "runtime_enabled": false,
+      "reason": "Host grid/recess conflict or unresolved deck connection; not a completed placement",
+      "sha256": "65549a48a8a45c621f4fc9ab227d3c3d898c8b5b827438cb83aa91a33d5fdd5f"
+    }
+  ],
+  "uvSplit": {
+    "primitives": [],
+    "addedTriangles": 0,
+    "geometryMethod": "UV-space clipping only; original 3D planes and surface area preserved, no simplification"
+  },
+  "visual_only": false,
+  "visual_review": {
+    "status": "rendered_day_night_and_inspected",
+    "evidence": "evidence/dot-d19/acceptance-day, acceptance-night, close-validation",
+    "limitations": "Inferred geometry and mixed photo dates remain; no survey accuracy or real-device FPS claim"
+  },
+  "runtime_scope": "Partial inferred roof parapets/caps/equipment only. All incoming facade grids and three dot frontage/stair candidates retained as source-only.",
+  "retained_host_sha256": "4454c7c1e0c910688d68a879f8c94b1fa02d058641d23dddde6ad5c37e9d6f44"
+}

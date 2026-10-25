@@ -1,0 +1,118 @@
+{
+  "id": "d16-cosmo-composite",
+  "host": "way/136587840",
+  "world_baked": true,
+  "model": "d16-cosmo-composite.glb",
+  "placement": {
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "planBounds": [
+    -204.17324506266246,
+    -128.60834331441242,
+    -177.54414758453913,
+    -108.69235773015338
+  ],
+  "bounds": [
+    [
+      -204.17324506266246,
+      3.523672180075981,
+      108.69235773015338
+    ],
+    [
+      -177.54414758453913,
+      33.949000457763674,
+      128.60834331441242
+    ]
+  ],
+  "groundElevationTP": 15,
+  "sun": {
+    "azimuth_deg": 207,
+    "elevation_deg": 57
+  },
+  "bytes": 941260,
+  "primitives": 2,
+  "triangles": 49150,
+  "sha256": "0421a93200392c7df83152759a9b97e08657f2486f57bcd4221bd0d689b4c9a5",
+  "ground_anchor": 3.5774375664189835,
+  "inference": "Source facade, candidate host face and world carrier alignment inferred; original dimensions preserved, dated state and absolute fit not surveyed.",
+  "component_transforms": [
+    {
+      "source": "d16-intake/dot-extracted/1Cn6Xz2KfFB0cfC6W_D7yCk2yFbfXEj9z/d16_cosmo_frontage_20261018/model/D16_Cosmo_LowFrontage_Undated_v001_RUNTIME_B.glb",
+      "matrix": [
+        -0.43678501858809277,
+        0,
+        -0.8995659217294747,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0.8995659217294747,
+        0,
+        -0.43678501858809277,
+        0,
+        -180.43453119546783,
+        3.5774375664189835,
+        112.74672782007515,
+        1
+      ],
+      "footFit": {
+        "maximum_vertical_adjustment": 0.053765387103837166,
+        "changed_vertex_instances": 6527,
+        "fullHeight": 0,
+        "stopHeight": 0.8,
+        "upper_geometry_unchanged": true
+      }
+    },
+    {
+      "source": "d16-intake/extracted/D16_Cosmo_SetbackBody_Inferred_Undated_v001/runtime/D16_Cosmo_SetbackBody_Inferred_Undated_v001_B.glb",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -191.11157666666637,
+        3.5539999999999985,
+        115.2477533333333,
+        1
+      ],
+      "footFit": {
+        "maximum_vertical_adjustment": 0,
+        "changed_vertex_instances": 0,
+        "fullHeight": 2.5,
+        "stopHeight": 5,
+        "upper_geometry_unchanged": true
+      }
+    }
+  ],
+  "remainder_clip_reports": [
+    {
+      "changed_primitives": 5,
+      "net_removed_triangles": -1010
+    }
+  ],
+  "visual_review": "REVIEWED_IN_DISTRICT_CAPTURE_WITH_INFERRED_GEOMETRY_AND_DATE_LIMITATIONS",
+  "evidence": "evidence/dot-d16/after-corrected"
+}

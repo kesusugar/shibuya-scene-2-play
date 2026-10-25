@@ -1,0 +1,113 @@
+{
+  "id": "d12-triangle-composite",
+  "host": "way/155749492",
+  "world_baked": true,
+  "model": "d12-triangle-composite.glb",
+  "placement": {
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "planBounds": [
+    132.34807770347595,
+    14.11804566192627,
+    140.69455449676514,
+    26.321472499847413
+  ],
+  "bounds": [
+    [
+      132.34807770347595,
+      1.6008062481880188,
+      -26.321472499847413
+    ],
+    [
+      140.69455449676514,
+      39.33399887084961,
+      -14.11804566192627
+    ]
+  ],
+  "groundElevationTP": 15,
+  "sun": {
+    "azimuth_deg": 207,
+    "elevation_deg": 57
+  },
+  "bytes": 441064,
+  "primitives": 8,
+  "triangles": 7218,
+  "sha256": "57a4b68efd69d78ce163837d494a2c7b118a251ca5893657fb42e0e0aa067298",
+  "ground_anchor": null,
+  "inference": "local facade alignment and vertical fit inferred from existing footprint and source carrier; not survey",
+  "component_transforms": [
+    {
+      "source": "d12-intake/dot-extracted/1y_o39TzpXUCawlJS_oNfZXRNJD8XOeZ1/runtime/D12_Triangle_Upper4to8_ObservedFrontage_Undated_v001.glb",
+      "matrix": [
+        0.5460623953164776,
+        0,
+        -0.837744507843072,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0.837744507843072,
+        0,
+        0.5460623953164776,
+        0,
+        137.1783210577745,
+        11.05,
+        -19.057887816163927,
+        1
+      ],
+      "footFit": null
+    },
+    {
+      "source": "d12-intake/extracted/D12_triangle_remainder_Undated_v001/runtime/D12_triangle_remainder_Undated_v001_B.glb",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        135.851,
+        0.7,
+        -22.123,
+        1
+      ],
+      "footFit": {
+        "maximum_vertical_adjustment": 1.4261262123814407,
+        "changed_vertex_instances": 1024,
+        "fullHeight": 2.5,
+        "stopHeight": 5,
+        "upper_geometry_unchanged": true
+      }
+    }
+  ],
+  "remainder_clip_reports": [
+    {
+      "changed_primitives": 11,
+      "net_removed_triangles": -450
+    }
+  ],
+  "visual_review": "REVIEWED_IN_13_VIEW_DISTRICT_CAPTURE_NOT_PHOTOMETRIC_CERTIFICATION",
+  "review_evidence": "evidence/dot-d12/after-verified",
+  "provenance_index": "assets/districts/d12/source/provenance/INDEX.json"
+}

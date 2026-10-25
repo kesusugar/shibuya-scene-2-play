@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "lookAheadSeconds": 3,
+  "minActiveMs": 4000,
+  "cacheGroups": 1,
+  "maxConcurrentLoads": 1,
+  "retryDelaysMs": [
+    2000,
+    8000,
+    30000
+  ],
+  "texturesPerUpdate": 2,
+  "releaseMode": "gpu",
+  "cells": [
+    {
+      "id": "g1-centergai-west",
+      "label": "センター街入口西側街区（west-block＋D03店先）",
+      "bounds": [
+        -67.253,
+        21.279,
+        -34.818,
+        55.545
+      ],
+      "buildings": [
+        "west-block",
+        "d03-center-gai-frontage"
+      ],
+      "proxy": "proxy-west-block.glb",
+      "loadRadius": 90,
+      "unloadRadius": 130,
+      "note": "D03 front parts sit in the cut-only host; host and front are one group so neither shows alone. way/136690966 is excluded from the C pack, so the proxy fills the hole while the detail is not active."
+    },
+    {
+      "id": "g2-d05-centerbuilding",
+      "label": "D05センタービル道路側（BURGER KING）",
+      "bounds": [
+        -148.21,
+        90.09,
+        -132.83,
+        107.37
+      ],
+      "buildings": [
+        "d05-centerbuilding-bk"
+      ],
+      "proxy": null,
+      "loadRadius": 90,
+      "unloadRadius": 130,
+      "note": "Storefront only; the host shell way/136691344 stays in the C pack, so no proxy is needed and nothing opens when the detail is released."
+    },
+    {
+      "id": "g3-shibuya109",
+      "label": "SHIBUYA109",
+      "bounds": [
+        -187.459,
+        -14.525,
+        -128.975,
+        36.787
+      ],
+      "buildings": [
+        "shibuya109"
+      ],
+      "proxy": "proxy-shibuya109.glb",
+      "loadRadius": 90,
+      "unloadRadius": 130,
+      "note": "way/55895868 is excluded from the C pack; the proxy is its PLATEAU 2025 LOD2 shell."
+    }
+  ]
+}

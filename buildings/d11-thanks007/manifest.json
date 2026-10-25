@@ -1,0 +1,142 @@
+{
+  "asset": "d11-thanks007",
+  "host_ids": [
+    "way/136730007"
+  ],
+  "base_commit": "2927a823f89480feed494328b8abb14c93cb83a5",
+  "datum_tp": 15,
+  "source_to_runtime": "(east,north,up) -> (east,up,-north), already applied once in supplied GLBs",
+  "models": [
+    {
+      "source": {
+        "path": "D11_Thanks_Coherent_Inferred_v002/model/D11_Thanks_Coherent_Inferred_OPTIONAL.glb",
+        "bytes": 1054760,
+        "sha256": "2936307bba56e8fce59927783e02257c6c3206ce6d5fe537e55c1a327ffb98fd"
+      },
+      "runtime": "d11-thanks007.glb",
+      "matrix": [
+        -0.11786945956898011,
+        0.0,
+        0.9930290985167135,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -0.9930290985167135,
+        0.0,
+        -0.11786945956898011,
+        0.0,
+        41.7085,
+        1.84,
+        -198.029,
+        1.0
+      ],
+      "original_bin_preserved": false,
+      "initial_integration_original_bin_preserved": true,
+      "runtime_equivalence": "Exact referenced attribute values and oriented source ranges; compiled buffer layout is not the original BIN."
+    }
+  ],
+  "source_frame": {
+    "status": "CONDITIONAL_INFERRED_FIT_REQUIRES_LOWRES_REVIEW_NOT_MEASURED",
+    "host": "way/136730007",
+    "source_front_face_candidate": 3,
+    "origin_source": [
+      41.7085,
+      198.029,
+      1.84
+    ],
+    "x_axis_source": [
+      -0.11786945956898011,
+      -0.9930290985167135,
+      0
+    ],
+    "y_axis_source": [
+      0.9930290985167135,
+      -0.11786945956898011,
+      0
+    ],
+    "z_axis_source": [
+      0,
+      0,
+      1
+    ],
+    "source_face3_width": 3.5547800213234018,
+    "old_nominal_width": 5.199585079600099,
+    "conditional_x_scale": 0.6836660939100935,
+    "old_y_translation_to_front_zero": 0.812000036239624,
+    "z_translation": 0,
+    "source_ground_z": 1.84,
+    "source_height": 31.6,
+    "roof_source_faces": [
+      0,
+      1
+    ],
+    "other_whole_source_walls": [
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "old_runtime_budget": {
+      "bytes": 1061760,
+      "primitives": 35,
+      "triangles": 16777
+    },
+    "addon_max_primitives": 5,
+    "old_plan_edge_is_not_actual_source_front": true,
+    "world_transform": null,
+    "allow_source_face_delete": false
+  },
+  "runtime_root_offset": 0,
+  "scale": [
+    1,
+    1,
+    1
+  ],
+  "grounding_status": "Local review: current ground measured; Shu lower +1.69m and middle trim inferred; shared integration acceptance pending",
+  "activation": "Integrated as one exclusive assembly; original source hosts excluded",
+  "source_archive": {
+    "local_path": "D11_Thanks_Coherent_Inferred_v002_RUNTIME.zip",
+    "bytes": 201503,
+    "sha256": "18e2afdf22807505e3c849628f1c443e1ee23a586255882ce67db21132ed2f73",
+    "index_sha256_matches": true,
+    "zip_crc_ok": true,
+    "drive_name_size_verified_utc": "2026-10-19T14:49:57Z",
+    "drive_sha256_returned": false,
+    "glbs": [
+      {
+        "path": "D11_Thanks_Coherent_Inferred_v002/model/D11_Thanks_Coherent_Inferred_OPTIONAL.glb",
+        "bytes": 1054760,
+        "sha256": "2936307bba56e8fce59927783e02257c6c3206ce6d5fe537e55c1a327ffb98fd"
+      }
+    ]
+  },
+  "inference": "Width 5.199585 -> 3.554780 m is semantic remesh, not global squash or surveyed width; entry bay layout changes explicitly documented.",
+  "preservation": "All 26 originals remain byte-identical in FULL provenance/immutable_original; do not overwrite. Optional coherent runtime is an inferred semantic derivative, not byte-identical original facade.",
+  "d22_runtime_consolidation": {
+    "date": "2026-10-20",
+    "kind": "same-material same-transform opaque compilation with exact source ranges",
+    "proof": "assets/districts/d22/remainder/draw-reserve",
+    "original_sources_and_accepted_intermediate_preserved": true,
+    "geometry_materials_transforms_collision_exact": true,
+    "live_source_mesh_visibility_preserved": false,
+    "source_categories_reconstructable_offline": true,
+    "files": [
+      {
+        "output": "web/d11-thanks007/d11-thanks007.glb",
+        "input_sha256": "89673ddc3c50ac8c4175d98f5f8c946afc40a91470771c71ed6fa64dac212f81",
+        "output_sha256": "e3958a2421d39b66f68cc36973a94ae7fbde4b71b466829333af5eb26b53c349",
+        "input_bytes": 1524268,
+        "output_bytes": 1050932,
+        "before_primitives": 32,
+        "after_primitives": 20,
+        "triangles": 16784
+      }
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "id": "d12-nonbei-w138670870-neutral",
+  "host_ids": [
+    "way/138670870"
+  ],
+  "world_baked": true,
+  "groundElevationTP": 15,
+  "planBounds": [
+    87.36900010108948,
+    34.25200008392334,
+    93.15282001495362,
+    51.88699983596802
+  ],
+  "bounds": [
+    [
+      87.36900010108948,
+      0.2550632034540176,
+      -51.88699983596802
+    ],
+    [
+      93.15282001495362,
+      6.610000026702881,
+      -34.25200008392334
+    ]
+  ],
+  "sun": {
+    "azimuth_deg": 207,
+    "elevation_deg": 57
+  },
+  "bytes": 29676,
+  "primitives": 2,
+  "triangles": 1058,
+  "sha256": "ce569f7395f618d03166b03e9b3a818bc850e4a45800ee69c573f9334b17171f",
+  "inference": "Anonymous shallow bar storefronts; NOT Hana or Darbre identity or exact shop count. Kept original detailed candidates separately, no brand assignment.",
+  "bays": [
+    {
+      "east": 92.53349361239468,
+      "north": 39.2,
+      "height": 0.33732149665580835,
+      "width": 2.7,
+      "depth": 0.46
+    },
+    {
+      "east": 92.70076732807829,
+      "north": 42.6,
+      "height": 0.34620501948470406,
+      "width": 2.7,
+      "depth": 0.46
+    },
+    {
+      "east": 92.86804104376189,
+      "north": 46,
+      "height": 0.39041577867999877,
+      "width": 2.7,
+      "depth": 0.46
+    },
+    {
+      "east": 93.0353147594455,
+      "north": 49.4,
+      "height": 0.44572633726636923,
+      "width": 2.7,
+      "depth": 0.46
+    }
+  ],
+  "footFit": {
+    "maximum_vertical_adjustment": 0.21002583279308012,
+    "changed_vertex_instances": 28,
+    "fullHeight": 2.5,
+    "stopHeight": 5,
+    "upper_geometry_unchanged": true
+  },
+  "shellClip": {
+    "changed_primitives": 2,
+    "net_removed_triangles": -172
+  },
+  "visual_review": "REVIEWED_IN_13_VIEW_DISTRICT_CAPTURE_NOT_PHOTOMETRIC_CERTIFICATION",
+  "review_evidence": "evidence/dot-d12/after-verified",
+  "provenance_index": "assets/districts/d12/source/provenance/INDEX.json"
+}

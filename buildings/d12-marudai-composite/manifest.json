@@ -1,0 +1,151 @@
+{
+  "id": "d12-marudai-composite",
+  "host": "way/136730049",
+  "world_baked": true,
+  "model": "d12-marudai-composite.glb",
+  "placement": {
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "planBounds": [
+    36.304704888646064,
+    63.160228118896484,
+    53.94595258331299,
+    81.13617454528809
+  ],
+  "bounds": [
+    [
+      36.304704888646064,
+      1.0605614306032658,
+      -81.13617454528809
+    ],
+    [
+      53.94595258331299,
+      33.58000091552734,
+      -63.160228118896484
+    ]
+  ],
+  "groundElevationTP": 15,
+  "sun": {
+    "azimuth_deg": 207,
+    "elevation_deg": 57
+  },
+  "bytes": 211624,
+  "primitives": 6,
+  "triangles": 10141,
+  "sha256": "636e70b16154cefe9073d15ef7d9159667fa445d349a0c4da4952bd4020cf97e",
+  "ground_anchor": 1.4443502108846973,
+  "inference": "local facade alignment and vertical fit inferred from existing footprint and source carrier; not survey",
+  "component_transforms": [
+    {
+      "source": "d12-intake/dot-extracted/1FdGb3CauC8ANy7wam2AbZM1V5hp3Ypgx/d12_marudai_momstouch_frontage_20261018/model/D12_Marudai_MomsTouch_RUNTIME.glb",
+      "matrix": [
+        -0.1830919000435472,
+        0,
+        0.9830958021161742,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -0.9830958021161742,
+        0,
+        -0.1830919000435472,
+        0,
+        39.15650118444397,
+        1.4443502108846973,
+        -75.61350700990855,
+        1
+      ],
+      "footFit": {
+        "maximum_vertical_adjustment": 0.17225518001862372,
+        "changed_vertex_instances": 1538,
+        "fullHeight": 0,
+        "stopHeight": 0.8,
+        "upper_geometry_unchanged": true
+      }
+    },
+    {
+      "source": "d12-intake/extracted/D12_marudai_upper_remainder_Undated_v001/runtime/D12_marudai_upper_remainder_Undated_v001_B.glb",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        45.726,
+        1.04,
+        -72.735,
+        1
+      ],
+      "footFit": {
+        "maximum_vertical_adjustment": 0,
+        "changed_vertex_instances": 0,
+        "fullHeight": 2.5,
+        "stopHeight": 5,
+        "upper_geometry_unchanged": true
+      }
+    },
+    {
+      "source": "d12-intake/extracted/D12_marudai_shared_entrance_ground_Undated_v001/runtime/D12_marudai_shared_entrance_ground_Undated_v001_B.glb",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        45.726,
+        1.04,
+        -72.735,
+        1
+      ],
+      "footFit": {
+        "maximum_vertical_adjustment": 0.41435017033992605,
+        "changed_vertex_instances": 736,
+        "fullHeight": 2.5,
+        "stopHeight": 5,
+        "upper_geometry_unchanged": true
+      }
+    }
+  ],
+  "remainder_clip_reports": [
+    {
+      "changed_primitives": 5,
+      "net_removed_triangles": -704
+    },
+    {
+      "changed_primitives": 7,
+      "net_removed_triangles": -195
+    }
+  ],
+  "visual_review": "REVIEWED_IN_13_VIEW_DISTRICT_CAPTURE_NOT_PHOTOMETRIC_CERTIFICATION",
+  "review_evidence": "evidence/dot-d12/after-verified",
+  "provenance_index": "assets/districts/d12/source/provenance/INDEX.json"
+}

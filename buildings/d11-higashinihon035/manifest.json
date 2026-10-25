@@ -1,0 +1,34 @@
+{
+  "asset": "d11-higashinihon035",
+  "host_reference": "136730035",
+  "models": [
+    {
+      "source": "D11_Higashinihon_Exterior_ShallowEntry.glb",
+      "source_sha256": "b2707a38447bb30608d280ec2cc7bf571178911aa1485b00bb7b7c6dc47aeeac",
+      "runtime": "d11-higashinihon035.glb",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        51.81557829187908,
+        1.71,
+        -188.58408009910355,
+        1
+      ],
+      "binary_preserved": true
+    }
+  ],
+  "status": "staged_not_visually_verified",
+  "basis": "Source ENU minus [51.81557829187908,188.58408009910355,1.71], then glTF [x,z,-y]. West outward -X, not conventional front -Y.",
+  "height_correction": "historical_inferred_correction_pending_current_ground_check",
+  "private_source_origin": "Originals remain privately archived; source copies are geometry-only runtime inputs."
+}

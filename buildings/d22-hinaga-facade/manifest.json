@@ -1,0 +1,33 @@
+{
+  "id": "d22-hinaga-facade",
+  "enabled": true,
+  "qualification": "Source and exact geometry/range gates, bounded normal-image visual review, pixel-exact class/day-return, full default delivery, collision, budget and test gates passed. Palette and sparse normal raster differences are explicitly disclosed; not lossless.",
+  "inputs": [
+    {
+      "id": "hinaga857",
+      "file": "assets/buildings/d22-hinaga-facade/source/derived/hinaga857.glb",
+      "sha256": "48352fe9367abe58252c410434b2e93757e09de5779f7367b95d04a4298e10e9",
+      "status": "adopted_after_composed_qa"
+    }
+  ],
+  "precisionRoot": [
+    350,
+    12,
+    -25
+  ],
+  "primitives": 2,
+  "triangles": 5958,
+  "bytes": 753968,
+  "raw_sha256": "2f2960903673c96b6ed22688339ca609239abc2258473ddcdf32c4496ec212f2",
+  "sha256": "c7d4a8391183bacb34a0fbcfe55c5fed74bb1934a823b51c9d1c3caba74381c8",
+  "sourceOriginalsRetained": true,
+  "runtimeSourceParentVisibilityPreserved": false,
+  "sourceRangeReconstruction": true,
+  "noGeometrySimplification": true,
+  "paletteQuantizedNotLossless": true,
+  "existingPhysicalObstaclesChanged": false,
+  "status": "Adopted in the D22 district batch; final publication freeze pending.",
+  "whole_leaf_completion_credit": 0,
+  "hide_from_C_stage_shell": [],
+  "collision": "visual-only; existing obstacles retained"
+}

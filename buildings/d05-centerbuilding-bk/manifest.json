@@ -1,0 +1,185 @@
+{
+  "id": "d05-centerbuilding-bk",
+  "source_id": "way/136691344",
+  "plateau_id": "bldg_89f20cfa-18f9-47cf-85a9-8bbc4ee8ad05",
+  "level": "B",
+  "scope": "roadside (south face) 1-2F Burger King storefront + observed 3F white window band only; C shell kept",
+  "sign_era": "2025-05-30",
+  "status": "Normal display. Placement, widths, depths and glass colour are estimates (docs/core/D05_CENTERBUILDING_BK_20261018.md).",
+  "license": "CC BY-SA 4.0 (photo ウィ貴公子 2025-05-30; model dot); trademarks not licensed",
+  "stats": {
+    "triangles": 11768,
+    "primitives": 16,
+    "bytes": 185820
+  },
+  "files": {
+    "README.md": {
+      "bytes": 1515,
+      "sha256": "4abb093923eb72d79fe41e734136fb09c34db7d7ebb0a2b8e0b39f3fec7991ca"
+    },
+    "source/build_d05_bk.mjs": {
+      "bytes": 9707,
+      "sha256": "6ae7e6e9084fc0f156abf62a239be74849e8dc28c4eafdce0114bf2eeb3cd163"
+    },
+    "source/build_stats.json": {
+      "bytes": 1056,
+      "sha256": "fbec23fbc6ea7b984a2d3f160644fc956b2fb7e724ed7287af8a29110f9b70fb"
+    },
+    "source/original/WORKING_MANIFEST.json": {
+      "bytes": 7913,
+      "sha256": "aa610d88886a18155605d663621cddafad5ad5642a3b63240ec40467dfd23cb6"
+    },
+    "source/original/WORKING_PACK_README.txt": {
+      "bytes": 608,
+      "sha256": "22f0899fc2220a2bc89dff7cb75d3b64c9831cc734097a4d299d63b1f413f518"
+    },
+    "source/original/upper/LICENSE.txt": {
+      "bytes": 289,
+      "sha256": "7a5388e557c707c67b08913ccdc8f0c3a25f096aefd7023000b8636ab7075a49"
+    },
+    "source/original/upper/MOUNT_AND_ESTIMATES.json": {
+      "bytes": 2060,
+      "sha256": "d5f33fc726b6434040081b2170a16707c13845f7b651406638b5954e56c942e5"
+    },
+    "source/original/upper/PROVENANCE.md": {
+      "bytes": 1629,
+      "sha256": "1214f5419e867eb4ab6005e2a2ba23fe8bd0fbfaccfd46bc7959db706ef140d9"
+    },
+    "source/original/upper/README_日本語.md": {
+      "bytes": 2111,
+      "sha256": "171e4af8532dfc959287d43f29cbb9ecf42b97d5e327820535291e6710c108a3"
+    },
+    "source/original/upper/SHA256SUMS.txt": {
+      "bytes": 2489,
+      "sha256": "5924127dc540dba9a43c34fbf97bd4b5e4f0aa4a14a380b9010078469648491e"
+    },
+    "source/original/upper/center_upperband.glb": {
+      "bytes": 24924,
+      "sha256": "b38b983568a90b2647f44d33162106887cb179c2e2e2a270d993a3f32565c43e"
+    },
+    "source/original/upper/source/generate.py": {
+      "bytes": 5013,
+      "sha256": "c22db2b3cd7ac2ed74d0d769f5f4c3dad5a0f53c6ffa68557e995d15cc6af3ad"
+    },
+    "source/original/upper/source/make_comparison.py": {
+      "bytes": 1544,
+      "sha256": "72d19c979b76c7b85601ca9db8d255672fd89cedefbd04ee6845af66b5f7a92d"
+    },
+    "source/original/upper/source/traced_polygons.json": {
+      "bytes": 12651,
+      "sha256": "0d098da325c31834df77018e997265423df9e51a4ca922bbd2216a6a3037a12f"
+    },
+    "source/original/upper/source/validate_blend.py": {
+      "bytes": 491,
+      "sha256": "7c9c3a739df5bd622be132d3ddaea8024ba3a3bf49ae917259fc96e51492fe6d"
+    },
+    "source/original/upper/qa/EXCLUSION_AUDIT.json": {
+      "bytes": 1857,
+      "sha256": "94a128b25776a8d1c627c17368161dfd58c98ea42789937d758103289086251e"
+    },
+    "source/original/upper/qa/INPUTS_UNCHANGED.json": {
+      "bytes": 552,
+      "sha256": "d9b0af3f43c96aa0c9156b81c99761c540f843a8ab99259e5e67c3139989435a"
+    },
+    "source/original/upper/qa/VISUAL_REVIEW.json": {
+      "bytes": 937,
+      "sha256": "553cda87d5fd611f186dbfadb40b4e499082e4c00d82c4283931ecac110cb14f"
+    },
+    "source/original/upper/qa/blend_reload.json": {
+      "bytes": 114,
+      "sha256": "82bf8a3fe934f9da254956508b6dc834701b8886c0a5b0a86d4a12145277bcba"
+    },
+    "source/original/upper/qa/blend_reload.log": {
+      "bytes": 173,
+      "sha256": "2da0d07efbb8cc5899b8054c3c8f11b20fedd6d9397fe374681554ee37bc25d2"
+    },
+    "source/original/upper/qa/build.log": {
+      "bytes": 4106,
+      "sha256": "6a1284683bf29b2d1947e368fe89ee66bf1ab7dcf132b2c1ebba656a01fad6d4"
+    },
+    "source/original/upper/qa/glb_reimport.json": {
+      "bytes": 796,
+      "sha256": "44c491d5187e9b045ee2e719798e47194c33bc333eea43dfb7a220c619477a13"
+    },
+    "source/original/upper/qa/regeneration.json": {
+      "bytes": 1121,
+      "sha256": "a7b7070cb27739de68dc924b76a646c2327ffff1833203a2ad86a7f1016e3ee8"
+    },
+    "source/original/upper/qa/render.log": {
+      "bytes": 16887,
+      "sha256": "caf5212ee5d2573592f5d1d0643013c8611c5f98d8bbb4cc9cb4af2d3b7c1166"
+    },
+    "source/original/lower/LICENSE.txt": {
+      "bytes": 437,
+      "sha256": "8e15bb2cfacd5ae4f8322f61e8533daf455f2c5f6a34f3c4376a8565daab4364"
+    },
+    "source/original/lower/MOUNT_AND_ESTIMATES.json": {
+      "bytes": 1509,
+      "sha256": "75aa3971ed6ec7e79ec0cde04bbeef5ab4c6b8864e35f38c6008fea2454374f2"
+    },
+    "source/original/lower/PRODUCTION_LOG.txt": {
+      "bytes": 461,
+      "sha256": "ef984712ad720a7ebcdd9170f7bd9b3698b2503f6a575dcb7487c299b8730f70"
+    },
+    "source/original/lower/PROVENANCE.md": {
+      "bytes": 1587,
+      "sha256": "02116014f27a3302dbfd8b5b27322d8b5aceeefe3b0619686dfc648b6f7fc12e"
+    },
+    "source/original/lower/README.md": {
+      "bytes": 1973,
+      "sha256": "200cd92c24bacd8b98278929ffc19cc4fc939f9beb97b53fec3e7f33709d4039"
+    },
+    "source/original/lower/burger_king_centergai_storefront.glb": {
+      "bytes": 1399984,
+      "sha256": "a5305bc223da32c32c9de0d7c2f223d5fe5ff1dfecf33708a57930b8c33d9717"
+    },
+    "source/original/lower/source/generate.py": {
+      "bytes": 10793,
+      "sha256": "04a56f728742b8bdfa300fe6545ccc81989b0c710e00fb84253da5f3857f1f7d"
+    },
+    "source/original/lower/source/letter_contours.json": {
+      "bytes": 10852,
+      "sha256": "894b9bff9b80d10cd652e228d989786a8d6f71ef9b463da31e9658e39d78da26"
+    },
+    "source/original/lower/source/validate.py": {
+      "bytes": 1958,
+      "sha256": "d666ded018cce93e03f326035364740e948ee6e16b33dbe9e2bc3ae74604e358"
+    },
+    "source/original/lower/qa/blend_reload.json": {
+      "bytes": 103,
+      "sha256": "086214bc70e734b74ac36ec779255ae54ee009dcbca800e50954bb6cc0d4dc4f"
+    },
+    "source/original/lower/qa/geometry.json": {
+      "bytes": 351,
+      "sha256": "66253e698509d7ab81828410a66037fc353a97a828479628a0101044161484fa"
+    },
+    "source/original/lower/qa/glb_reimport.json": {
+      "bytes": 433,
+      "sha256": "83f0872c90a643c7862b47fcf80e55d0c8fbaa5c6f669e892d9c9526efcd0d96"
+    },
+    "source/original/lower/qa/pbr_texture_export.json": {
+      "bytes": 847,
+      "sha256": "30c3844f65c8ac845d651ebf6fa4aa47897fff858fc8cad9b588ddb2a55258ce"
+    },
+    "source/original/lower/qa/regeneration.json": {
+      "bytes": 349,
+      "sha256": "a930c30400bd590ae124291496a256201218e66de00988e8065fed2187c363be"
+    },
+    "web/d05-centerbuilding-bk.glb": {
+      "bytes": 185820,
+      "sha256": "cfde69a7e6274d9c11d368da65667c585e41d75842e506de45385717a27e5712"
+    },
+    "web/emissive_day.json": {
+      "bytes": 3,
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    "web/emissive_night.json": {
+      "bytes": 3,
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    "web/viewer.json": {
+      "bytes": 139,
+      "sha256": "e5a4b694a93f6b67291982230c7e914d69dafe3dc5db00bd54bd9af16d20850e"
+    }
+  }
+}

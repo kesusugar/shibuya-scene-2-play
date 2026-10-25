@@ -1,0 +1,118 @@
+{
+  "id": "d16-diem-composite",
+  "host": "way/136587749",
+  "world_baked": true,
+  "model": "d16-diem-composite.glb",
+  "placement": {
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "planBounds": [
+    -207.8834538530946,
+    -103.92000007198637,
+    -198.1490001253991,
+    -91.47580330888205
+  ],
+  "bounds": [
+    [
+      -207.8834538530946,
+      3.958074139677639,
+      91.47580330888205
+    ],
+    [
+      -198.1490001253991,
+      11.686000066124553,
+      103.92000007198637
+    ]
+  ],
+  "groundElevationTP": 15,
+  "sun": {
+    "azimuth_deg": 207,
+    "elevation_deg": 57
+  },
+  "bytes": 215012,
+  "primitives": 3,
+  "triangles": 12741,
+  "sha256": "8dded9fcb0592ec610bd19ea7dcd4a797efbc191f4ff53eb9f2bebb57b4c75d7",
+  "ground_anchor": 4.154721455895062,
+  "inference": "Source facade, candidate host face and world carrier alignment inferred; original dimensions preserved, dated state and absolute fit not surveyed.",
+  "component_transforms": [
+    {
+      "source": "d16-intake/dot-extracted/13NLs54BSgiv-334kLTKrlyBIn9fP5BWy/D16_DMShibuya_BukotsuGaiden_ObservedFront_VisibleInterior_Undated_v001/runtime/D16_DMShibuya_BukotsuGaiden_ObservedFront_VisibleInterior_Undated_v001.glb",
+      "matrix": [
+        -0.8990434667886203,
+        0,
+        0.437859389330295,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -0.437859389330295,
+        0,
+        -0.8990434667886203,
+        0,
+        -205.3375,
+        4.154721455895062,
+        92.8055,
+        1
+      ],
+      "footFit": {
+        "maximum_vertical_adjustment": 0.19664730937704167,
+        "changed_vertex_instances": 1814,
+        "fullHeight": 0,
+        "stopHeight": 0.8,
+        "upper_geometry_unchanged": true
+      }
+    },
+    {
+      "source": "d16-intake/extracted/D16_DiemShibuya_UpperRoofParapet_Inferred_Undated_v001/runtime/D16_DiemShibuya_UpperRoofParapet_Inferred_Undated_v001_B.glb",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -202.8013124999999,
+        4.010999999999999,
+        97.774125,
+        1
+      ],
+      "footFit": {
+        "maximum_vertical_adjustment": 0,
+        "changed_vertex_instances": 0,
+        "fullHeight": 2.5,
+        "stopHeight": 5,
+        "upper_geometry_unchanged": true
+      }
+    }
+  ],
+  "remainder_clip_reports": [
+    {
+      "changed_primitives": 3,
+      "net_removed_triangles": -34
+    }
+  ],
+  "visual_review": "REVIEWED_IN_DISTRICT_CAPTURE_WITH_INFERRED_GEOMETRY_AND_DATE_LIMITATIONS",
+  "evidence": "evidence/dot-d16/after-corrected"
+}

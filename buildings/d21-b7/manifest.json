@@ -1,0 +1,29 @@
+{
+  "id": "d21-b7",
+  "asset_id": "D21_subway_b7_entrance_Undated_v001",
+  "host_ids": [
+    "way/1333409426"
+  ],
+  "translation": [
+    98.66,
+    -0.12,
+    37.54
+  ],
+  "rotation": [
+    0,
+    0,
+    0
+  ],
+  "scale": [
+    1,
+    1,
+    1
+  ],
+  "source_base_tp": 14.88,
+  "ground_correction_m": 0,
+  "original_bin_preserved": true,
+  "enabled": false,
+  "status": "disabled: continuous ground obscures stairs; exterior base fit unresolved",
+  "inference": "All appearance and entry direction inferred; no photographic verification; no terrain/collision changes",
+  "source_runtime_sha256": "84dd7d2c65232457d6ead794673568092d48e8490be7a523cd1217cc69876911"
+}

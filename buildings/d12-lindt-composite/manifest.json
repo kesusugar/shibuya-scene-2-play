@@ -1,0 +1,114 @@
+{
+  "id": "d12-lindt-composite",
+  "host": "way/749184350",
+  "world_baked": true,
+  "model": "d12-lindt-composite.glb",
+  "placement": {
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "planBounds": [
+    91.34782774276701,
+    6.190580331194571,
+    95.12037459659149,
+    18.132190458412406
+  ],
+  "bounds": [
+    [
+      91.34782774276701,
+      0.07537931641762896,
+      -18.132190458412406
+    ],
+    [
+      95.12037459659149,
+      14.556040395705159,
+      -6.190580331194571
+    ]
+  ],
+  "groundElevationTP": 15,
+  "sun": {
+    "azimuth_deg": 207,
+    "elevation_deg": 57
+  },
+  "bytes": 304088,
+  "primitives": 6,
+  "triangles": 15042,
+  "sha256": "42098007348b2453afb560a1544f3f895c88d3a80a63d89eb4948893b8c536cd",
+  "ground_anchor": 0.2060400142354314,
+  "inference": "local facade alignment and vertical fit inferred from existing footprint and source carrier; not survey",
+  "component_transforms": [
+    {
+      "source": "d12-intake/dot-extracted/1UGMb5vBJ6RemO58nBGJ_4z1DkSGJbkkI/D12_Lindt_GlassCorner_ShallowCafe_Undated_v001/runtime/D12_Lindt_GlassCorner_ShallowCafe_Undated_v001.glb",
+      "matrix": [
+        0.9998049792315185,
+        0,
+        0.019748506370433697,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -0.019748506370433697,
+        0,
+        0.9998049792315185,
+        0,
+        93.11,
+        0.2060400142354314,
+        -6.3454999999999995,
+        1
+      ],
+      "footFit": {
+        "maximum_vertical_adjustment": 0.13066070069923796,
+        "changed_vertex_instances": 386,
+        "fullHeight": 0,
+        "stopHeight": 0.8,
+        "upper_geometry_unchanged": true
+      }
+    },
+    {
+      "source": "d12-intake/extracted/D12_lindt_remainder_Undated_v001/runtime/D12_lindt_remainder_Undated_v001_B.glb",
+      "matrix": [
+        0.9998049792315185,
+        0,
+        0.019748506370433697,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -0.019748506370433697,
+        0,
+        0.9998049792315185,
+        0,
+        93.11,
+        0.2060400142354314,
+        -6.3454999999999995,
+        1
+      ],
+      "footFit": {
+        "maximum_vertical_adjustment": 0.12782113987677235,
+        "changed_vertex_instances": 360,
+        "fullHeight": 2.5,
+        "stopHeight": 5,
+        "upper_geometry_unchanged": true
+      }
+    }
+  ],
+  "remainder_clip_reports": [],
+  "visual_review": "REVIEWED_IN_13_VIEW_DISTRICT_CAPTURE_NOT_PHOTOMETRIC_CERTIFICATION",
+  "review_evidence": "evidence/dot-d12/after-verified",
+  "provenance_index": "assets/districts/d12/source/provenance/INDEX.json"
+}

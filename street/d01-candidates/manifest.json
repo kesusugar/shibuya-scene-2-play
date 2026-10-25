@@ -1,0 +1,26 @@
+{
+  "status": "comparison candidate, default off",
+  "source_zip_sha256": "ff99b1df81031be8c4cf01c2640a1c34aa99a02affc4a00268870c50e8ee63da",
+  "web_files": [
+    {
+      "path": "E-A.glb",
+      "bytes": 524420,
+      "sha256": "323abb95fa7c7507dffe00c94959136656e24136b9fd1561953a4d6930ec718d"
+    },
+    {
+      "path": "placement.json",
+      "bytes": 1405,
+      "sha256": "3999d226dc7b4d9e879c06d8f67d5f9e241f2c9386a8e3c8273cf438f693121a"
+    },
+    {
+      "path": "T-A.glb",
+      "bytes": 346264,
+      "sha256": "08b272478ce19b2d3b2fd771541a567f9b1d5bbae96e484039ca5c3c4ea4fcb9"
+    },
+    {
+      "path": "T-B.glb",
+      "bytes": 1242040,
+      "sha256": "f303f592e42040ba0af280aad8f94942960a4217a122608137e996349f8cd73f"
+    }
+  ]
+}

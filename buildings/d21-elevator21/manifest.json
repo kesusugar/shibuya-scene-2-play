@@ -1,0 +1,29 @@
+{
+  "id": "d21-elevator21",
+  "asset_id": "D21_elevator21_Undated_v001",
+  "host_ids": [
+    "way/1333409427"
+  ],
+  "translation": [
+    115.43,
+    0.585,
+    16.39
+  ],
+  "rotation": [
+    0,
+    0,
+    0
+  ],
+  "scale": [
+    1,
+    1,
+    1
+  ],
+  "source_base_tp": 15.89,
+  "ground_correction_m": -0.305,
+  "original_bin_preserved": true,
+  "enabled": true,
+  "status": "inferred exterior integrated; door detail unresolved",
+  "inference": "All appearance and entry direction inferred; no photographic verification; no terrain/collision changes",
+  "source_runtime_sha256": "275b5050171d973be1d780a112fbaf3e7d146f35d674b3dac1c34fc8ada10b38"
+}

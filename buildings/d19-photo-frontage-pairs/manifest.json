@@ -1,0 +1,233 @@
+{
+  "id": "d19-photo-frontage-pairs",
+  "model": "d19-photo-frontage-pairs.glb",
+  "world_baked": true,
+  "groundElevationTP": 15,
+  "sun": {
+    "azimuth_deg": 207,
+    "elevation_deg": 57
+  },
+  "bounds": [
+    [
+      -92.81123469223985,
+      5.775830225463686,
+      236.49248692016326
+    ],
+    [
+      -53.71777290137786,
+      39.81022735070783,
+      262.44816808494767
+    ]
+  ],
+  "planBounds": [
+    -92.81123469223985,
+    -262.44816808494767,
+    -53.71777290137786,
+    -236.49248692016326
+  ],
+  "bytes": 1479248,
+  "primitives": 13,
+  "triangles": 87208,
+  "uvSplit": {
+    "primitives": [],
+    "addedTriangles": 0,
+    "geometryMethod": "UV-space clipping only; original 3D planes and surface area preserved, no simplification"
+  },
+  "sha256": "56ab66eea610458fef02c7ba4b4f7081b377fe3bb6e0026c4133df61d4f61f6b",
+  "components": [
+    {
+      "id": "4cs",
+      "host": "way/136396895",
+      "root": [
+        -70.53049999999999,
+        25.797671274658022,
+        255.4005
+      ],
+      "ground_measured": 7.617671274658022,
+      "rotation_y": 0.3738471749240391,
+      "inferred_crop_offset": 18.18,
+      "facade_plane": 0,
+      "parts": [
+        {
+          "producer": "dot",
+          "original_sha256": "20663fb9f92b367f2e57191a2382ec89cd6a2a9ac77de79ec14b122ac984baf1",
+          "triangles": 3750,
+          "footFit": {
+            "maximum_vertical_adjustment": 0,
+            "changed_vertex_instances": 0,
+            "fullHeight": 2.5,
+            "stopHeight": 5,
+            "upper_geometry_unchanged": true
+          }
+        },
+        {
+          "producer": "claude",
+          "original_sha256": "c45f7047872708f0a4ae53761ea9e1a3513ed1d7c0406422b9fed1c378db1ede",
+          "triangles": 552,
+          "footFit": {
+            "maximum_vertical_adjustment": 1.0042373597482124,
+            "changed_vertex_instances": 300,
+            "fullHeight": 2.5,
+            "stopHeight": 5,
+            "upper_geometry_unchanged": true
+          }
+        }
+      ],
+      "footprint": [
+        [
+          -73.425,
+          -256.536
+        ],
+        [
+          -67.636,
+          -254.265
+        ]
+      ],
+      "full_building_complete": false
+    },
+    {
+      "id": "oda",
+      "host": "way/136396903",
+      "root": [
+        -82.04246565306036,
+        9.410227440231978,
+        259.8623376859729
+      ],
+      "ground_measured": 9.410227440231978,
+      "rotation_y": 0.37485421940785213,
+      "inferred_crop_offset": 0,
+      "facade_plane": 0,
+      "parts": [
+        {
+          "producer": "dot",
+          "original_sha256": "fec6e982755b8df7f4d6ab67c78c0eb46d2b9855ed118cbb8976b75d17f233d3",
+          "triangles": 17904,
+          "footFit": {
+            "maximum_vertical_adjustment": 0.7529494580993418,
+            "changed_vertex_instances": 15034,
+            "fullHeight": 2.5,
+            "stopHeight": 5,
+            "upper_geometry_unchanged": true
+          }
+        },
+        {
+          "producer": "claude",
+          "original_sha256": "a39cae08a36fb8b358b46c6df41405e4afa08d9d64f13c714b3a8037c4bd8880",
+          "triangles": 1020,
+          "footFit": {
+            "maximum_vertical_adjustment": 1.7108960621689233,
+            "changed_vertex_instances": 264,
+            "fullHeight": 2.5,
+            "stopHeight": 5,
+            "upper_geometry_unchanged": true
+          }
+        }
+      ],
+      "footprint": [
+        [
+          -87.905,
+          -262.169
+        ],
+        [
+          -74.239,
+          -256.792
+        ]
+      ],
+      "full_building_complete": false
+    },
+    {
+      "id": "snt",
+      "host": "way/136396917",
+      "root": [
+        -64.79027523421766,
+        6.255723853853539,
+        251.19922743955613
+      ],
+      "ground_measured": 6.255723853853539,
+      "rotation_y": 0.37648140555620657,
+      "inferred_crop_offset": 0,
+      "facade_plane": 0.7229017019271851,
+      "parts": [
+        {
+          "producer": "dot",
+          "original_sha256": "a97a1dc8972f41ff6cc23b23f990e89a2f548cd398194adc25b630ce39c5aa46",
+          "triangles": 56768,
+          "footFit": {
+            "maximum_vertical_adjustment": 0.4798927181318601,
+            "changed_vertex_instances": 23842,
+            "fullHeight": 2.5,
+            "stopHeight": 5,
+            "upper_geometry_unchanged": true
+          }
+        },
+        {
+          "producer": "claude",
+          "original_sha256": "f61ded332ed5574abf4d6ff635d21c0886b70e18ce21fc7058e9de2d5092429f",
+          "triangles": 72,
+          "footFit": {
+            "maximum_vertical_adjustment": 0,
+            "changed_vertex_instances": 0,
+            "fullHeight": 2.5,
+            "stopHeight": 5,
+            "upper_geometry_unchanged": true
+          }
+        }
+      ],
+      "footprint": [
+        [
+          -66.777,
+          -252.762
+        ],
+        [
+          -62.272,
+          -250.981
+        ]
+      ],
+      "full_building_complete": false
+    },
+    {
+      "id": "umeyama",
+      "host": "way/136397704",
+      "root": [
+        -57.3565,
+        6.378134469972065,
+        249.67849999999999
+      ],
+      "ground_measured": 5.928134469972065,
+      "rotation_y": 0.3751652111002531,
+      "inferred_crop_offset": 0.45,
+      "facade_plane": 0,
+      "parts": [
+        {
+          "producer": "dot",
+          "original_sha256": "24cccea3850bf68d16cf6f6400c3aa3f92df8e105043d3590ba7f00565a1564a",
+          "triangles": 6782,
+          "footFit": null
+        },
+        {
+          "producer": "claude",
+          "original_sha256": "b7c0a57d27cc06df1200cf6067f80fa3f64ac555dd61714d3701fd58ee9505ce",
+          "triangles": 360,
+          "footFit": null
+        }
+      ],
+      "footprint": [
+        [
+          -60.834,
+          -251.048
+        ],
+        [
+          -53.879,
+          -248.309
+        ]
+      ],
+      "full_building_complete": false
+    }
+  ],
+  "inference": "Four photo-frontage and inferred remainder pairs; candidate C0 street edges reconciled for outward facing, crop elevations inferred; no survey/datetime/whole-building completion claims",
+  "visual_review": {
+    "status": "rendered_day_night_and_inspected",
+    "evidence": "evidence/dot-d19/acceptance-day, acceptance-night, close-validation",
+    "limitations": "Inferred geometry and mixed photo dates remain; no survey accuracy or real-device FPS claim"
+  }
+}

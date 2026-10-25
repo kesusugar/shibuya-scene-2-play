@@ -1,0 +1,91 @@
+{
+  "id": "d16-inferred-hoarding",
+  "world_baked": true,
+  "model": "d16-inferred-hoarding.glb",
+  "placement": {
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "bounds": [
+    [
+      -341.3360017866777,
+      4.433000000000003,
+      122.7189991873129
+    ],
+    [
+      -251.24299946734175,
+      31.056796463012695,
+      185.07999924834806
+    ]
+  ],
+  "planBounds": [
+    -341.3360017866777,
+    -185.07999924834806,
+    -251.24299946734175,
+    -122.7189991873129
+  ],
+  "groundElevationTP": 15,
+  "sun": {
+    "azimuth_deg": 207,
+    "elevation_deg": 57
+  },
+  "bytes": 164032,
+  "primitives": 2,
+  "triangles": 5984,
+  "sha256": "4c214e1a4e57a536f2f9d255dc0de844d820919b9c544996ed7d1246fe0ea8ff",
+  "inference": "Undated speculative construction envelope from inventory union; not exact surveyed fence, no existing building removal, no collision changes",
+  "terrain_fit": {
+    "source": "d16-intake/extracted/D16_DogenzakaNichomeMinami_HoardingScreen_Inferred_Undated_v001/runtime/D16_DogenzakaNichomeMinami_HoardingScreen_Inferred_Undated_v001_B.glb",
+    "frame": {
+      "asset_id": "D16_DogenzakaNichomeMinami_HoardingScreen_Inferred_Undated_v001",
+      "kind": "site",
+      "edit_local_origin_plan_xy": [
+        -301.106959733455,
+        -157.54623917754728
+      ],
+      "datum_base_z_m": 4.433,
+      "tp_of_local_zero": 19.433,
+      "base_tp_confirmed": false,
+      "axes": "Blender x east / y north / z up; glTF [x, z, -y]",
+      "site_members": [
+        "way/136587842",
+        "way/136587815",
+        "way/136587829",
+        "way/136587685",
+        "way/136587837",
+        "way/627697957"
+      ],
+      "site_rule": "union of the inventory footprints of the demolished 新大宗ビル group + neighbours (not in PLATEAU 2025), closed by 1 m buffer; exact fence line is a planning estimate",
+      "perimeter_m": 262.4,
+      "area_m2": 2529.5,
+      "public_edges": 10,
+      "gate_edge": 6,
+      "hoarding_h_m": 3,
+      "screen": "mesh 3-15 m above estimated ground, 1.2 m behind hoarding, public edges only"
+    },
+    "report": {
+      "maximum_vertical_adjustment": 11.680626309482006,
+      "changed_vertex_instances": 10316,
+      "fullHeight": 100,
+      "stopHeight": 101,
+      "upper_geometry_unchanged": false
+    },
+    "method": "Entire vertical fence column follows measured terrain; no fixed absolute site level from offsite estimate",
+    "unconfirmed": "Fence extent and construction date remain inferred, no source building deleted"
+  },
+  "visual_review": "REVIEWED_IN_DISTRICT_CAPTURE_WITH_INFERRED_GEOMETRY_AND_DATE_LIMITATIONS",
+  "evidence": "evidence/dot-d16/after-corrected"
+}

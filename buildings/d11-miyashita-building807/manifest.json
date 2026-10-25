@@ -1,0 +1,44 @@
+{
+  "id": "d11-miyashita-building807",
+  "host_ids": [
+    "way/120105807"
+  ],
+  "target_runtime_relative": "assets/buildings/d11-miyashita-building807/web/d11-miyashita-building807.glb",
+  "target_viewer_relative": "assets/buildings/d11-miyashita-building807/web/viewer.json",
+  "runtime_parent_matrix": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "source_frame_already_baked": true,
+  "ground_raise_already_baked": true,
+  "context_action": "Root only: exact source triangle matching from qa/source_footprint_correspondence.json; no bounding-box removal.",
+  "grounding": "CURRENT_GROUND_VERTEX_PROBES_PASS_RIGID_CANDIDATE",
+  "stats": {
+    "id": "d11-miyashita-building807",
+    "preserved_source_triangles": 23908,
+    "matched_source_triangles": 23908,
+    "unmatched": 0,
+    "unused": 0,
+    "max_world_vertex_error_m": 8.848543861630658e-07,
+    "preserved_winding": true,
+    "added_support_triangles": 0,
+    "final_primitives": 4,
+    "final_triangles": 23908,
+    "bytes": 1790180,
+    "sha256": "b9633ece9b564e8589205bffbf18e3531f23830039d9d33816076cd589433263"
+  }
+}

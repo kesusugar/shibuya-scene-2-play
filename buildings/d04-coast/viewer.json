@@ -1,0 +1,16 @@
+{
+  "planBounds": [
+    -73.544,
+    80.568,
+    -59.493,
+    92.967
+  ],
+  "sun": {
+    "azimuth_deg": 207,
+    "elevation_deg": 57
+  },
+  "groundElevationTP": 15,
+  "layers": {
+    "inferred-envelope": "envelope.glb"
+  }
+}
